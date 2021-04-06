@@ -1,4 +1,3 @@
-
 {
 	"_meta": {
 		"sources": [
@@ -6,10 +5,13 @@
 				"json": "Bence Homebrew",
 				"abbreviation": "BNC",
 				"full": "Bence Homebrew",
-				"url": "",
+				"url": "https://github.com/borbence/Bence-Homebrew.git",
 				"authors": ["B. Bence"]
 			}
 		],
+		"optionalFeatureTypes": {
+			"GD": "Gifts of Damnation"
+		},
 		"dateAdded": 1610960451,
 		"dateLastModified": 1610960451
 	},
