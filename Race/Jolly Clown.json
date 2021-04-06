@@ -9,6 +9,9 @@
 				"authors": ["B. Bence"]
 			}
 		],
+		"optionalFeatureTypes": {
+			"GD": "Gifts of Damnation"
+		},
 		"dateAdded": 1610960451,
 		"dateLastModified": 1610960451
 	},
@@ -91,7 +94,7 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"Gifted with the ability to talk shit even after death, you can speak, read, and write Common."
+						"You can speak, read, and write Common and one language of your choice."
 					],
 					"type": "entries"
 				}
