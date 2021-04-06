@@ -1,0 +1,243 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Bence Homebrew",
+				"abbreviation": "BNC",
+				"full": "Bence Homebrew",
+				"url": "",
+				"authors": ["B. Bence"]
+			}
+		],
+		"dateAdded": 1610960451,
+		"dateLastModified": 1610960451
+	},
+    "background": [
+        {
+			"name": "Farmer",
+			"source": "Bence Homebrew",
+			"skillProficiencies": [
+				{
+					"animal handling": true,
+					"nature": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (land)": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@filter Vehicles (Land)|items|source=null|type=vehicle (land)}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Animal Handling}, {@skill Nature}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A relative's recipe for homemade stew, an {@item common iron pot|phb}, {@item hempen Rope (50 feet)|phb}, 2 gp worth of trade goods (your choice), a set of {@item common clothes|phb}, and a belt {@item common pouch|phb} with 5 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Farmhand",
+					"type": "entries",
+					"entries": [
+						"When you are not adventuring you are able to provide a modest lifestyle for yourself by working on another's farm. You might sleep in the hayloft or in a spare room. By working this way, you also ingratiate yourself to the farm owner, who gives you free food for your adventures. Before leaving on an adventure you are given enough food for you and your party to eat for a week while traveling and adventuring."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Farmers are defined by the simple life - you haven't had as much excitement in your life as others. Before your adventuring career began, you may have never left your village or town. A farmer could be eager, scared, or naive on adventures, but all are defined by their strong connection to the farm where they were raised.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I really enjoy talking about and spending time with domesticated animals."
+								],
+								[
+									"2",
+									"I have a catch phrase I use whenever I am surprised."
+								],
+								[
+									"3",
+									"I often lose the point of the story I am telling."
+								],
+								[
+									"4",
+									"I have a tick I can't control when I am scared or excited."
+								],
+								[
+									"5",
+									"I often sing the songs of my homeland without provocation."
+								],
+								[
+									"6",
+									"I look forward to eating and enjoy every bite of every meal."
+								],
+								[
+									"7",
+									"I stare openly at that which I have never seen before."
+								],
+								[
+									"8",
+									"I laugh very loud and clap my hands when I am amused."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Manners.} I conduct myself in public with the utmost respect for all people around me. (Lawful)"
+								],
+								[
+									"2",
+									"{@b Generosity.} I am happy to share whatever I have with those less fortunate. (Good)"
+								],
+								[
+									"3",
+									"{@b Destiny.} I was meant for more than the simple life. (Neutral)"
+								],
+								[
+									"4",
+									"{@b Faith.} I have left the farm to bring my religion to others. (Any)"
+								],
+								[
+									"5",
+									"{@b Freedom.} I want to experience everything I can. (Chaotic)"
+								],
+								[
+									"6",
+									"{@b Knowledge.} I learn everything I can about the world. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My dog ran away when I was irresponsible with its care."
+								],
+								[
+									"2",
+									"My parents have fallen on hard times and I have vowed to help them repair the farm."
+								],
+								[
+									"3",
+									"My best friend is betrothed to the woman I secretly love."
+								],
+								[
+									"4",
+									"I will get vengeance on the monsters that destroyed my village."
+								],
+								[
+									"5",
+									"I can only get my favorite food in the town of my birth."
+								],
+								[
+									"6",
+									"I have a prize farm animal I love to show off to others."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I sometimes wander off without telling anyone."
+								],
+								[
+									"2",
+									"I am easily fooled and believe whatever I am told."
+								],
+								[
+									"3",
+									"I lie to others to appear more experienced than I am."
+								],
+								[
+									"4",
+									"I ask rude, abrasive questions to strangers."
+								],
+								[
+									"5",
+									"I spend coin too quickly."
+								],
+								[
+									"6",
+									"I do not open my mind to the ethics and morals of others."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You have worked the land and hand-raised livestock from birth to feed the mouths of many. As a farmer, you woke up before the sun and came in from working the fields after it set. You have left behind a mundane life to seek adventure for thrill or fame or fortune. Work with your DM to determine the types of livestock and crops you had on your farm. It might have been pigs and corn, or perhaps you raised deep rothe and mushrooms in the Underdark."
+				]
+			}
+		}
+    ]
+}
