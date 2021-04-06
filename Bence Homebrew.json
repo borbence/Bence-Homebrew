@@ -1,0 +1,3972 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Bence Homebrew",
+				"abbreviation": "BNC",
+				"full": "Bence Homebrew",
+				"url": "https://github.com/borbence/Bence-Homebrew.git",
+				"authors": ["B. Bence"]
+			}
+		],
+		"optionalFeatureTypes": {
+			"GD": "Gifts of Damnation"
+		},
+		"dateAdded": 1610960451,
+		"dateLastModified": 1610960451
+	},
+	"monster": [
+		{
+			"name": "Corkie",
+			"source": "Bence Homebrew",
+			"level": 3,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "Forest",
+						"prefix": "Gnome,"
+					}
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 13,
+			"int": 18,
+			"wis": 17,
+			"cha": 13,
+			"save": {
+				"int": "+6",
+				"wis": "+5"
+			},
+			"skill": {
+				"insight": "+5",
+				"persuasion": "+3",
+				"nature": "+6",
+				"medicine": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Gnomish",
+				"Sylvan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"(Druid, Wis)"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell primal savagery|XGE}",
+								"{@spell shillelagh}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell cure wounds}",
+								"{@spell detect poison and disease}",
+								"{@spell purify food and drink}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell healing spirit|XGE}",
+								"{@spell lesser restoration}"
+							],
+							"slots": 2
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Gnome Cunning",
+					"entries": [
+						"Corkie has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+					]
+				},
+				{
+					"name": "Speak with Small Beasts",
+					"entries": [
+						"Through sounds and gestures, Corkie can communicate simple ideas with Small or smaller beasts."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Walking stick (Club)",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit ({@hit 3} with shillelagh), reach 5 ft., one target. {@h}4  ({@damage 1d4 + 1}) bludgeoning damage, or 6 ({@damage 1d8 + 3}) bludgeoning damage if used with shillelagh."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Balm of the Summer Court",
+					"entries": [
+						"As a bonus action, Corkie can choose one creature you can see within 120 feet of her and spend up to 3 {@dice d6}s. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die spent."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"G",
+				"S"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Lightning Caster",
+			"source": "Bence Homebrew",
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				"Your rapid-fire style of casting cantrips allows you to weave magic with uncanny speed, granting you the following benefit:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever you cast a cantrip that can only target a single enemy, you can use your bonus action to target two enemies within 5 feet of one another instead."
+					]
+				}
+			]
+		}
+	],
+	"book": [
+        {
+            "name": "Grim Hollow Transformations",
+            "id": "BNC",
+            "source": "Bence Homebrew",
+            "contents": [
+                
+                {
+                    "name": "Transformations"
+				},
+				{
+					"name": "Aberrant Horror",
+					"headers": [
+						"Becoming an Aberrant Horror",
+						"Prerequisites",
+						"Level milestones",
+						"Transformation level 1",
+						"Transformation level 2",
+						"Transformation level 3",
+						"Transformation level 4"
+                    ]
+				},
+				{
+					"name": "Fiend",
+					"headers": [
+                        "Becoming a Fiend",
+						"Prerequisites",
+						"Level milestones",
+						"Transformation level 1",
+						"Transformation level 2",
+						"Transformation level 3",
+						"Transformation level 4"
+                    ]
+				},
+				{
+					"name": "Lich",
+					"headers": [
+                        "Becoming a Lich",
+						"Prerequisites",
+						"Level milestones",
+						"Transformation level 1",
+						"Transformation level 2",
+						"Transformation level 3",
+						"Transformation level 4"
+                    ]
+				},
+				{
+					"name": "Lycanthrope",
+					"headers": [
+                        "Becoming a Lycanthrope",
+						"Prerequisites",
+						"Level milestones",
+						"Transformation level 1",
+						"Transformation level 2",
+						"Transformation level 3",
+						"Transformation level 4"
+                    ]
+				},
+				{
+					"name": "Seraph",
+					"headers": [
+                        "Becoming a Seraph",
+						"Prerequisites",
+						"Level milestones",
+						"Transformation level 1",
+						"Transformation level 2",
+						"Transformation level 3",
+						"Transformation level 4"
+                    ]
+				},
+				{
+					"name": "Vampire",
+					"headers": [
+                        "Becoming a Vampire",
+						"Prerequisites",
+						"Level milestones",
+						"Transformation level 1",
+						"Transformation level 2",
+						"Transformation level 3",
+						"Transformation level 4"
+                    ]
+				}
+            ]
+        }
+    ],
+    "bookData": [
+        {
+        "id": "BNC",
+        "source": "Bence Homebrew",
+        "data": [
+            {
+                "type": "section",
+                "name": "Transformations",
+                "entries": [
+                    "Many creatures hunt the nights of Etharis. While many are twisted beasts of hatred born from darkness, some were not always so.",
+                    "The following ruleset provides players the ability to become grim monsters of the dark themselves. From dread-inducing werewolves to all-powerful liches, the following transformations are available to characters who meet the required prerequisites.",
+                    "While transformations make for great roleplay opportunities, at no point do they provide an acceptable excuse to hurt the enjoyment of other players at the table. If you want to create a conflict between two player characters, it is imperative that you discuss this with the table (and particularly your GM) first.",
+                    {
+                        "type": "entries",
+                        "entries": [
+                            {
+                                "type": "entries",
+                                "name": "Beginning a Transformation",
+                                "entries": [
+                                    "Individuals rarely choose to transform into beings of the night. Instead, they have it forced upon them. Foul curses, horrific experiments, and the diabolical machinations of fiends, vampires, and other dark agents are all examples of how a character might start a transformation. However, there are times when a character may wish to begin a transformation of their own volition. Perhaps they have succumbed to the lure of power, or they see it as the only way to achieve a greater goal.",
+                                    "Regardless, the first step in any transformation should be a discussion with your GM. Make your intentions clear, as the transformation may not be suitable for the setting or story your GM is running.",
+                                    "The next step in a transformation is to ensure you meet all the prerequisites of the transformation. There are 2 types of prerequisites: mechanical and roleplay prerequisites. Mechanical prerequisites can be ability score, spellcasting, and other feature requirements. Roleplay prerequisites are the in-game actions required by a character to start a transformation. It is recommended that this milestone be reached within the game rather than through a backstory. However, you may wish to discuss alternative avenues to pursue a prerequisite with your GM."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Boons and Flaws",
+                                "entries": [
+                                    "When you have achieved all the required prerequisites of a transformation and reached your first transformation level, you gain all the boons and the flaw of the first level. These constitute the beginning of the changes from the transformation. The boons and flaws of these iconic monsters come from folklore, pop culture and our own imagination. If they differ from an existing trope or stat block, it is because they represent a variation unique to Etharis."
+                                ]
+                            },
+                            {
+                                "type": "inset",
+                                "name": "A Blessing or A curse?",
+                                "entries": [
+                                    "Within the dark fantasy world of Etharis Transformations are representative of the gothic and body horror elements of the world. As a result, they should increase a character in power but ultimately be rooted in tragedy, as the setting demands. However, if you are not playing in a dark fantasy setting or you want your Transformation to feel more like a blessing than a curse, discuss with your GM the possibility of removing some or all the flaws associated with your Transformation. Alternatively, feel free to tinker with the boons and flaws with your GM. Transformations should suit the needs of your campaign, not the other way around."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Leveling Up",
+                                "entries": [
+                                    "Characters that have successfully completed a transformation can continue the process by increasing their transformation level. The character must achieve a milestone before gaining a transformation level. Each type of transformation has an example list of possible milestones that are thematically unique. Talk with your GM to come up with applicable milestones for your campaign and how you can achieve them.",
+                                    "When you increase your transformation level, you choose one boon from that level, or a lower level, provided you meet that boon’s prerequisites. You gain the new level’s flaw as well."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Universal Milestones",
+                                "entries": [
+                                    "The following milestones are examples that can apply to all (or most) transformations:",
+                                    {
+                                        "type": "list",
+                                        "items": [
+                                            "Undertaking an exceptionally evil (or good) act.",
+                                            "Completing an ancient ritual.",
+                                            "Obtaining a powerful artifact.",
+                                            "Being cursed by a dark agent.",
+                                            "Being exalted by a patron or god."
+                                        ]
+                                    }   
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Suggested Class Level to Transformation Level",
+                                "entries": [
+                                    "While transformations are milestone achievements and each level comes with a flaw, transformations still represent a significant increase in power. For this reason, it is recommended that players and GMs use the following level table as a guide for when players should be able to level up a transformation. After all, only the strongest survive such an ordeal.",
+                                    {
+                                        "type": "table",
+                                        "colLabels": [
+                                            "Transformation Level",
+                                            "Recommended Class Level Range"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "1",
+                                                "1-4"
+                                            ],
+                                            [
+                                                "2",
+                                                "5-10"
+                                            ],
+                                            [
+                                                "3",
+                                                "11-16"
+                                            ],
+                                            [
+                                                "4",
+                                                "17-20"
+                                            ]
+                                        ]
+                                    },
+                                    "Not all transformations will be able to follow this recommendation due to prerequisites. In this case, characters can reach higher transformation levels at higher class levels."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Removing a Transformation",
+                                "entries": [
+                                    "Reversing a transformation is an incredibly difficult process. The changes that have occurred in a character have fundamentally altered their biology, and perhaps their mind. However, anything is possible in a magical world. To cure a transformation, treat it as a curse from the curses section. The curse level of a transformation is equal to the character’s transformation level.",
+                                    "Rather than casting {@spell remove curse} with the cure components, the {@spell regenerate} spell must be cast with the cure components instead. A character that has reached the 4th level of a transformation, or that has been transformed for longer than one year, can only be cured by a {@spell wish} spell. If a character is killed and resurrected, the GM decides if they are resurrected with transformation levels."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+			},
+			{
+				"type": "section",
+				"name": "Aberrant Horror",
+				"entries": [
+					"A cloaked figure flees through the dimly lit city streets. The guards appear to have the upper hand, until she turns to greet them—a hulking mess of spines, claws, and gnashing maws.",
+					"Lightning cracks. A mad doctor bellows in triumph as a once-deceased woman rises. With three fleshy tentacles sprouting from her back, his newest creation is complete. Thunder booms as the woman approaches the doctor menacingly, tendrils extended. Not all successful experiments end well.",
+					"Aberrant Horrors are the result of a humanoid becoming an aberration. Able to break free from the physical restrictions imposed upon them by the Material Plane, they shift the components of their form at a whim. This makes Aberrant Horrors terrifying to behold, especially in battle. Many adversaries have been caught off-guard when a seemingly defenceless opponent grew rows of gruesome spines before their eyes.",
+					{
+						"type": "entries",
+						"name": "Becoming an Aberrant Horror",
+						"entries": [
+							"Each Aberrant Horror is defined by one key question: what happened to them? Some individuals make pacts with ancient entities for powers that have unforeseen effects. Others awaken after being defeated by an unnatural monster, surprised that they have been spared, only to feel something writhing in their stomach. Many tropes of body horror can be used as inspiration for an Aberrant Horror.",
+							"Once your origin has been determined, you can consider what your character’s motivations are regarding their transformation. As their power grows and manifests, they may feel they have lost what makes them fundamentally themselves. Perhaps they decide to take revenge on the entity responsible for their transformation, or perhaps they perceive their transformation as a gift."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Features",
+						"entries": [
+							"An Aberrant Horror has the following transformation features:",
+							{
+								"type": "entries",
+								"name": "Prerequisites",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ability Scores:",
+										"entries": [
+											"Constitution 13"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Roleplay:",
+										"entries": [
+											"You must have had an encounter with an Aberration, magical anomaly, or some other plausible reason to have become an Aberrant Horror. Discuss with your GM how you can achieve this in your backstory or in-game."
+										]
+									},
+									"Some of your abilities will require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
+									{
+										"type": "abilityGeneric",
+										"name": "Transformation Save DC",
+										"text": "8 + your proficiency bonus + ",
+										"attributes": [
+											"con"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Level milestones",
+								"entries": [
+									"The following are examples of possible level milestones for the Aberrant Horror:",
+									{
+										"type": "list",
+										"items": [
+											"Defeating a powerful Aberration and absorbing its power.",
+											"Undergoing a dangerous and costly experiment.",
+											"Surviving a magical mishap.",
+											"Acquiring the strength to give birth to a more powerful version of yourself, which then consumes your old self.",
+											"Fulfilling an eldritch prophecy written in the stars"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation level 1",
+						"entries": [
+							"Starting at 1st level, you gain the following Transformation Boons and this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Aberrant Adaptations",
+								"entries": [
+									"Your body can twist and reshape itself as you will it, changing body parts into dangerous weapons or useful tools, and regenerating after damage. This ability is represented through Adaptations.",
+									"At 1st level, you gain the following adaptations:",
+									{
+										"type": "entries",
+										"name": "Chitinous Shell",
+										"entries": [
+											"As a bonus action, you can develop a hard, crustacean-like shell. When you use this adaptation and are not wearing heavy armour, you gain a +2 to AC. However, this reduces your speed by 10 feet. This adaptation lasts for 1 minute or until you are knocked unconscious. On your turn, you may use a bonus action to end this Adaptation."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Eldritch Limbs",
+										"entries": [
+											"You can transform one or both of your arms into a weapon of thick muscle, sharp claws, or hardened bone. When you make an attack, you can use this Adaptation. If you do, you gain the following features:",
+											{
+												"type": "list",
+												"items":[
+													"You can choose what type of damage your unarmed attacks will cause, from Piercing, Bludgeoning, or Slashing. Your arm becomes a claw, tusk, or bone club, depending on the damage type chosen.",
+													"You may roll a d6 in place of normal damage for unarmed strikes.",
+													"You cannot hold any object in the affected arm. This includes, but is not limited to, weapons, shields, and spellcasting focuses. Any object you are holding merges into your adaptation or immediately drops to the ground. The GM may decide if they feel the object is too large to merge."
+												]
+											},
+											"This adaptation lasts until you become knocked unconscious. On your turn, you may use a bonus action to end this adaptation."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Aberrant Form",
+								"entries": [
+									"Your Constitution score increases by 2 and your Strength score increases by 1. An ability score cannot be increased beyond 16 this way.",
+									"You become an Aberration in addition to any other creature types you are. Spells and abilities that affect Aberrations of a specific CR have no effect on you."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Unstable Mutations",
+								"entries": [
+									"Your body becomes malleable and struggles to maintain any one physical shape. Upon completing a long rest, you must roll 1d100 on the {@table Unstable Mutation|Bence Homebrew} table and apply the effects of the result, determined by your transformation level. These effects last until you complete another long rest. If you roll the same result on the table more than once in a row, roll again until a new result is rolled."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 2",
+						"entries": [
+							"At 2nd level, you can pick one of the following Transformation Boons. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Efficient Killer",
+								"entries": [
+									"When you make an unarmed attack while you are benefiting from the Eldritch Limbs adaptation, you can gain one of the following effects depending on the type of damage you chose:",
+									{
+										"type": "entries",
+										"name": "Piercing",
+										"entries": [
+											"You can launch a razor-sharp barb from your arm. Make a ranged attack at a target within 30 feet. Upon a hit, the target takes piercing damage equal to 2d6 + your Strength modifier."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Bludgeoning",
+										"entries": [
+											"You can manifest a long tentacle, tipped with a hardened bone club. Your unarmed attack deals an additional 1d6 bludgeoning damage. When you hit a creature with an unarmed attack, you can then attempt to damage another creature within 5 feet of the original target. If the original attack roll would hit the second creature, it takes bludgeoning damage equal to 1d6 + your Strength modifier."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Slashing",
+										"entries": [
+											"Your arm forms a row of viciously hooked claws and talons. Your unarmed attack deals an additional 1d6 slashing damage, and the target must succeed at a Constitution saving throw. Upon a failed save, the target gains the {@condition bleeding|Bence Homebrew} condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself upon a success."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Other-Worldly Tendrils",
+								"entries": [
+									"Starting at 2nd level, you can use a bonus action to grow a long, tendril-like appendage out of your body that you are proficient with. On subsequent turns, immediately after taking the attack action, you may use a bonus action to have the tendril attack an enemy within 10 feet of you. If you do, make an unarmed melee attack using your Strength modifier. On a hit, the target takes bludgeoning damage equal to 1d4 + your Strength modifier.",
+									"The tendril lasts until you become unconscious. On your turn, you may use a bonus action to retract it. In addition, you gain the following Adaptations:",
+									{
+										"type": "entries",
+										"name": "Toxic Spray",
+										"entries": [
+											"A lamprey-like mouth opens at the end of a tendril and sprays a noxious toxin. When you attack a creature with one of your tendrils, you can choose to use this Adaptation and forgo dealing damage. If you do, instead of rolling to hit, the target must make a Constitution saving throw against your Transformation Save DC. On a failed save, they become {@condition poisoned}. A creature that has failed this saving throw makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer affected by this Adaptation."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Constrict",
+										"entries": [
+											"A tendril wraps tightly around the target. When you hit with a tendril attack, and the target is large or smaller, you can choose to use this Adaptation. If you do, the attack deals no damage and the target is {@condition grappled}. Until the grapple is ended, the tentacle cannot be used against other targets."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Hypnotic Trance",
+										"entries": [
+											"A tendril flashes a myriad of coloured bioluminescent lights, attempting to disorient the target. When you attack a creature with one of your tendrils, you can choose to use this Adaptation and forgo dealing damage. If must make a Wisdom saving throw against your Transformation Save DC. On a failed save, all attack rolls against the target have advantage, until the start of the affected creatures next turn. A creature that has failed this saving throw makes another Wisdom saving throw at the end of each of its turns. On a successful save, it is no longer affected by this Adaptation."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Situational Evolution",
+								"entries": [
+									"You can use an action to grow gills and flippers, thin hairs on your extremities to climb walls, or a layer of rapidly-regenerating flesh. You gain the following Adaptations:",
+									{
+										"type": "entries",
+										"name": "Scopulae",
+										"entries": [
+											"Your climbing speed becomes the same as your walking speed. You can climb vertical objects, while leaving one hand free."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Gills and Flippers",
+										"entries": [
+											"Your swim speed becomes the same as your walking speed, and you can breathe underwater."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Regenerative Tissue",
+										"entries": [
+											"At the beginning of your turn, you regain hit points equal to your Constitution modifier if you have no more than half your hit points left. If you take fire or acid damage, then this Adaptation has no effect at the beginning of your next turn."
+										]
+									},
+									"These adaptations last until you become unconscious, use a different one of these Adaptations, or use a bonus action on your turn to end the Adaptation."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Hideous Appearance",
+								"entries": [
+									"Your appearance has grotesquely transformed. You may be a hulking mass of flesh, adorned with countless eyes, or a bone-and-tusk-covered natural weapon. Regardless of your true form, you’re horrific to behold. You can suspend this form and manifest the appearance of the humanoid you once were, but this is taxing and requires concentration. This form is not permanent, and moments of stress are likely to reveal your true nature. Your true form is revealed in the following situations:",
+									{
+										"type": "list",
+										"items": [
+											"Concentrating on a spell.",
+											"Gaining the unconscious condition.",
+											"Entering hallowed ground.",
+											"Choosing to reveal yourself."
+										]
+									},
+									"In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form.",
+									"Non-evil creatures that witness your true form become instantly hostile to you, unless the GM decides otherwise."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 3",
+						"entries": [
+							"At 3rd level, you can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Wings",
+								"entries": [
+									"Beginning at 3rd level, you can grow large, twisted wings of mutated flesh. You gain the following Adaptation:",
+									{
+										"type": "entries",
+										"name": "Wings",
+										"entries": [
+											"As a bonus action, you can manifest a pair of distorted, fleshy wings. You gain a fly speed equal to your current speed. These wings recede after 10 minutes. You can reabsorb them as a bonus action on your turn, and they reabsorb automatically if you are knocked unconscious. You can manifest your wings while wearing medium or light armour if it is made to accommodate them. You cannot manifest your wings while wearing heavy armour."
+										]
+									},
+									"Once you use this Adaptation, you cannot use it again until you complete a short rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Additional Tendrils",
+								"entries": [
+									"{@italic Prerequisite: Otherworldly Tendrils}",
+									"You are able to grow an additional tendril. On subsequent turns, you may use a bonus action to attack with each tendril you have grown. The tendrils can all attack the same target or different ones. Make a separate attack roll for each tendril.",
+									"When you reach the 4th level of this transformation, the number of tendrils you can manifest is increased to three."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Enhanced Hypertrophy",
+								"entries": [
+									"You may roll a d8 in place of normal damage for unarmed strikes. The base damage dice for your adaptations, like Efficient Killer and Otherworldly Tendrils becomes one base die higher. For example, an adaptation that deals 2d6 damage would become 2d8 damage instead."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Unstable Existence",
+								"entries": [
+									"The nature of magic is beginning to unravel your material form. Whenever you roll a natural 1, 2 or 3 on a saving throw against a spell or magical ability, you reveal your Hideous Appearance."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 4",
+						"entries": [
+							"You can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. You also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Savage Predator",
+								"entries": [
+									"Beginning at 4th level, whenever you roll to hit a target and score a natural 20, you may deal an additional 6d6 damage. This damage is the same type as your weapon. In addition, each creature of your choice that is within 30 feet of you must succeed a Wisdom saving throw or become Frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Master of the Deep",
+								"entries": [
+									"{@italic Prerequisite: Additional Tendrils}",
+									"On your turn as an action, you can rapidly grow and launch hundreds of tiny tendrils from your body. Each creature of your choice within 15 feet of you must succeed on a Dexterity saving throw. On a failed save, they suffer one of the following effects of your choice for 1 minute. You can choose different effect options for different creatures:",
+									{
+										"type": "list",
+										"items": [
+											"Become poisoned.",
+											"Speed becomes 0.",
+											"Attacks against them have advantage."
+										]
+									},
+									"Once you use this feature, you cannot use it again until you complete a short or long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Extremophilic Conditioning",
+								"entries": [
+									"Starting at 4th level, your body has learned to adapt to extreme conditions, allowing you to survive where most would perish. On your turn, as an action, you can use the following Adaptation.",
+									{
+										"type": "entries",
+										"name": "Metamorphosis",
+										"entries": [
+											"You rapidly change your body’s biophysical and chemical composition in reaction to your environment. Choose one of the following options:",
+											{
+												"type": "list",
+												"items": [
+													"You are resistant to Bludgeoning, Piercing, and Slashing damage. When determining falling damage, you take 1 bludgeoning damage for each 10 feet fallen in place of normal damage (maximum of 20 bludgeoning damage).",
+													"You are resistant to Fire, Lightning, and Acid damage. You are immune to the effects of extreme hot climates.",
+													"You are resistant to Cold, Thunder, and Poison damage. You are immune to the effects of extreme cold climates."
+												]
+											}
+										]
+									},
+									"This adaptation lasts until you use this Adaptation again."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Entropic Abomination",
+								"entries": [
+									"The very essence of magic aggravates the unstable nature of your aberrant body.",
+									"Whenever you fail a saving throw to a spell or magical ability, roll on the {@table Level 4|Bence Homebrew|Unstable Mutation} table. If the result is less than your current unstable mutation effect, then replace it with the new result."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "The Fiend",
+				"entries": [
+					"A smirking, well-dressed man of unknown origin appears in a time of great need. He extends his hand and a contract manifests in a golden flash. With a quill floating by his side, he remarks, “Of course I can fix your dilemma. After all, who do you think caused it in the first place?” For a solution to a world of problems, the man asks for only two things in return: a signature and an eternity of servitude.",
+					"Hellfire swirls up a Fiend’s arms as she laughs maniacally. In a single motion, she launches waves of fiery death at the legions of lesser Daemons sent to rein her in.",
+					"Those who perish twist and harden into charred, blackened figures with bright molten cores. The Fiend laughs again as she snaps her fingers and each figure explodes into another wave of fiery destruction.",
+					"Many tales are told in Etharis of the power of Fiends and the dangers of their contracts. Regardless, every year a champion rises, a prodigy is born, or some individual makes a deal for their soul in exchange for Lady Luck to be on their side.",
+					"To a Fiend, a soul is a delicious meal with an invigorating aftertaste. Most importantly, a soul contains the power to sustain their transformation.",
+					{
+						"type": "entries",
+						"name": "Becoming a Fiend",
+						"entries": [
+							"A mortal can become a Fiend in a variety of ways. Some forfeit their souls and become one upon death. Others undertake excruciating rituals to transform into one. However, your character becomes a Fiend constitutes their contract. Communicating with your GM about creating deals with mortals in their story is a great way to roleplay your influence within the game world. As a Fiend, you should consider what your character’s motivations are and which NPCs they can use to achieve their goals."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Features",
+						"entries": [
+							"A Fiend has the following transformation features:",
+							{
+								"type": "entries",
+								"name": "Prerequisites",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ability Scores:",
+										"entries": [
+											"Charisma 13"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Roleplay:",
+										"entries": [
+											"You must have made a pact with a Fiend, undergone an infernal ritual, or have some other plausible reason to have become a Fiend. Discuss with your GM how you can achieve this in-game."
+										]
+									},
+									"Some of your abilities will require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
+									{
+										"type": "abilityGeneric",
+										"name": "Transformation Save DC",
+										"text": "8 + your proficiency bonus + ",
+										"attributes": [
+											"cha"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Level milestones",
+								"entries": [
+									"The following are examples of possible level milestones for the Fiend:",
+									{
+										"type": "list",
+										"items": [
+											"Defeating a greater rival Fiend and taking their place in the hierarchy.",
+											"Ensnaring a particularly powerful or influential soul with a contract.",
+											"Establishing a cult of worshipers who offer their strength to you.",
+											"Establishing a portal between the material plane and the Netherworld.",
+											"Killing or corrupting a Seraph."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation level 1",
+						"entries": [
+							"Starting at 1st level, you gain the following Transformation Boons and this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Gifts of Damnation",
+								"entries": [
+									"You have acquired the ability to bind your first mortal to your will. You can create a contract to bind their soul to you, feeding on its power. However, you will not gain the benefits of this gift until you have bound a mortal with a contract.",
+									"To bind a mortal’s soul to you and grant them a {@filter Gift of Damnation|optionalfeatures|feature type=GD}, you must first create a contract for that gift. A contract requires magical ink and paper worth 50gp for each Transformation level you have acquired, and you must meet the prerequisites listed. In addition, you and the mortal must both sign the contract willingly, fully aware of the costs involved. Once signed, Netherworld entities give the benefits of the gift to you, and the mortal receives the named benefit within 7 days. You do not have to provide this benefit yourself. For example, upon signing a contract for a Gift of Unfettered Glory, you will receive the benefits listed under the gift. The mortal who signs will receive glory and no in-game mechanical bonuses, provided by the dubious powers of the Netherworld.",
+									"While you may have any number of contracts in your possession, you can only benefit from one at a time. Upon the completion of a long rest, you may swap the contract you are currently benefiting from for an alternate contract that you have bound a mortal to and signed.",
+									"On your turn, as an action, you can call upon the Netherworld to reveal to you the exact location of a creature that has signed one of your contracts, providing they are on the same plane of existence as you.",
+									"A contract you hold lasts for 7 years or until the mortal that signed it dies. At which point it bursts into flames and you cannot receive any benefits from it."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Fiendish Form",
+								"entries": [
+									"Your Charisma score increases by 2 and your Intelligence score increases by 1. An ability score cannot be increased beyond 16 this way. You become a Fiend in addition to any other creature types you are. Spells and abilities that affect Fiends of a specific CR have no effect on you."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Planar Binding",
+								"entries": [
+									"Your body and soul are bound to a fiendish plane of existence. You have disadvantage on death saving throws as the plane attempts to pull you back to it. If you would be killed, your soul has been dragged back to a plane of existence of the GM’s choice. This plane is your new home, and you become an NPC under the GM’s control.",
+									"If you are on the fiendish plane responsible for your transformation, this flaw has no effect."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 2",
+						"entries": [
+							"At 2nd level, you can pick one of the following Transformation Boons. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Brand of the Chainer’s Gaze",
+								"entries": [
+									"As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that diminishes their resolve. The target must make a Wisdom saving throw, and on a failed save they are branded. Whenever a creature branded in this way makes a saving throw, they must roll 1d6 and subtract the result from their saving throw. A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the {spell remove curse} spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Brand of the Tyrant’s Hellfire",
+								"entries": [
+									"As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that exudes hellfire. The target must make a Charisma saving throw, and on a failed save they are branded. Whenever you hit a creature branded in this way with an attack, you deal an additional 1d6 fire damage.",
+									"A creature remains branded for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the {spell remove curse} spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Brand of the Deceiver’s Guile",
+								"entries": [
+									"As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that twists their senses and perspective. The target must make an Intelligence saving throw, and on a failed save they are branded. Whenever a creature branded in this way attempts to attack you, they must roll 1d6 and subtract the result from their attack roll.",
+									"A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the {spell remove curse} spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Hideous Appearance",
+								"entries": [
+									"Your appearance has grotesquely transformed. Your skin becomes red and leathery, and vicious horns, teeth and nails erupt through the surface of your skin. You can suppress this form and present the appearance of the humanoid you once were, but this is taxing and requires concentration. Moments of stress are likely to reveal your true nature. In the following situations your true form is revealed:",
+									{
+										"type": "list",
+										"items": [
+											"Concentrating on a spell.",
+											"Gaining the unconscious condition.",
+											"Entering hallowed ground.",
+											"Choosing to reveal yourself."
+										]
+									},
+									"In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form.",
+									"Non-evil creatures that witness your true form become instantly hostile to you, unless the GM decides otherwise."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 3",
+						"entries": [
+							"At 3rd level, you can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Alluring Deceit",
+								"entries": [
+									"You gain mastery of deception and hollow promises. You gain proficiency in Deception and Persuasion. If you are already proficient in either of these skills, then your proficiency bonus is doubled for ability checks using that skill.",
+									"This ability has no effect on a skill if the proficiency bonus is already doubled.",
+									"Magic that would determine if you are telling the truth always indicates you are being truthful, and you cannot be magically compelled to tell the truth."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Infernal Resistance",
+								"entries": [
+									"You gain an imposing fortitude, drawing on Netherworld energy. If you would take magical damage from a spell, ability, or weapon, you can use your reaction and take half the amount of damage instead. You cannot use this feature against damage from silvered weapons."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Nether Blade",
+								"entries": [
+									"You can use a bonus action to summon a dreaded Nether Blade. The blade takes the form of a simple or martial weapon that deals slashing damage of your choice. Attacks made with the blade deal fire damage and gain the following features:",
+									{
+										"type": "list",
+										"items": [
+											"Attacks you make with the blade deal an additional 2d6 fire damage.",
+											"The blade emits flames that create bright light in a 5 foot radius and dim light for an additional 5 feet.",
+											"You cannot be disarmed of the blade."
+										]
+									},
+									"You can unsummon the blade at any time by using an action. If you unwield the blade, it immediately unsummons."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: True Name",
+								"entries": [
+									"Your fiendish transformation is complete, and you are reborn. You must choose a new name for yourself, which becomes your true name. You receive a talisman of brimstone and brass with your true name inscribed in infernal on it. A creature within 10 feet of you that knows your true name, can use an action and speak your true name in an attempt to bind you to their will. If they do, you must make a DC 20 Wisdom saving throw. On a failed save, you become charmed by the creature, and must complete all commands they issue to you to the best of your ability. You remain charmed for 8 hours. If the creature that bound you dies, this effect ends."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 4",
+						"entries": [
+							"You can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. You also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Commanding Obedience",
+								"entries": [
+									"Whenever a hostile creature you can see within 30 feet of you fails a saving throw due to a spell of 1st level or higher that you control, you may command that creature to kneel. On that creature’s turn, it must face you, then kneel and end it’s turn. While kneeling, the creature is considered prone. If the creature is immune to the prone condition, then the creature just ends its turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Brimstone Pyrolysis",
+								"entries": [
+									"When you inflict fire damage against a hostile creature and reduce it to 0 hit points, you can immolate that creature and turn them into a Brimstone Statue.",
+									{
+										"type": "entries",
+										"name": "Brimstone Statue",
+										"entries": [
+											"A Brimstone Statue is the scorched remains of a corpse whose essence has burned out. A Brimstone Statue is the same size as the creature before it died, and uses the following statistics:",
+											{
+												"type": "list",
+												"items": [
+													"Armour Class: 10",
+													"Hit Points: 10",
+													"Speed: 0",
+													"Damage Immunities: poison, psychic"
+												]
+											},
+											"A Brimstone Statue that is reduced to 0 hit points falls apart and is destroyed. It does not detonate."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Detonate",
+										"entries": [
+											"On your turn, as an action, you can detonate one or more Brimstone Statues that you have created. When a Brimstone Statue detonates, it is destroyed, and each creature other than you within 10 feet of the statue must make a Dexterity saving throw. A target takes 3d6 fire damage on a failed save, or half as much damage on a successful one."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Infernal Summoning",
+								"entries": [
+									"On your turn as an action, you can tear open a portal to the Netherworld and summon up to 4 Imps. These Imps are each summoned into their own unoccupied space within 30 feet of you.",
+									"The summoned Imps are friendly to you and your companions. They all act directly after you in the initiative order. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. The Imps disappear in a shower of ash and embers after 1 hour, or if they are reduced to 0 hit points. The GM has the Imps’ statistics.",
+									"Once you use this ability, you cannot use it again until you complete a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Pull of the Netherworld",
+								"entries": [
+									"Your new native plane attempts to pull you to it, laying claim to your form. Whenever you roll a natural 1 on a saving throw against a magical spell or ability, you take 1d6 force damage per two character levels in addition to any other damage or effects you would suffer, as your native plane attempts to unbind you from the Material Plane. For example, a 6th level Fighter would take 3d6 force damage. This damage ignores resistances and immunities."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "Lich",
+				"entries": [
+					"The screams of souls torn from their bodies echo over the electric crackling of forbidden magic. A skeletal form rapidly stitches flesh and muscle to its frame, creating a seemingly living man – a man from an age and kingdom long gone. A man who has conquered death and risen again to enact his insidious will from millennia ago. The screams stop and are replaced with murmurs, as the corpses of the fallen arise as undead.",
+					"An ancient figure slowly turns the pages of  a decrepit tome possessing forbidden cosmic knowledge. Tracing a bony finger over the inscription, the figure turns its head, revealing a gaunt, deathly face. “I do not receive company often,” it rasps, slowly locking eyes with a broad-shouldered warrior. The warrior makes no movement or gestures, save for his eyes, which dart rapidly around the room in search of an escape. “Oh, do not struggle. It will be over soon.” The deathly figure continues, raising itself up from a crouch. The very fabric of the room appears to warp and shudder with the figure’s power and authority.",
+					"A Lich is to the arcane what a king is to their Kingdom: undisputed, absolute power. Resting upon a throne of raw, world-rending spellcasting potential, a Lich comes as close to a God as any mortal could imagine. However, this awe- inspiring power comes at a dear price. Immune to the effects of age but not time, a Lich is destined to exist without living for eternity. While this drives some Liches mad and others evil, it makes them all physically decrepit and feeble. Time itself takes their body from them until they are reduced to a skeletal head, passively watching the world pass them by.",
+					{
+						"type": "entries",
+						"name": "Becoming a Lich",
+						"entries": [
+							"Across the Multiverse there are many ways to become a Lich, each determining the type of Lich the mortal becomes. However, within Etharis there is only one type of Lich, as there is only one known method of ascending to Lichdom: The Ritual of Dread. The process of this ritual is a well-guarded secret, entrusted to only a handful of mortals at any one time. The process of the ritual involves several despicable acts including murder, the brewing of a vile concoction, and even one’s own death. However, it is the process of tearing one’s soul from the body that is most despised, for this process involves the sacrifice of something truly dear to a mortal, and no substitute will be accepted. For some, it is the death of a cherished loved one. For others it is a family legacy. Regardless of the sacrifice, unless the Dreadscape spirits deem it worthy, Lichdom will not be granted."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Features",
+						"entries": [
+							"A Lich has the following transformation features:",
+							{
+								"type": "entries",
+								"name": "Prerequisites",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ability Scores:",
+										"entries": [
+											"Intelligence 16"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Spellcasting Ability:",
+										"entries": [
+											"You must have the ability to cast 7th level spells."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Roleplay:",
+										"entries": [
+											"You must complete the Ritual of Dread. The process of this ritual is partially described, but left intentionally vague so it can be tailored to your setting and campaign. Discuss with your GM how you can achieve this in-game."
+										]
+									},
+									"Some of your abilities will require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
+									{
+										"type": "abilityGeneric",
+										"name": "Transformation Save DC",
+										"text": "8 + your proficiency bonus + ",
+										"attributes": [
+											"int"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Level milestones",
+								"entries": [
+									"The following are examples of possible level milestones for the Lich:",
+									{
+										"type": "list",
+										"items": [
+											"Discover ancient and dark arcane knowledge.",
+											"Consume the soul of an exceptionally powerful spellcaster.",
+											"Build a monument to your power to serve as a giant arcane focus.",
+											"Create an army of undead.",
+											"Kill a god."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation level 1",
+						"entries": [
+							"Starting at 1st level, you gain the following Transformation Boons and this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Harvester of Souls",
+								"entries": [
+									"You have gained the ability to tear the soul out of creatures you kill and consume it for its invigorating effects. Whenever you reduce a creature to 0 hit points, if you are on the same plane of existence as your phylactery, its soul is captured and your phylactery becomes charged. On your turn, as an action, you can consume any number of charge levels from your phylactery o regain a single spell slot. When you regain a spell slot in this way, the spell slot’s level is equal to one third of the charge you consumed, rounded down."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Undead Form",
+								"entries": [
+									"Your Intelligence score increases by 4 and your Wisdom score increases by 2. An ability score cannot be increased beyond 22 this way. You become an Undead in addition to any other creature types you are. Spells and abilities that state effects or conditions specifically regarding Undead of a specific CR have no effect on you.",
+									"If a spell or ability other than your own would cause you to gain Hit Points, you gain that many temporary Hit Points instead. If you are reduced to 0 hit points and fall unconscious as a result, any healing you receive will stabilize you and leave you on 1 hit point and unconscious. You stop aging. You are immune to any effect that would age you, and you cannot die from old age. You do not require air, food, drink or sleep."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Phylactery",
+								"entries": [
+									"You have successfully torn your soul from your body and trapped it in a suitable object. The object must be a trinket or item no larger than 1 square foot in size. This item becomes your phylactery.",
+									{
+										"type": "entries",
+										"name": "Phylactery",
+										"entries": [
+											"A phylactery is an enchanted vessel containing a Lich’s soul. Additionally, a phylactery is a conduit for the Lich to feed on captured souls.",
+											"A phylactery has the following statistics:",
+											{
+												"type": "list",
+												"items": [
+													"Armour Class: 18",
+													"Hit Points: 90",
+													"Speed: 0",
+													"Damage Immunities: poison, psychic; bludgeoning, piercing, and slashing from non-magical sources.",
+													"Damage Resistances: necrotic, cold, thunder, lightning, force, fire."
+												]
+											},
+											"While a soul is stored in your phylactery, the phylactery is considered charged. Its charge level is equal to the CR of all the creatures whose soul you have captured. To store a new soul in your Phylactery, add the CR of the creature you killed to your Phylacteries charge level. The souls of creatures with a CR of less than 1⁄4 are not great enough to charge your phylactery. Your Phylacteries charge level cannot exceed 27.",
+											"If your phylactery is reduced to 0 hit points, your soul is lost; you crumble to dust and are killed outright.",
+											"If you are killed and you control a charged phylactery on the same plane of existence, your phylactery’s charge is consumed and your body is reconstructed within 5 feet of your phylactery 7 days later. If you are killed and your Phylactery does not have a level of charge, you are reanimated 7 days later as a {@creature Demilich} under the GM’s control."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 2",
+						"entries": [
+							"At 2nd level, you can pick one of the following Transformation Boons. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Puppet Master",
+								"entries": [
+									"Undead creatures of CR 1 or less that you animate with spells or abilities become permanently under your control. In addition, other creatures cannot gain control of undead creatures you raised."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Lichdom of the Arcane",
+								"entries": [
+									"Whenever you kill any creature with a spell, you may apply an additional effect depending on the damage dealt. Any effects with range are centred on or measured from the killed target, and if required, use your Transformation save DC.",
+									"This ability cannot be used when you kill a construct, undead, or any creature without a soul. The following are the effects caused when you use this ability:",
+									{
+										"type": "entries",
+										"name": "Fire",
+										"entries": [
+											"The target is vaporised into a cloud of ash and smoke The space that the creature died in, and each space within 5 feet of it, are considered heavily obscured for 1 minute. Winds of moderate or greater speeds (at least 10 miles per hour) also disperse the cloud."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Necrotic",
+										"entries": [
+											"As the soul of your enemy leaves their body, you are able to siphon off part of their life force. You regain hit points equal to your Intelligence modifier (minimum of 1), plus your character level."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Poison",
+										"entries": [
+											"Target a creature within 10 feet of the killed creature. That creature must succeed on a Constitution saving throw or gain the poisoned condition for 1 minute."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Rift to the Dreadscapes",
+								"entries": [
+									"You gain the ability to open a rift to the Dreadscapes. As an action on your turn, you can choose a point within 5 feet of you to open the rift. Once opened, the rift stretches out from that point to a 20-foot-radius sphere. When a creature other than you enters the rift’s area for the first time on its turn, or starts its turn there, it must make a Constitution saving throw against your Transformation DC. On a failed save, the creature suffers 10d10 necrotic damage, or half as much on a successful save. Undead creatures are immune to damage from this ability. The rift remains open for 1 minute, but closes if you become unconscious. Once you use this ability, you cannot use it again until you complete a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Hideous Appearance",
+								"entries": [
+									"Your appearance has grotesquely transformed. Your skin has become rotten and pale, while your figure has become gaunt and hunched, radiating a ghastly aura. You can suppress this form and present the appearance of the humanoid you once were, however this is taxing and requires concentration. Moments of stress are likely to reveal your true nature. In the following situations your true form is revealed:",
+									{
+										"type": "list",
+										"items": [
+											"Concentrating on a spell.",
+											"Gaining the unconscious condition.",
+											"Entering hallowed ground.",
+											"Choosing to reveal yourself."
+										]
+									},
+									"In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form.",
+									"Non-evil creatures that witness your true form become instantly hostile to you, unless the GM decides otherwise."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 3",
+						"entries": [
+							"At 3rd level, you can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Relentless Undead",
+								"entries": [
+									"Whenever an undead creature you control is reduced to 0 hit points, it may immediately move up to its full speed and make an attack action before dying. This feature has no effect if the creature has been reduced to 0 hit points by radiant damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Arcane Supremacy",
+								"entries": [
+									"You become an exemplar of arcane power. When you cast a concentration spell, if you are already concentrating on one concentration spell, you do not lose concentration of that spell; instead you gain one level of exhaustion. If you are already concentrating on more than one spell, this feature has no effect. If you cast a third concentration spell during this time, you lose concentration on one of the two spells. Once you use this feature you cannot use it again until you complete a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Staff of the Dreadscapes",
+								"entries": [
+									"Starting at 3rd level, you can use an action to summon a deathly staff made of blackened bone and twisted rotwood. The staff is the same as a {@item quarterstaff}, with the following features:",
+									{
+										"type": "list",
+										"items": [
+											"Necrotic damage dealt by you ignores resistance to necrotic damage.",
+											"Your Spell Save DC and Transformation DC are both increased by 2",
+											"Food and non-creature plants the staff touches wither and decay."
+										]
+									},
+									"You can unsummon the staff at any time with the use of an action. If you un-wield the staff, it immediately unsummons."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Necromantic Dystrophy",
+								"entries": [
+									"Your body has become dependent on consuming souls, otherwise it becomes withered and frail. If you go more than 24 hours without converting 4 CR worth of souls from your Phylactery into spell slots you gain the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"You cannot use the {@action dash}, {@action dodge}, or {@action disengage} actions. You cannot use these actions as bonus actions.",
+											"You cannot use your reaction to make {@action opportunity attack|phb|opportunity attacks}.",
+											"You cannot disguise your hideous form feature."
+										]
+									},
+									"Upon converting the required amount of souls into spell slots, you are no longer affected by the aforementioned effects."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 4",
+						"entries": [
+							"You can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. You also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Lord of Undeath",
+								"entries": [
+									"Whenever you reduce a humanoid to 0 hit points, you can choose to reanimate it. If you do, the creature rises at the beginning of its next turn as a {@creature zombie} permanently under your control, following verbal commands to the best of its ability."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Arcane Omniscience",
+								"entries": [
+									"You have mastered the arcane arts. You know every spell from the {@filter wizard’s spell list|spells|class=wizard} and can prepare a number of these equal to your Intelligence modifier. Spells prepared this way do not count towards the maximum number of spells you can prepare. Upon completing a short rest, you can change one or more of these prepared spells for another spell from the wizards spell list."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Deathly Being",
+								"entries": [
+									"You become immune to poison damage, as well as bludgeoning, piercing, and slashing damage from non-magical attacks. In addition, you cannot become charmed, poisoned, paralysed, or frightened."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Weight of Ages",
+								"entries": [
+									"The weight of time is degrading for your Lich form and only the consumption of many souls can stay its effects. If you go more than 24 hours without converting 8 CR worth of soul from your Phylactery into spell slots you gain the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"You cannot use the attack action.",
+											"If you move on your turn, you cannot use a bonus action or reaction until your next turn.",
+											"If you use a bonus action on your turn, your speed becomes 0 until your next turn."
+										]
+									},
+									"Upon converting the required amount of souls into spell slots, you are no longer affected by the aforementioned effects."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "Lycanthrope",
+				"entries": [
+					"A howling call is heard across thatched rooftops, summoning the pack to assemble. Below, a man tears at his clothes as moonlight shines down on him. The hunched figure screams in pain, begging his family to run. With muscles bursting and razor-sharp claws forming, his transformation is underway.",
+					"Rain pours through the forest canopy as a woman falls to her knees in exhaustion. Unable to run further, she accepts her fate and awaits the monsters of the dark. Instead, she hears a thunderous roar as a hulking figure tears through the undergrowth with impossible strength. The hulking, bear-like figure then turns to the woman and grunts, “Are you lost?” offering a paw in aid.",
+					"Lycanthropes may appear to be ordinary humanoids, but behind the veneer of humanity there is a pivotal struggle between beast and man. For most, it is a matter of time before they lose this fight and transform into a monstrous hybrid, half-animal and half- humanoid. Most Lycanthropes recall very little of their time transformed, often waking in a strange location, covered in blood and tattered clothes. However, as some Lycanthropes grow, they learn to balance both natures, using their curse as a gift.",
+					{
+						"type": "entries",
+						"name": "Becoming a Lycanthrope",
+						"entries": [
+							"In Etharis, there are two documented methods of contracting the Lycanthropic curse. The first is being bitten by a Lycanthrope and not curing the curse before it takes hold. The second is to complete a druidic ritual known as the Lunar Sacrament. Once you have become a Lycanthrope, consider how your character feels about the curse. Do they wish to cure it before it progresses too far? Do they wish to understand it and make peace with the beast that resides within?"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Features",
+						"entries": [
+							"A Lycanthrope has the following transformation features:",
+							{
+								"type": "entries",
+								"name": "Prerequisites",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ability Scores:",
+										"entries": [
+											"Strength 13"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Roleplay:",
+										"entries": [
+											"You must have contracted the Curse of Lycanthropy. This usually comes from being bitten by a Lycanthrope and surviving the encounter. Alternatively, you may have completed the Lunar Sacrament and been imbued with Lycanthropy. Discuss with your GM how you can achieve this within your backstory or in-game."
+										]
+									},
+									"Some of your abilities will require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
+									{
+										"type": "abilityGeneric",
+										"name": "Transformation Save DC",
+										"text": "8 + your proficiency bonus + ",
+										"attributes": [
+											"str"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Level milestones",
+								"entries": [
+									"The following are examples of possible level milestones for the Lycanthrope:",
+									{
+										"type": "list",
+										"items": [
+											"Establishing a pack of other Lycanthropes.",
+											"Killing an Alpha Lycanthrope.",
+											"Gaining control of your animalistic urges.",
+											"Unleashing the beast within and losing your humanity."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation level 1",
+						"entries": [
+							"Starting at 1st level, you gain the following Transformation Boons and this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Hybrid Transformation",
+								"entries": [
+									"As an action, you may transform into a monstrous hybrid: half-beast, half-sentient. While in your hybrid form, the following rules apply:",
+									{
+										"type": "list",
+										"items": [
+											"You can’t cast spells or concentrate on spells. Your ability to speak is reduced to short, basic, guttural responses.",
+											"Your stats remain the same as your humanoid stats.",
+											"Any armour you are wearing merges into your Hybrid Form or immediately drops to the ground. The GM may decide if they feel the armour is too large to merge.",
+											"While transformed and not wearing any armour or using a shield, your AC equals 10 + your Constitution modifier + your Dexterity modifier.",
+											"While transformed you can use weapons and equipment as normal, unless specified elsewhere.",
+											"You roll a d6 in place of the normal damage for your unarmed strikes. Attacks using your claws deal slashing damage instead of bludgeoning damage.",
+											"When making the attack action you may substitute one attack to make an unarmed bite attack. If the attack hits, you deal piercing damage equal to 1d8 + your Strength modifier. If you make a bite attack, you cannot make another until the beginning of your next turn.",
+											"If you made the attack action, as a bonus action you may make an unarmed claw attack or bite attack, provided you have not already used your bonus action."
+										]
+									},
+									"Your hybrid form lasts for a number of hours equal to your Constitution modifier (minimum of 1) and ends early if you are knocked unconscious or reduced to 0 hit points. You can end your Hybrid Form by using an action on your turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Shapechanger’s Form",
+								"entries": [
+									"Your Strength score increases by 2 and your Constitution score increases by 1. An ability score cannot be increased beyond 16 this way.",
+									"You become a Shapechanger in addition to any other creature types you are. Spells and abilities that affect Shapechangers of a specific CR have no effect on you."
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Helpless Creatures",
+								"entries": [
+									"The defenceless and downtrodden are met with a modicum, of sympathy by most. However, to the bestial side of a Lycanthrope, these creatures represent prey. This Transformation refers to helpless creatures in multiple instances. For game purposes a helpless creature is a humanoid that is unconscious, restrained, blinded, paralized or frightened. Additionally, creatures that are so vulnerable in their current situation, they are completely defenceless are also considered helpless. For example, a disarmed and defeated enemy, pleading for mercy. In these instances the GM decides if the creature is considered helpless or not."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Lust for the Hunt",
+								"entries": [
+									"The savage nature of your curse sometimes causes you to lose control. These ferocious tendencies are a constant struggle between you as a humanoid and the beast within. When you are in your hybrid form, you must succeed at a DC 10 Wisdom saving throw at the beginning of each turn or lose control. If you are in the light of a full moon, you automatically fail this saving throw. If you fail this saving throw, you are subjected to the following until you succeed:",
+									{
+										"type": "list",
+										"items": [
+											"You must move toward the closest non- player creature you can see, smell or hear, prioritising helpless creatures. If you end your movement and no non-player creature is within 5 feet of you, then you must use your action to dash toward one.",
+											"If there is a non-player creature within 5 feet of you and you have not used your action, you must make a melee attack against it, prioritising helpless creatures.",
+											"If you made a melee attack against a creature, and that creature is still alive, then you must use your bonus action to make an unarmed claw or bite attack against the same creature."
+										]
+									},
+									"Additionally, if you are subjected to the light of a full moon you must succeed at a DC 20 Wisdom saving throw or automatically turn into your hybrid form and cannot transform back until dawn. If you succeed in this saving throw, you are immune to its effects for 24 hours."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 2",
+						"entries": [
+							"At 2nd level, you can pick one of the following Transformation Boons. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Iron Pelt",
+								"entries": [
+									"While in hybrid form, you have resistance to bludgeoning, piercing, and slashing damage from non-silvered, non-magical sources."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Hunter’s Howl",
+								"entries": [
+									"While in your hybrid form, you can use a bonus action to let out a loud howl and mark a creature within 60 feet as your prey. A creature remains marked this way for 1 hour, or until it dies. While a creature is marked as your prey, you gain the following benefits:",
+									{
+										"type": "list",
+										"items": [
+											"Whenever you hit the marked creature with a melee attack, you deal an additional 1d6 damage. This damage is the same type as the attack.",
+											"You have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to track your prey."
+										]
+									},
+									"You may use this feature a number of times equal to your Strength modifier (minimum of 1). You regain all expended uses of this feature upon a short or long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Kindred Form",
+								"entries": [
+									"You gain the ability to transform into the animal form representative of your Lycanthropy type, known as your Kindred Form. You follow the same rules as the Hybrid Transformation feature and any feature that specifies the hybrid transformation, unless specified otherwise. You can only transform into the kindred form representative of your Lycanthropy. Each Kindred Form gains the following rules:",
+									{
+										"type": "list",
+										"items": [
+											"You cannot speak.",
+											"You cannot take any actions requiring hands, except your Transformation capabilities.",
+											"You can only use unarmed claw and bite attacks.",
+											"You automatically succeed at all saving throws relating to the Lust for the Hunt flaw."
+										]
+									},
+									"Other than being larger, you are indistinguishable from a regular animal of your Kindred Form.",
+									{
+										"type": "entries",
+										"name": "Kindred Form - Bear",
+										"entries": [
+											"Your kindred form takes the shape of a large bear. While in your kindred form, you gain the additional features:",
+											{
+												"type": "list",
+												"items": [
+													"You can speak to and understand other bears.",
+													"When you make any saving throw, you can add your Constitution modifier to the result.",
+													"Your hit point maximum increases by 15 hit points."
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kindred Form - Wolf",
+										"entries": [
+											"Your kindred form takes the shape of a ferocious dire wolf. While in your kindred form, you gain the additional features:",
+											{
+												"type": "list",
+												"items": [
+													"You can speak to and understand other wolves.",
+													"When making an attack against a creature, if an ally is within 5 feet of that creature and not incapacitated, you have advantage on that attack roll.",
+													"Your speed increases by 20 feet, to a maximum of 60."
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Silver Sensitivity",
+								"entries": [
+									"You have developed a debilitating sensitivity to silver. While in your Hybrid or Kindred form, you have vulnerability to silvered weapons. In addition, you cannot have resistance to attacks made with a silvered weapon."
+									
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 3",
+						"entries": [
+							"At 3rd level, you can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Titanic Vigor",
+								"entries": [
+									"Your hit point maximum increases by an amount equal to twice your character level, and it increases by 2 every time you gain a character level.",
+									"Additionally, when in your hybrid form, you gain 5 temporary hit points at the start of your turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Predatory Leap",
+								"entries": [
+									"Your jump distance is doubled.",
+									"In addition, in hybrid form, if you jumped more than 5 feet and land within 5 feet of a creature, you can immediately take the attack action to attack that creature. On a hit, the target must make a Strength saving throw or become prone on a failed save. You can decide to automatically grapple the target if they fail their save."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Bestial Savagery",
+								"entries": [
+									"You have embraced the animalistic side of your transformation. While in your Hybrid Form, you gain the following benefits:",
+									{
+										"type": "list",
+										"items": [
+											"Your unarmed attacks deal 1d8 slashing damage and are considered magic attacks.",
+											"Your AC increases by 1.",
+											"You are immune to the charmed and frightened conditions."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Fraying Memories",
+								"entries": [
+									"You have begun to suffer the effects of sharing a mind with two personalities. Memories of less practical significance have been lost to new ones of midnight hunts. You have disadvantage on Intelligence ability and skill checks recalling information or knowledge."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 4",
+						"entries": [
+							"You can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. You also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Savage Instincts",
+								"entries": [
+									"You have developed an unrelenting thirst for bloodshed and carnage. While in your hybrid form, if you hit a creature with an unarmed attack, and it is missing any of its hitpoints, the base damage die is increased to 1d12."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Kindred Affinity",
+								"entries": [
+									"{@italic Prerequisite: Kindred Form Transformation feature.}",
+									"You have reached true harmony with your Kindred Form, achieving a state of peace most Lycanthropes never find. You gain the following benefits while in your Kindred Form:",
+									{
+										"type": "list",
+										"items": [
+											"You can speak.",
+											"You can cast spells without needing to provide their verbal or somatic components. Additionally, you can cast spells without needing to provide material components, provided they do not have a gold cost.",
+											"Friendly creatures within 20 feet of you have advantage on Wisdom ability checks and saving throws."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Unstoppable Rage",
+								"entries": [
+									"You have become a visage of unkillable carnage and slaughter even other Lycanthropes fear. When you are reduced to 0 hit points and you are not killed outright, you are not knocked unconscious. You can take your future turns as though you were not at 0 hit points and are affected by all spells, abilities and features as normal. While you have 0 hit points, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Predatory Nature",
+								"entries": [
+									"You have begun to realise the true cost of your transformation. The beast within has gained more control of your body than you have. While you can control it at times you know it cannot be contained forever, and when it breaks free, it will delight in any slaughter it can find. You gain the following features:",
+									{
+										"type": "list",
+										"items": [
+											"If you can see, hear or smell a helpless creature, you gain disadvantage on all Wisdom saving throws.",
+											"At the beginning of your turn, if you can see, hear or smell a hostile or helpless non- player creature, you must succeed a DC 10 Wisdom saving throw or be transformed into your Hybrid Form. If you succeed this saving throw, you become immune to this effect until dawn.",
+											"Whenever you kill a creature and you are in your Hybrid Form, you cannot transform back into your humanoid form until dawn the next day. Although you can transform into your Kindred Form."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "Seraph",
+				"entries": [
+					"Incense burns dimly, as muffled coughs echo through the musty room. Loved ones hold each other as a bedridden woman exhales for the last time, her scarred face bearing the mortifying lesions of the Weeping Pox. Her family sobs, too lost in their sorrow to notice how the smouldering embers radiate and shine. A woman with flowing robes and platinum hair approaches, radiant energy emitting from her folded, angelic wings. “Hold on for but a moment my child,” she whispers. “Mercy has been granted.”",
+					"With a thunderous boom, the Seraph’s hammer collides with a skeletal abomination. Shards of bone scatter across the dilapidated chapel floor as the monster roars in pain. Gritting her teeth, the angelic figure proclaims, “By all that is holy, you will be vanquished!” Golden fire erupts from her hammer as she prepares for another strike.",
+					"Seraphs are mortals who have transformed into Celestial representations of a virtue or ideal. Exalted by a higher power, Seraphs are selected by divine beings after long and patient observation, confirming that the mortal displays pure character. Seraphs are selected from noble martyrs, tireless crusaders, or other exemplary individuals who are prepared to become the physical manifestation of righteousness.",
+					{
+						"type": "entries",
+						"name": "Becoming a Seraph",
+						"entries": [
+							"To be chosen by an Arch Seraph is to become a vessel for the principles they uphold. This is a charge not to be taken lightly, and those who display righteousness with the intention of becoming a Seraph are usually overlooked for this reason. When becoming a Seraph, consider why your character was chosen. Do you display hidden merit? Are you devoted to a cause they will value?"
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Features",
+						"entries": [
+							"A Seraph has the following transformation features:",
+							{
+								"type": "entries",
+								"name": "Prerequisites",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ability Scores:",
+										"entries": [
+											"Wisdom 13"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Roleplay:",
+										"entries": [
+											"You must have been exalted by an Arch Seraph, divine cosmic energies, or have some other plausible reason to have become a Seraph. Discuss with your GM how you can achieve this in-game."
+										]
+									},
+									"Some of your abilities will require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
+									{
+										"type": "abilityGeneric",
+										"name": "Transformation Save DC",
+										"text": "8 + your proficiency bonus + ",
+										"attributes": [
+											"wis"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Level milestones",
+								"entries": [
+									"The following are examples of possible level milestones for the Seraph:",
+									{
+										"type": "list",
+										"items": [
+											"Defeating a powerful force of darkness.",
+											"Create a hallowed landmark for pilgrims.",
+											"Establish a parish of worshipers who uphold your virtue.",
+											"Establish a portal between the Material Plane and the Empyrium.",
+											"Redeem a soul that was considered beyond redemption."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation level 1",
+						"entries": [
+							"Starting at 1st level, you gain the following Transformation Boons and this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Celestial Form",
+								"entries": [
+									"Your Wisdom score increases by 2 and your Constitution score increases by 1. An ability score cannot be increased beyond 16 this way.",
+									"You become a Celestial in addition to any other creature types you are. Spells and abilities that affect Celestials of a specific CR have no effect on you."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Angelic Wings",
+								"entries": [
+									"You have manifested feathered wings. You have a flying speed equal to your normal speed. You cannot wear armour or clothing that has not been modified to accommodate your wings."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Planar Binding",
+								"entries": [
+									"Your body and soul are bound to a divine plane of existence. You have disadvantage on death saving throws as the plane attempts to pull you back to it. If you would be killed, your soul has been taken back to a plane of existence of the GM’s choice. This plane is your new home, and you become an NPC under the GM’s control.",
+									"If you are on the divine plane responsible for your transformation, this flaw has no effect."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 2",
+						"entries": [
+							"At 2nd level, you can pick one of the following Transformation Boons. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Divine Retribution",
+								"entries": [
+									"When you or an allied creature you can see within 30 feet takes the attack action, you can use your reaction to imbue them with holy zeal. Immediately after the target completes the attack action, they can make an additional attack as a bonus action. On a hit, the hit target takes an additional 1d8 radiant damage. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Divine Clemency",
+								"entries": [
+									"When you or a creature you can see within 60 feet takes damage, you can use your reaction to cast a spell of 1st level or higher. This spell must target the damaged creature and restore hit points to it. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Divine Expedition",
+								"entries": [
+									"At the beginning of another creature’s turn, you can use your reaction to move yourself up to your speed or allow an ally that you can see, within 60 feet, to move up to their speed. Movement made this way does not cause attacks of opportunity. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Divine Appearance",
+								"entries": [
+									"Your appearance has radically transformed. Your body radiates a divine glow, while your wings are prominent and powerful appendages. You can contain this form and present the appearance of the humanoid you once were, but this is taxing and requires concentration. Moments of stress are likely to reveal your true nature. In the following situations, your true form is revealed:",
+									{
+										"type": "list",
+										"items": [
+											"Concentrating on a spell.",
+											"Gaining the unconscious condition.",
+											"Entering desecrated ground.",
+											"Choosing to reveal yourself."
+										]
+									},
+									"In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form.",
+									"Evil humanoid creatures that witness or hear about your true form become instantly hostile to you and are compelled by malice to destroy you, unless the GM decides otherwise.",
+									"If the creature is scared of you or decides that you are too powerful to fight, it will attempt to harm you in another way, but will not give up on destroying you."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 3",
+						"entries": [
+							"At 3rd level, you can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Radiant Strike",
+								"entries": [
+									"Whenever you hit a target with a melee attack, you deal an additional 1d6 radiant damage to the target. This damage increases to 2d6 if the target is a Fiend, Fey, or Undead."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Cleanse Affliction",
+								"entries": [
+									"When you cast a spell that restores hit points to an ally, you can also remove one condition being inflicted on them by a spell or ability."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Bow of Celestial Judgement",
+								"entries": [
+									"You can use a bonus action to summon a powerful bow made of divine light. The bow is the same as a longbow, except attacks made with it deal radiant damage and have the following features:",
+									{
+										"type": "list",
+										"items": [
+											"The bow does not use ammunition. Instead, when the wielder draws the bowstring, an ethereal arrow of radiant light forms.",
+											"Attacks with the bow deal an additional 1d8 radiant damage. Against fiends, fey and undead, the bow deals an additional 2d8 radiant damage instead.",
+											"The bow’s radiant form emits bright light in a 5-foot radius and dim light for an additional 5 feet."
+										]
+									},
+									"You can unsummon the bow at any time with the use of an action. If you unwield the bow, it immediately unsummons."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Beacon to Darkness",
+								"entries": [
+									"You have become a Seraph of noted virtue and divinity. This has made you a target for all that is dark in the world. Whenever you or an ally within 30 feet commits an act of greater evil, such as murdering a helpless innocent, a small amount of darkness attaches itself to you, and you gain 1 corruption point (to a maximum of 5). Whether the act constitutes greater evil is determined by the GM. Whenever you make an attack roll against an evil creature, or make a saving throw against a spell or ability from an evil creature, subtract the number of corruption points you have from the roll. Whenever you complete a short or long rest, and have prayed for at least 1 hour, you can reduce the number of corruption points you have by 1."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 4",
+						"entries": [
+							"You can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. You also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Aura of Holy Purge",
+								"entries": [
+									"You emit an aura of righteous fervour. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura hits a hostile creature, they can choose for that hit to be a critical hit instead. Once a creature has benefited from this feature, they cannot benefit from it again until they have completed a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Aura of Merciful Blessing",
+								"entries": [
+									"You emit an aura of invigoration and fortitude. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura is reduced to 0 hit points, they are reduced to 1 hit point instead. Once a creature has benefited from this feature, they cannot benefit again until they have completed a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Aura of Empyreal Valor",
+								"entries": [
+									"You emit an aura of swiftness and bravery. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura makes a Dexterity ability check to determine initiative, they can add +5 to the result. In addition, on that creature’s turn they gain advantage on attack rolls against any creature that hasn’t taken a turn in the combat yet. Once a creature has benefited from this feature, they cannot benefit again until they have completed a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Pull of the Empyrean",
+								"entries": [
+									"Your new native plane attempts to draw you to it, laying claim to your form. Whenever you roll a natural 1 for a saving throw against a magical spell or ability, you take 1d6 force damage per 2 class levels in addition to any other damage or effects you would suffer, as your native plane attempts to unbind you from the material plane. For example, a 6th level Fighter would take 3d6 force damage. This damage ignores resistances and immunities."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"name": "Vampire",
+				"entries": [
+					"A lone figure clad in burnished steel greets the roaring infantry as they charge through the breach in the castle’s walls. In a flash of black mist, the figure appears in front of the soldiers, striking them down with inhuman speed.",
+					"Candlelight flickers as a hooded adviser leans over an ornate throne, whispering machinations into her lord’s ensnared mind. The chamber erupts in commotion as the lord announces further powers be granted to the resident merchant’s guild.",
+					"Vampires are creatures of cursed blood and tragic existence. Exquisite food, a warm summer’s breeze, and growing old with loved ones are all luxuries a Vampire will never experience. Unable to enjoy many of the fineries of life as they once knew it, Vampires often become bitter creatures, filled with hate for everything they once loved.",
+					{
+						"type": "entries",
+						"name": "Becoming a Vampire",
+						"entries": [
+							"Vampires are spawned into the world when a mortal contracts the Sanguine Curse, dies, and is reborn undead. There are a variety of ways to contract the curse. A Vampire may have offered their blood to a loyal servant, powerful ally, or loved one they wished to elevate. More commonly, a Vampire may have bitten you, and you survived the Vampire’s attack long enough to contract the Sanguine Curse before perishing and being reborn. Other methods include ancient and dark magic, as well as powerful but cursed magical artifacts. Regardless of how you have become a Vampire, you should discuss with your GM what type of Vampire you would like to become, and how it can be implemented in the campaign."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Features",
+						"entries": [
+							"A Vampire has the following transformation features:",
+							{
+								"type": "entries",
+								"name": "Prerequisites",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ability Scores:",
+										"entries": [
+											"Dexterity 13"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Roleplay:",
+										"entries": [
+											"You must have contracted the Sanguine Curse, whether by being bitten by a Vampire, offered their blood, completing the Sanguine Ritual, or by another plausible method. Discuss with your GM how you can achieve this in-game."
+										]
+									},
+									"Some of your abilities will require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
+									{
+										"type": "abilityGeneric",
+										"name": "Transformation Save DC",
+										"text": "8 + your proficiency bonus + ",
+										"attributes": [
+											"dex",
+											"cha"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Level milestones",
+								"entries": [
+									"The following are examples of possible level milestones for the Vampire:",
+									{
+										"type": "list",
+										"items": [
+											"Establish a coven of vampire spawn.",
+											"Drink the blood of a legendary monster.",
+											"Learn the great secrets of vampirism from a Vampire Lord.",
+											"Learn to embrace your Hideous Form and lose the ability to conceal it.",
+											"Discover the lost crypts of an ancient vampire and consume its essence."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation level 1",
+						"entries": [
+							"Starting at 1st level, you gain the following Transformation Boons and this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Blood Fury",
+								"entries": [
+									"You have become possessed by the thirst that grips all Vampires. In combat, this thirst drives you into an insatiable frenzy of bloodshed. Whenever you deal combat damage with an unarmed strike or a melee/ranged weapon to a target that can bleed, and is not undead or a construct, you gain one Fury Point. You may only have a maximum of 4 Fury Points at any time. Upon completing a short or long rest, the number of Fury Points you have is reset to 0. These points are used by certain abilities that you can learn through your transformation levels."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Blood Fury Abilities",
+								"entries": [
+									"You can spend Fury Points (FP) to use the following abilities. The entries below detail their names, Fury Points cost in parentheses, and features:",
+									{
+										"type": "entries",
+										"name": "Fanged Bite (1FP)",
+										"entries": [
+											"On your turn, immediately after you take the attack action, you can use your bonus action to make a special unarmed bite attack. You can use your Dexterity modifier instead of strength to hit with this attack. This attack deals piercing damage equal to 1d4 + your Strength or Dexterity modifier. The target must then succeed at a Constitution saving throw or take 2d6 necrotic damage. You regain hit point equal to the necrotic damage dealt this way. This attack generates 1 Fury Point as normal. If this attack reduces a humanoid creature of size Medium or smaller to 0 hit points, you gain 3 Fury Points instead."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Calculated Strike (1FP)",
+										"entries": [
+											"When you hit with a melee weapon attack, you may use this ability before damage is dealt. If you do so, you may add 1d6 of the same damage as your weapon to the damage result. If this ability is used, no Fury Points are generated for this attack."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Vampiric Mist (2FP)",
+										"entries": [
+											"As a bonus action, you can disappear in a puff of shadowy mist and teleport up to 30 feet to an unoccupied space you can see."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Unearthly Reflexes (1FP)",
+										"entries": [
+											"After you have rolled a Dexterity saving throw, but before the GM has determined the result, you can use your reaction and take half damage on a failed save, and no damage on a successful one."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Deathly Horror (3FP)",
+										"entries": [
+											"As a bonus action, you can emit a ghastly distortion of your true form. A creature of your choice within 30 feet of you must succeed on a Wisdom saving throw or become Frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to this ability for 24 hours."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Undead Form",
+								"entries": [
+									"Your Dexterity score increases by 2 and your Charisma score increases by 1. An ability score cannot be increased beyond 16 this way. In addition, your creature type changes to undead. Spells and abilities that state effects or conditions specifically regarding Undead of a specific CR have no effect on you. If a spell or ability other than your own would cause you to gain Hit Points, you gain that many temporary Hit Points instead. If you are reduced to 0 hit points and fall unconscious as a result, any healing you receive will stabilize you and leave you on 1 hit point and unconscious. Furthermore, you cannot die from old age and you do not require air, food or drink."
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Feeding",
+								"entries": [
+									"Transcended beyond mortal needs, vampires do not need to eat. However, the gripping nature of their curse requires them to feed on the fresh blood of humanoids. A task they undertake with delight.",
+									"On your turn, as an action, you can make an unarmed bite attack against an unconcious, restrained or charmed humanoid. If you do so, the target is drained for 1 pint of blood and bears a bite mark on the location you bit them. This attack does not wake sleeping creatures or end the effect of spells and abilities. A creature bitten this way gains a level of exhaustion, which can only be removed with the use of a greater restoration spell.",
+									"A vampire that does not feed within the required time goes into an unconscious feeding frenzy, under the GM’s control. The next time they sleep or enter a trance they attack all nearby living creatures and attempt to feed on them. A vampire remains in this state until they have drained a creature completely (killing them), at which point the vampire falls unconscious for 4 hours."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: The Sanguine Curse",
+								"entries": [
+									"The sanguine curse has taken a hold on you. As a result you gain the following features:",
+									{
+										"type": "list",
+										"items": [
+											"You cannot enter a residence you do not own without an invitation from one of the occupants. If you enter a residence involuntarily such as by being dragged into one, you take 1d10 psychic damage at the start of your turn while you are inside it.",
+											"You gain Darkvision (60 ft.) if you do not already have it.",
+											"While in sunlight, you have disadvantage on attack rolls and ability checks.",
+											"You must feed every 7 days."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 2",
+						"entries": [
+							"At 2nd level, you can pick one of the following Transformation Boons. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Dread Knight Combat Training",
+								"entries": [
+									"You become trained in the martial ways of the Dread Knights. As a bonus action, you may enter, exit, or change combat stances. While in a combat stance, you gain the features of that stance.",
+									{
+										"type": "entries",
+										"name": "Offensive",
+										"entries": [
+											"While in this stance, you deal an additional amount of damage with your melee weapon equal to the number of Fury Points you currently possess (minimum of 1)."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Defensive",
+										"entries": [
+											"While in this stance, you gain a bonus to your AC equal to half the number of Fury Points you currently possess (minimum of 1)."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Accuracy",
+										"entries": [
+											"While in this stance, you gain a bonus to hit with your weapon attacks equal to half the number of Fury Points you currently possess (minimum of 1)."
+										]
+									},
+									"Additionally you may use Dexterity instead of Strength for the attack and damage rolls of any melee weapon with the slashing damage type."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Sanguine Magic",
+								"entries": [
+									"{@italic Prerequisite: The ability to cast spells.}",
+									"Your curse corrupts the magic you cast. Whenever you deal non-necrotic damage with a spell or cantrip, you can choose to deal necrotic damage instead of that spell’s normal damage type. Furthermore, whenever you deal damage with a spell or cantrip, you gain one Fury Point (maximum of 1 per turn).",
+									"Additionally, you gain the following Blood Fury abilities:",
+									{
+										"type": "entries",
+										"name": "Cast in Blood (1 FP)",
+										"entries": [
+											"The next time you cast a damage-dealing cantrip, you can add your charisma modifier to the damage you deal."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Sanguine Spellbinding (3 FP)",
+										"entries": [
+											"The next time a creature makes a Charisma, Intelligence, or Wisdom saving throw against a spell you have cast, it has disadvantage. If a spell affects multiple creatures at the same time, you choose which creature is affected."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Shapechanger",
+								"entries": [
+									"You can use an action to polymorph into a {@creature bat|mm|Tiny bat} or back into your normal form. While in bat form, you gain the following features:",
+									{
+										"type": "list",
+										"items": [
+											"Your walking speed is 5 feet, and you have a flying speed of 30 feet.",
+											"If you have sunlight hypersensitivity, it is reduced to sunlight sensitivity: while in sunlight, you have disadvantage on attack rolls and ability checks, but take no damage from direct contact with sunlight.",
+											"You can’t speak. Any object you are holding or armour you are wearing merges into your bat form or immediately drops to the ground. The GM may decide if they feel the object cannot merge.",
+											"If you become unconscious, you revert back to your vampiric form."
+										]
+									},
+									"Additionally, you can use an action to turn into mist. Whilst in mist form, you gain the following features:",
+									{
+										"type": "list",
+										"items": [
+											"You cannot take any actions, speak, or manipulate objects.",
+											"You are weightless, have a flying speed of 20 feet, can hover, and can enter a hostile creature’s space and stop there.",
+											"In addition, if air can fit through a space, then you can as well. You cannot pass through liquid, and this does not give you the ability to cross running water.",
+											"You have advantage on Strength, Dexterity, and Constitution saving throws, and are immune to all non magical damage, except any damage you take from sunlight.",
+											"Any object you are holding or armour you are wearing merges into your mist form or immediately drops to the ground. The GM may decide if they feel the object cannot merge.",
+											"If you become unconscious in mist form, you revert back to your vampiric form."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Hideous Appearance",
+								"entries": [
+									"Your appearance has greatly altered from its original features. The first signs were the fangs that started to protrude from your upper row of teeth. You have no reflection in mirrors or other reflective surfaces. With dry, pale skin and occasional burns from the sun, you can hide your true appearance by concentrating on your pre- vampirism appearance. However, the following situations can reveal your true appearance:",
+									{
+										"type": "list",
+										"items": [
+											"Concentrating on a spell.",
+											"Gaining the unconscious condition.",
+											"Entering hallowed ground.",
+											"Taking damage from being exposed to sunlight or free-flowing water.",
+											"Choosing to reveal yourself."
+										]
+									},
+									"In events of extreme emotional or physical stress, a GM may call for a Constitution saving throw with a DC of their choosing to see if you maintain your humanoid form."
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 3",
+						"entries": [
+							"At 3rd level, you can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. In addition, you also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Cruel Riposte",
+								"entries": [
+									"Whenever a creature within 5 feet of you makes an attack against you, you may use your reaction to make a melee weapon attack against the attacking creature. You may use this feature a number of times equal to your Dexterity modifier (minimum of 1). You regain all expended uses of this feature when you complete a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Creatures of the Night",
+								"entries": [
+									"Once per long rest, you can magically call to your aid 2d4 {@creature swarm of bats|mm|swarms of bats} or 2d4 {@creature swarm of rats|mm|swarms of rats}. When outdoors, you can summon 2d4 {@creature wolf|mm|wolves} instead of swarms of rats. These creatures arrive at the end of your next turn at a destination of the GM’s choice within 30 feet of you, and they are under your control. They act directly after you in the initiative order and remain for 1 hour, until you die, or until you dismiss them with a bonus action. You cannot use this ability if you are exposed to direct sunlight."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Captivating Glance",
+								"entries": [
+									"You gain proficiency in Deception and Persuasion. If you are already proficient in one of these skills, then your proficiency bonus is doubled for ability checks using that skill. If you have or ever gain double proficiency in one or both of these skills, you gain +2 for that skill instead.",
+									"Additionally, your thoughts cannot be read by any means."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Greater Sanguine Curse",
+								"entries": [
+									"Your curse has taken a stronger hold on you. As a result you gain the following features:",
+									{
+										"type": "list",
+										"items": [
+											"You take 1d10 acid damage if you end your turn in running water.",
+											"You gain superior Darkvision (120 ft.) if you do not already have it.",
+											"You take 1d10 radiant damage when you start your turn in sunlight.",
+											"You must feed every 3 days."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Transformation Level 4",
+						"entries": [
+							"You can pick one of the following Transformation Boons, or pick a boon from a lower level that you meet the prerequisites for. You also gain this level’s Transformation Flaw.",
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Grim Executioner",
+								"entries": [
+									"{@italic Prerequisite: Dread Knight Combat Training.}",
+									"You have mastered the martial techniques of the Dread Knight. Whenever you roll a critical hit with a melee or ranged weapon, and the target has 50 or fewer hit points, you kill the target outright. If your target has more than 50 hit points, you deal an extra 6d6 damage. This damage is of the same type as your weapon."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Beguiler’s Entrancement",
+								"entries": [
+									"{@italic Prerequisite: Captivating Glance.}",
+									"Once per long rest, you gain the ability to manipulate the mind of a humanoid with your sanguine magic. You can use an action to make an incapacitated humanoid {@condition charmed} by you for 24 hours or until you target a different humanoid with this ability. If you use this ability on the same target for 30 unbroken days, the target becomes permanently charmed by you.",
+									"You may use this ability on another humanoid once you have permanently charmed the previous humanoid. You can have a maximum number of enthralled humanoids equal to your Charisma Modifier (minimum of 1). If the number of enthralled humanoids exceeds your Charisma modifier for any reason, you lose connection to all of them.",
+									"This charm effect can be removed with the {@spell remove curse} spell, or any other spell or ability with similar effects."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Regenerate",
+								"entries": [
+									"You regain 10 hit points at the start of your turn if you have at least 1 hit point remaining, and are not in sunlight or over running water.",
+									"If you take radiant damage or damage from holy water, this ability does not function at the start of your next turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Flaw: Stake to Heart",
+								"entries": [
+									"Whenever you’re attacked by a creature with a wooden or silvered weapon, if they score a natural 20 to hit, and you have 50 hit points or less, they manage to lodge their weapon into your heart and you become paralyzed for 1 hour or until the weapon is removed, whichever is greater."
+								]
+							}
+						]
+					}
+				]
+			}
+        ]
+    }
+	],
+	"table": [
+		{
+			"name": "Level 1",
+			"source": "Bence Homebrew",
+			"colLabels": [
+				"d100",
+				"Effect"
+			],
+			"rows": [
+				[
+					"1-5",
+					"Your body starts to become formless. You have disadvantage on Dexterity saving throws."
+				],
+				[
+					"6-10",
+					"You start to become rigid and brittle, making resting less effective. When you consume a hit dice, you do not add your constitution modifier to the result."
+				],
+				[
+					"11-15",
+					"Your body starts sweating a viscous substance that hardens quickly. You cannot doff armour or change clothes. Dropping, stowing, or interacting with an object requires an action."
+				],
+				[
+					"16-24",
+					"You immediately throw up a thick, black ichor and begin feeling nauseous. You do not benefit from the effects of any food, drink, or potions consumed."
+				],
+				[
+					"25-32",
+					"You are only able to form one-word sentences in a guttural voice you do not recognise. You can still cast spells with verbal components."
+				],
+				[
+					"33-40",
+					"Your legs become unresponsive and difficult to move. Your movement speed decreases by 10 feet."
+				],
+				[
+					"41-48",
+					"Your body begins fighting against any form you take. You cannot make reactions."
+				],
+				[
+					"49-56",
+					"Your arms periodically have a will of their own, causing your reaction speed to slow while you regain control of them. You have disadvantage on Dexterity ability checks to determine initiative order."
+				],
+				[
+					"57-64",
+					"Your skin quivers and shifts, while your appearance constantly changes. Every 30 seconds a defining feature of appearance changes, such as hair colour, facial features, or body proportions."
+				],
+				[
+					"65-81",
+					"Nothing happens."
+				],
+				[
+					"82-91",
+					"You become immune to the grappled and restrained conditions."
+				],
+				[
+					"92-100",
+					"If you would gain hit points from a spell or ability other than your own, you gain that many hit points plus your Constitution modifier instead."
+				]
+			]
+		},
+		{
+			"name": "Level 2",
+			"source": "Bence Homebrew",
+			"colLabels": [
+				"d100",
+				"Effect"
+			],
+			"rows": [
+				[
+					"1-8",
+					"Your body starts to become formless. You have disadvantage on Dexterity saving throws."
+				],
+				[
+					"9-16",
+					"You start to become rigid and brittle, making resting less effective. When you consume a hit dice, you do not add your constitution modifier to the result."
+				],
+				[
+					"17-24",
+					"Your body starts sweating a viscous substance that hardens quickly. You cannot doff armour or change clothes. Dropping, stowing, or interacting with an object requires an action."
+				],
+				[
+					"25-32",
+					"You immediately throw up a thick, black ichor and begin feeling nauseous. You do not benefit from the effects of any food, drink, or potions consumed."
+				],
+				[
+					"33-40",
+					"You are only able to form one-word sentences in a guttural voice you do not recognise. You can still cast spells with verbal components."
+				],
+				[
+					"41-48",
+					"Your legs become unresponsive and difficult to move. Your movement speed decreases by 10 feet."
+				],
+				[
+					"49-56",
+					"Your body begins fighting against any form you take. You cannot make reactions."
+				],
+				[
+					"57-64",
+					"Your arms periodically have a will of their own, causing your reaction speed to slow while you regain control of them. You have disadvantage on Dexterity ability checks to determine initiative order."
+				],
+				[
+					"65-72",
+					"Your skin quivers and shifts, while your appearance constantly changes. Every 30 seconds a defining feature of appearance changes, such as hair colour, facial features, or body proportions."
+				],
+				[
+					"73-83",
+					"Nothing happens."
+				],
+				[
+					"84-92",
+					"You become immune to the grappled and restrained conditions."
+				],
+				[
+					"93-100",
+					"If you would gain hit points from a spell or ability other than your own, you gain that many hit points plus your Constitution modifier instead."
+				]
+			]
+		},
+		{
+			"name": "Level 3",
+			"source": "Bence Homebrew",
+			"colLabels": [
+				"d100",
+				"Effect"
+			],
+			"rows": [
+				[
+					"1-9",
+					"Your body starts to become formless. You have disadvantage on Dexterity saving throws."
+				],
+				[
+					"10-18",
+					"You start to become rigid and brittle, making resting less effective. When you consume a hit dice, you do not add your constitution modifier to the result."
+				],
+				[
+					"19-27",
+					"Your body starts sweating a viscous substance that hardens quickly. You cannot doff armour or change clothes. Dropping, stowing, or interacting with an object requires an action."
+				],
+				[
+					"28-36",
+					"You immediately throw up a thick, black ichor and begin feeling nauseous. You do not benefit from the effects of any food, drink, or potions consumed."
+				],
+				[
+					"37-45",
+					"You are only able to form one-word sentences in a guttural voice you do not recognise. You can still cast spells with verbal components."
+				],
+				[
+					"46-54",
+					"Your legs become unresponsive and difficult to move. Your movement speed decreases by 10 feet."
+				],
+				[
+					"55-63",
+					"Your body begins fighting against any form you take. You cannot make reactions."
+				],
+				[
+					"64-72",
+					"Your arms periodically have a will of their own, causing your reaction speed to slow while you regain control of them. You have disadvantage on Dexterity ability checks to determine initiative order."
+				],
+				[
+					"73-80",
+					"Your skin quivers and shifts, while your appearance constantly changes. Every 30 seconds a defining feature of appearance changes, such as hair colour, facial features, or body proportions."
+				],
+				[
+					"81-89",
+					"Nothing happens."
+				],
+				[
+					"90-95",
+					"You become immune to the grappled and restrained conditions."
+				],
+				[
+					"96-100",
+					"If you would gain hit points from a spell or ability other than your own, you gain that many hit points plus your Constitution modifier instead."
+				]
+			]
+		},
+		{
+			"name": "Level 4",
+			"source": "Bence Homebrew",
+			"colLabels": [
+				"d100",
+				"Effect"
+			],
+			"rows": [
+				[
+					"1-11",
+					"Your body starts to become formless. You have disadvantage on Dexterity saving throws."
+				],
+				[
+					"12-22",
+					"You start to become rigid and brittle, making resting less effective. When you consume a hit dice, you do not add your constitution modifier to the result."
+				],
+				[
+					"23-33",
+					"Your body starts sweating a viscous substance that hardens quickly. You cannot doff armour or change clothes. Dropping, stowing, or interacting with an object requires an action."
+				],
+				[
+					"34-43",
+					"You immediately throw up a thick, black ichor and begin feeling nauseous. You do not benefit from the effects of any food, drink, or potions consumed."
+				],
+				[
+					"44-52",
+					"You are only able to form one-word sentences in a guttural voice you do not recognise. You can still cast spells with verbal components."
+				],
+				[
+					"53-61",
+					"Your legs become unresponsive and difficult to move. Your movement speed decreases by 10 feet."
+				],
+				[
+					"62-70",
+					"Your body begins fighting against any form you take. You cannot make reactions."
+				],
+				[
+					"71-77",
+					"Your arms periodically have a will of their own, causing your reaction speed to slow while you regain control of them. You have disadvantage on Dexterity ability checks to determine initiative order."
+				],
+				[
+					"78-84",
+					"Your skin quivers and shifts, while your appearance constantly changes. Every 30 seconds a defining feature of appearance changes, such as hair colour, facial features, or body proportions."
+				],
+				[
+					"85-91",
+					"Nothing happens."
+				],
+				[
+					"92-96",
+					"You become immune to the grappled and restrained conditions."
+				],
+				[
+					"97-100",
+					"If you would gain hit points from a spell or ability other than your own, you gain that many hit points plus your Constitution modifier instead."
+				]
+			]
+		},
+		{
+			"name": "Unstable Mutation",
+			"source": "Bence Homebrew",
+			"colLabels": [
+				"Transformation level"
+			],
+			"rows": [
+				[
+					"{@table Level 1|Bence Homebrew}"
+				],
+				[
+					"{@table Level 2|Bence Homebrew}"
+				],
+				[
+					"{@table Level 3|Bence Homebrew}"
+				],
+				[
+					"{@table Level 4|Bence Homebrew}"
+				]
+			]
+		}
+	],
+	"condition": [
+		{
+			"name": "Bleeding",
+			"source": "Bence Homebrew",
+			"entries": [
+				"Bleeding creatures cannot regain hit points from spells or abilities. A bleeding creature can only regain hit points by consuming hit dice or completing a long rest."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Gift of unbridled Power",
+			"source": "Bence Homebrew",
+			"featureType": "GD",
+			"prerequisite": [
+				{
+					"other": "4th Level of Fiend Transformation" 
+				}
+			],
+			"entries": [
+				"Upon completing a short rest, you can spend 1 Hit Die and regain any number of spell slots whose total is equal to or less than the result of the Hit Dice. If you do, you suffer psychic damage equal to the number of spell slot levels you regained. You cannot use this ability again until you complete a long rest."
+			]
+		},
+		{
+			"name": "Gift of Unfettered Glory",
+			"source": "Bence Homebrew",
+			"featureType": "GD",
+			"entries": [
+				"When you hit a creature with a melee attack or melee spell attack, you can add your Charisma modifier to the damage dealt."
+			]
+		},
+		{
+			"name": "Gift of Joyous Youth",
+			"source": "Bence Homebrew",
+			"featureType": "GD",
+			"entries": [
+				"At the beginning of your turn, if you have no remaining Hit Dice, you can choose to make a DC 10 Charisma saving throw. On a success, you regain 1 spent Hit Die. If you fail, you suffer 1d6 psychic damage."
+			]
+		},
+		{
+			"name": "Gift of Liberating Freedom",
+			"source": "Bence Homebrew",
+			"featureType": "GD",
+			"prerequisite": [
+				{
+					"other": "2nd Level of Fiend Transformation" 
+				}
+			],
+			"entries": [
+				"As a bonus action, you can manifest a pair of leathery wings. You gain a fly speed equal to your current speed. These wings recede if you dismiss them as a bonus action on your turn, or if you are knocked unconscious. You cannot manifest your wings while wearing heavy armour. You can manifest your wings while wearing medium or light armour if it is made to accommodate them."
+			]
+		},
+		{
+			"name": "Gift of Unsurpassed Fortune",
+			"source": "Bence Homebrew",
+			"featureType": "GD",
+			"entries": [
+				"Whenever a creature makes an attack roll, skill check, or saving throw within 20 feet, after the GM has rolled but before they have determined the result, you can use your reaction to roll a d20. If you roll a 10 or higher, the attack roll, saving throw, or skill check immediately fails. You cannot do this again until you complete a long rest."
+			]
+		},
+		{
+			"name": "Gift of Unconditional Love",
+			"source": "Bence Homebrew",
+			"featureType": "GD",
+			"prerequisite": [
+				{
+					"other": "3rd Level of Fiend Transformation" 
+				}
+			],
+			"entries": [
+				"Whenever a creature fails a Charisma saving throw due to a spell or magical ability you control, you can use your reaction to gain temporary hit points equal to 1d10 + your Character’s level. You cannot do this again until you complete a short rest."
+			]
+		},
+		{
+			"name": "Gift of Expansive Knowledge",
+			"source": "Bence Homebrew",
+			"featureType": "GD",
+			"prerequisite": [
+				{
+					"other": "4th Level of Fiend Transformation" 
+				}
+			],
+			"entries": [
+				"When you complete this contract for the first time, you learn additional spells from the cleric, warlock, or wizard spell list equal to your Charisma modifier. You must have a spell slot level equal to or greater than each of these spells. While you have the effects of this contract and no other contract active, you know these spells in addition to your total Spells Known."
+			]
+		},
+		{
+			"name": "Gift of Prodigious Talent",
+			"source": "Bence Homebrew",
+			"featureType": "GD",
+			"prerequisite": [
+				{
+					"other": "2nd Level of Fiend Transformation" 
+				}
+			],
+			"entries": [
+				"Choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. This ability cannot double your proficiency bonus on a skill whose proficiency bonus is already being doubled."
+			]
+		},
+		{
+			"name": "Gift of Second Chances",
+			"source": "Bence Homebrew",
+			"featureType": "GD",
+			"prerequisite": [
+				{
+					"other": "3rd Level of Fiend Transformation" 
+				}
+			],
+			"entries": [
+				"If you are reduced to 0 hit points, you can use your reaction to roll a Hit Die. If you do, your hit point total becomes the Hit Die result instead. You can’t use this feature again until you complete a long rest."
+			]
+		}
+	],
+	"background": [
+		{
+			"name": "Cook",
+			"source": "Bence Homebrew",
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"persuasion": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"artisan's tools": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One food-related {@filter artisan’s tools|items|source=null|type=artisan’s tools}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Deception}, {@skill Persuasion}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A set of {@item common clothes|phb}, a set of {@filter artisan’s tools|items|source=null|type=artisan’s tools} related to your craft, an iron pot, a book of recipes you’ve gathered over the years, and a belt pouch with 10 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Through Their Stomachs",
+					"type": "entries",
+					"entries": [
+						"You are able to earn a comfortable living during your downtime by working as a cook. At the same time you are able to feed your adventuring companions modest meals each day for free. You are also able to use your talents to arrange meetings with anyone interested in a free meal. By offering to a cook a free meal for someone who would appreciate it (at the DM's discretion), you are able to get a meeting with him or her over that meal."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"d10",
+						"Cook Job"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Tavern cook"
+						],
+						[
+							"2",
+							"Restaurant chef"
+						],
+						[
+							"3",
+							"Baker"
+						],
+						[
+							"4",
+							"Street vendor"
+						],
+						[
+							"5",
+							"Personal chef"
+						],
+						[
+							"6",
+							"Candy maker"
+						],
+						[
+							"7",
+							"Military cook"
+						],
+						[
+							"8",
+							"Caterer"
+						],
+						[
+							"9",
+							"Cheesemaker"
+						],
+						[
+							"10",
+							"Brewmaster or vintner"
+						]
+					]
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Just like a sculptor understands clay, you understand ingredients. You might be a bit of a snob when it comes to what you eat, or any dish, even that which others find vile, may fascinate you. Years of selling your edible creations made you a salesperson able to please any tough customer.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"When I eat anything I critique the dish aloud."
+								],
+								[
+									"2",
+									"I multitask very well."
+								],
+								[
+									"3",
+									"I make non-verbal noises that indicate my mood while I eat."
+								],
+								[
+									"4",
+									"If insulted I hurl even greater insults back."
+								],
+								[
+									"5",
+									"I like to take my time and savor each bite when I eat."
+								],
+								[
+									"6",
+									"I try to keep things as clean as possible."
+								],
+								[
+									"7",
+									"I am constantly on the lookout for new and exotic ingredients."
+								],
+								[
+									"8",
+									"I let others know I expect others to work as hard as I do."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Creativity.} I don't follow a recipe, I improv with what I have on hand. (Chaotic)"
+								],
+								[
+									"2",
+									"{@b Knowledge.} I want to learn everything I can about the food of other cultures. (Neutral)"
+								],
+								[
+									"3",
+									"{@b Hierarchy.} I listen to those above me and expect those below me to take orders. (Lawful)"
+								],
+								[
+									"4",
+									"{@b Generosity.} Everything I cook is for others to enjoy. (Good)"
+								],
+								[
+									"5",
+									"{@b Community.} I feed the people who feed me. (Neutral)"
+								],
+								[
+									"6",
+									"{@b Fame.} I will be known across these lands at all costs. (Evil)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My grandmother had a secret recipe I'm trying to duplicate."
+								],
+								[
+									"2",
+									"There is a world famous chef I respect above all others."
+								],
+								[
+									"3",
+									"I'm putting all the recipes I've gathered into a book."
+								],
+								[
+									"4",
+									"There is no food like my place of birth’s signature dish."
+								],
+								[
+									"5",
+									"I still use the complex techniques my mentor taught me when preparing even the simplest dish."
+								],
+								[
+									"6",
+									"I always have some of my favorite herbs and spices on hand."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I'd rather eat nothing than something bland."
+								],
+								[
+									"2",
+									"I am easily pulled into competition with others."
+								],
+								[
+									"3",
+									"I try to take charge in situations when someone else is the clear leader."
+								],
+								[
+									"4",
+									"When I am physically uncomfortable, I complain quite a bit."
+								],
+								[
+									"5",
+									"Frivolity is a waste of time. I do not like unnecessary fun."
+								],
+								[
+									"6",
+									"I have a hard time trusting others with tasks."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"To you food is more than just sustenance and pleasure. A great meal is art that brings people together. You might have worked in a tavern, a bakery, as a personal chef to a noble family, or within a military unit as they marched to war. Decide what kind of cook job you had or roll on the table.",
+					"Something called you away from full-time cooking to the world of adventuring, but you still take pleasure in the craft. Still preparing and cooking food is a big part of who you are how you communicate with others."
+				]
+			}
+		},
+		{
+			"name": "Cursed",
+			"source": "Bence Homebrew",
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				},
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"religion"
+						],
+						"count": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Intimidation} and {@skill Arcana} or {@skill Religion}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A set of {@item common clothes|phb}, a small knife, two random {@item trinket|phb}, and a belt {@item pouch|phb} with 5 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: The Pulse of Evil",
+					"type": "entries",
+					"entries": [
+						"You have learned to tap into the residual magic left in your body from the curse placed on you. You may spend a day of downtime in quiet meditation. By doing so you can sense the direction of the closest creature with the undead or fiend type - whichever is closest. Meditating this way does not tell you the distance to the creature or give you any details about it. You simply know which direction the creature is from you at the time you end your meditation."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Variant Feature: Pass the Curse",
+					"type": "entries",
+					"entries": [
+						"Check with your DM before taking this feature. The curse you had is still dormant within you. You may pass this curse to any living creature you touch. The creature suffers the curse's full power. You may only do this once. Doing so causes the magic of the curse to completely leave your body. The curse cannot be passed to legendary creatures."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"As a person who is cursed, you've probably lived a solitary life in order to avoid hurting loved ones. Now that the curse is lifted, you're able to spend time with those you love again, but you've been changed. If you can keep them engaged and talking by asking lots of questions, you may never have to discuss the fact that you were cursed. Bringing it up is painful, so you might talk about anything and everything to avoid triggering a horrific memory. Of course, you might choose to sit in silence and talk about nothing as opposed to talking about the curse. Though try as you might, the memories are never far away.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I ask questions faster than people can answer."
+								],
+								[
+									"2",
+									"If someone brings up the time I was cursed, I act like I have no memory of it."
+								],
+								[
+									"3",
+									"I have trouble concentrating on one topic of conversation for very long."
+								],
+								[
+									"4",
+									"I will fill conversational gaps of silence with anything I can think to talk about."
+								],
+								[
+									"5",
+									"I flinch whenever someone I don't know well touches me."
+								],
+								[
+									"6",
+									"I wake up screaming, but don't remember my dreams."
+								],
+								[
+									"7",
+									"I have trouble finding objects in my disorganized piles of stuff."
+								],
+								[
+									"8",
+									"I just wear what's comfortable."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Kindness.} I can't help but get furious when people take others for granted. (Good)"
+								],
+								[
+									"2",
+									"{@b Greed.} The world owes me and I will take from it. (Evil)"
+								],
+								[
+									"3",
+									"{@b Order.} If I live life the right way, I won't be cursed again. (Lawful)"
+								],
+								[
+									"4",
+									"{@b Beauty.} Appreciate what's here now because nothing lasts. (Chaotic)"
+								],
+								[
+									"5",
+									"{@b Community.} Good people can help you through hard times. (Neutral)"
+								],
+								[
+									"6",
+									"{@b Power.} The only way to overcome adversity is to pound it into oblivion. (Neutral)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I have yet to be forgiven by someone important to me I hurt while cursed."
+								],
+								[
+									"2",
+									"The thing that cursed me is still out there."
+								],
+								[
+									"3",
+									"I can't return to the place where I was cursed because there are people waiting to kill me."
+								],
+								[
+									"4",
+									"There's a family heirloom I kept close while cursed that gave me hope."
+								],
+								[
+									"5",
+									"I want to learn to perform the curse that affected me."
+								],
+								[
+									"6",
+									"I'm trying to find and help others who are suffering from the curse that affected me."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"The anguish I still feel is greater than anyone else's pain."
+								],
+								[
+									"2",
+									"I don't face my personal problems directly because I'm scared of their outcomes."
+								],
+								[
+									"3",
+									"People like me when I'm happy, so I'll just always be happy."
+								],
+								[
+									"4",
+									"Anyone who pays attention to me gets what they want."
+								],
+								[
+									"5",
+									"I'd rather complain and criticize than be positive and compliment others."
+								],
+								[
+									"6",
+									"Rumors are usually true so I tell them to everyone I can."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You lived with some sort of curse for years. How you got the curse and how it affected you are your decision. You can create the details with your DM or you may roll or choose them from the table below.",
+					"As a cursed person you once suffered from a magic problem so rare it's almost unique. This curse could have been placed on you by a spellcaster or magic monster like a genie or hag. Or maybe you caught the curse while trespassing in an ancient tomb or vault or because you accidentally killed a sacred animal or offended the servant of a god in some way. How you caught your curse and how you or someone else cured it, are up to you and the DM.",
+					{
+						"type": "table",
+						"colLabels": [
+							"d20",
+							"While cursed..."
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-11"
+						],
+						"rows": [
+							[
+								"1",
+								"...you spoke only in questions."
+							],
+							[
+								"2",
+								"...you spoke only lies."
+							],
+							[
+								"3",
+								"...you saw all humanoids as terrible monsters."
+							],
+							[
+								"4",
+								"...you had horrible nightmares whenever you closed your eyes."
+							],
+							[
+								"5",
+								"...everything you touched turned to mud."
+							],
+							[
+								"6",
+								"...all living things were harmed by your touch."
+							],
+							[
+								"7",
+								"...you heard the surface thoughts of every humanoid within 50 feet."
+							],
+							[
+								"8",
+								"...anything you ate tasted like sand in your mouth."
+							],
+							[
+								"9",
+								"...others saw and heard you as if you were an undead zombie."
+							],
+							[
+								"10",
+								"...you grew donkey ears, a donkey tail, and couldn't speak, only bray."
+							],
+							[
+								"11",
+								"...you hungered for the flesh of other humanoids and thirsted for their blood."
+							],
+							[
+								"12",
+								"...any offspring you had were goats instead of humanoids."
+							],
+							[
+								"13",
+								"...any person for whom you had affection scorned you with unbridled hate."
+							],
+							[
+								"14",
+								"...any person who tried to address you by your name or a nickname would instead vomit spiders."
+							],
+							[
+								"15",
+								"...you lived the same day over and over again."
+							],
+							[
+								"16",
+								"...you could not read or understand any language."
+							],
+							[
+								"17",
+								"...all animals would attack you on sight."
+							],
+							[
+								"18",
+								"...each day you woke up in a new body with a random age, gender, and humanoid race."
+							],
+							[
+								"19",
+								"...people who knew you before the curse forgot everything they knew about you and who you were while you were cursed."
+							],
+							[
+								"20",
+								"...whenever you tried to speak, your mouth filled with corrosive acid."
+							]
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Dead",
+			"source": "Bence Homebrew",
+			"skillProficiencies": [
+				{
+					"history": true,
+					"intimidation": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill History}, {@skill Intimidation}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A set of {@item common clothes|phb}, {@item hempen Rope (50 feet)|phb},a bit of dirt from your grave in a sacred vial, two rare coins with which you were buried, and a belt {@item pouch|phb} with 5 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Spirit Talk",
+					"type": "entries",
+					"entries": [
+						"Nonhostile souls of the dead can connect with you thanks to the long time you spent dead. You may spend a day of downtime communicating with the souls to learn a piece of information by asking a question. The quality and specifics of the information you get is up to the DM."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"You have experienced something few living people have yet to go through. You might be the type who embraces the second chance and loves life, relishing every opportunity and letting nothing stand in your way. Or you might be quiet and brooding, thinking of the revenge you seek for your death or missing the planar heaven you left behind. People who have died often live in one of these extremes, experiencing life to the fullest or becoming fixated on a single goal that gives their new life meaning.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"When faced with a new experience the word no is not in my vocabulary."
+								],
+								[
+									"2",
+									"I always have the loudest laugh in the room."
+								],
+								[
+									"3",
+									"When I want something I'm direct and simple in my request."
+								],
+								[
+									"4",
+									"The story of my demise, like all my stories, is greatly exaggerated."
+								],
+								[
+									"5",
+									"If you ask me about my death I will stare daggers at you."
+								],
+								[
+									"6",
+									"I treat most people like they're idiots because they don't know what I know."
+								],
+								[
+									"7",
+									"If I don't want to do something I simply don't do it."
+								],
+								[
+									"8",
+									"I don't excite easily."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Freedom.} Life is short so live how you want. (Chaotic)"
+								],
+								[
+									"2",
+									"{@b Despair.} Nothing in life is worth celebrating and death is the destination we all deserve. (Evil)"
+								],
+								[
+									"3",
+									"{@b Vengeance.} I will find and punish what killed me. (Neutral)"
+								],
+								[
+									"4",
+									"{@b Charity.} I want to prevent others from dying before their time. (Good)"
+								],
+								[
+									"5",
+									"{@b Mercy.} I was given a second chance and others should get the same opportunity. (Good)"
+								],
+								[
+									"6",
+									"{@b Labor.} Life is short and so I must keep working to make my mark. (Lawful)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I have a great fear of that which killed me."
+								],
+								[
+									"2",
+									"The scars of my death wound are still on my body."
+								],
+								[
+									"3",
+									"My vengeance is more important than any other task."
+								],
+								[
+									"4",
+									"I never wish to return to my gravesite."
+								],
+								[
+									"5",
+									"I wish to bring back another who died by my side."
+								],
+								[
+									"6",
+									"Any mention of my hometown reminds me of my first life."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Death isn't a big deal to me. I've died and come back. People should stop whining."
+								],
+								[
+									"2",
+									"I don't listen to protests before I do something reckless."
+								],
+								[
+									"3",
+									"I'd rather be mad than solve a problem making me angry."
+								],
+								[
+									"4",
+									"I would rather cheat, lie, and steal than be honest because none of this matters."
+								],
+								[
+									"5",
+									"Everything was better when I was dead."
+								],
+								[
+									"6",
+									"I'm better than everyone who hasn't died and come back from the dead."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You died and came back. This experience changed you and defines who you are today. The specifics of your death are up to you, but the following questions and suggestions will help you determine your odd personal history.",
+					"How did you die? It probably wasn't of old age. Spells like raise dead can bring back those who die before old age takes them, but after dying of old age there is almost no magic which can bring a person back to life. Was it combat? An accident? A disease?",
+					"How long were you dead? Spells like true resurrection allow a PC to return from death after as many as 200 years. How has the world changed politically, technologically, and culturally since your death? What remains of your family, friends, and personal life?",
+					"What was your period of death like? Did you spend time in the glory of eternal battle is Ysgard? Were you enjoying the paradise of Elysium? Were you being tortured in the Nine Hells or Abyss? Do you remember nothing from that time?",
+					"Maybe you didn't completely pass on, but lived life as an undead, wayward soul such as a ghost or vampire. Why did you become such a being? What acts did you commit that you now regret? Who still thinks of you as a monster?",
+					"Finally someone brought you back. Who was it? Why? Maybe it was to face an old enemy. Maybe it was a loved one who searched for a long time and spent all their resources to bring you back. Maybe you were brought back for a secret only you knew. How did this person bring you back? Was it straight forward magic? What about a spell like reincarnate, which could bring your spirit back in the body of a different humanoid race? Or maybe it was some other magic that has a more sinister secret."
+				]
+			}
+		},
+		{
+			"name": "Doctor",
+			"source": "Bence Homebrew",
+			"skillProficiencies": [
+				{
+					"investigation": true,
+					"medicine": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true,
+					"poisoner's kit": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item herbalism kit|phb}, {@item poisoner's kit|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Investigation}, {@skill Medicine}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A preserved medical anomaly (such as a deformed skull or appendix), an {@item herbalism kit|phb}, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: The Doctor Is In",
+					"type": "entries",
+					"entries": [
+						"If you work as a healer during your downtime from adventuring you are able to afford a comfortable lifestyle for yourself. In addition, whenever you and your allies are in a civilized settlement, you are able to provide them with free medical care and hospital beds, provided they are sick or injured. This is provided as a professional courtesy from your former colleagues in the field of medicine."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Variant Doctor: Veterinarian",
+					"type": "entries",
+					"entries": [
+						"If you want to play a doctor who treats animals instead of people, you gain proficiency in the Animal Handling skill instead of the Investigation skill. In addition give yourself the Sure Thing, Doc background feature in place of The Doctor Is In feature."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Variant Feature: Sure Thing, Doc",
+					"type": "entries",
+					"entries": [
+						"If you work as a vet during your adventuring downtime, you are able to afford a comfortable lifestyle for yourself. In addition when you require an animal (such as horses for mounts or bloodhounds for tracking) you are able to borrow them from a client, provided you return the animals in good health. The actual terms of the agreement with the client are between the DM and you."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I talk about bodily fluids and other subjects most find gross, but I do not."
+								],
+								[
+									"2",
+									"I constantly give out unsolicited medical advice."
+								],
+								[
+									"3",
+									"When there is a problem I cannot solve or diagnose, I talk it through until I figure it out."
+								],
+								[
+									"4",
+									"I can never give an answer with 100 percent certainty because nothing is certain... I think."
+								],
+								[
+									"5",
+									"When I give instructions I just tell people what to do, never why."
+								],
+								[
+									"6",
+									"I stare openly at people who have medical ailments."
+								],
+								[
+									"7",
+									"When I see a problem that needs solving I become obsessed with finding the answer."
+								],
+								[
+									"8",
+									"I speak up whenever I see a person doing anything I don't like."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Reason.} There are no coincidences because everything can be explained with logic. (Lawful)"
+								],
+								[
+									"2",
+									"{@b Charity.} All creatures have a right to proper medical care. (Good)"
+								],
+								[
+									"3",
+									"{@b People.} Governments do not have the best interests of their people at heart. (Chaotic)"
+								],
+								[
+									"4",
+									"{@b Knowledge.} True power over the anatomy can fix any problem. (Neutral)"
+								],
+								[
+									"5",
+									"{@b Mercy.} To take the life of any creature without first exhausting all other options is unthinkable. (Good)"
+								],
+								[
+									"6",
+									"{@b Independence.} I only provide help to those who ask. (Neutral)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I own a scalpel that has been in my family for generations."
+								],
+								[
+									"2",
+									"I'm determined to find a cure to a disease that took my lover."
+								],
+								[
+									"3",
+									"I am devoted to the school where I learned my trade and hope to return as a professor someday."
+								],
+								[
+									"4",
+									"I feel drawn to other medical professionals and seek out their company."
+								],
+								[
+									"5",
+									"I have a fascination with a particularly specialized field of medicine, such as leeching or amputation."
+								],
+								[
+									"6",
+									"I have a precious research diary that contains all my medical observations and thoughts."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My opinion is always factually correct."
+								],
+								[
+									"2",
+									"If you ask me a question and I don't know the answer, I lie."
+								],
+								[
+									"3",
+									"When someone does something even a little foolish, I can't help but berate them."
+								],
+								[
+									"4",
+									"I do not have a sense of humor, especially when it comes to jokes at my expense."
+								],
+								[
+									"5",
+									"I am very worried about the long-term effects of magical healing, but I will rely on it in a pinch."
+								],
+								[
+									"6",
+									"In cases of extreme suffering I will take the life of patients even when it is against their wishes."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You were a surgeon, barber, country doctor, field medic, nurse, or other medical professional. Healing wounds, treating diseases, and creating medicines for others in need was how you spent your days. While illness and injury make many uncomfortable, they are areas in which you thrive. When others panic, you're working on a cure or stopping the bleeding."
+				]
+			}
+		},
+		{
+			"name": "Farmer",
+			"source": "Bence Homebrew",
+			"skillProficiencies": [
+				{
+					"animal handling": true,
+					"nature": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (land)": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@filter Vehicles (Land)|items|source=null|type=vehicle (land)}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Animal Handling}, {@skill Nature}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A relative's recipe for homemade stew, an {@item common iron pot|phb}, {@item hempen Rope (50 feet)|phb}, 2 gp worth of trade goods (your choice), a set of {@item common clothes|phb}, and a belt {@item common pouch|phb} with 5 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Farmhand",
+					"type": "entries",
+					"entries": [
+						"When you are not adventuring you are able to provide a modest lifestyle for yourself by working on another's farm. You might sleep in the hayloft or in a spare room. By working this way, you also ingratiate yourself to the farm owner, who gives you free food for your adventures. Before leaving on an adventure you are given enough food for you and your party to eat for a week while traveling and adventuring."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Farmers are defined by the simple life - you haven't had as much excitement in your life as others. Before your adventuring career began, you may have never left your village or town. A farmer could be eager, scared, or naive on adventures, but all are defined by their strong connection to the farm where they were raised.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I really enjoy talking about and spending time with domesticated animals."
+								],
+								[
+									"2",
+									"I have a catch phrase I use whenever I am surprised."
+								],
+								[
+									"3",
+									"I often lose the point of the story I am telling."
+								],
+								[
+									"4",
+									"I have a tick I can't control when I am scared or excited."
+								],
+								[
+									"5",
+									"I often sing the songs of my homeland without provocation."
+								],
+								[
+									"6",
+									"I look forward to eating and enjoy every bite of every meal."
+								],
+								[
+									"7",
+									"I stare openly at that which I have never seen before."
+								],
+								[
+									"8",
+									"I laugh very loud and clap my hands when I am amused."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Manners.} I conduct myself in public with the utmost respect for all people around me. (Lawful)"
+								],
+								[
+									"2",
+									"{@b Generosity.} I am happy to share whatever I have with those less fortunate. (Good)"
+								],
+								[
+									"3",
+									"{@b Destiny.} I was meant for more than the simple life. (Neutral)"
+								],
+								[
+									"4",
+									"{@b Faith.} I have left the farm to bring my religion to others. (Any)"
+								],
+								[
+									"5",
+									"{@b Freedom.} I want to experience everything I can. (Chaotic)"
+								],
+								[
+									"6",
+									"{@b Knowledge.} I learn everything I can about the world. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My dog ran away when I was irresponsible with its care."
+								],
+								[
+									"2",
+									"My parents have fallen on hard times and I have vowed to help them repair the farm."
+								],
+								[
+									"3",
+									"My best friend is betrothed to the woman I secretly love."
+								],
+								[
+									"4",
+									"I will get vengeance on the monsters that destroyed my village."
+								],
+								[
+									"5",
+									"I can only get my favorite food in the town of my birth."
+								],
+								[
+									"6",
+									"I have a prize farm animal I love to show off to others."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I sometimes wander off without telling anyone."
+								],
+								[
+									"2",
+									"I am easily fooled and believe whatever I am told."
+								],
+								[
+									"3",
+									"I lie to others to appear more experienced than I am."
+								],
+								[
+									"4",
+									"I ask rude, abrasive questions to strangers."
+								],
+								[
+									"5",
+									"I spend coin too quickly."
+								],
+								[
+									"6",
+									"I do not open my mind to the ethics and morals of others."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You have worked the land and hand-raised livestock from birth to feed the mouths of many. As a farmer, you woke up before the sun and came in from working the fields after it set. You have left behind a mundane life to seek adventure for thrill or fame or fortune. Work with your DM to determine the types of livestock and crops you had on your farm. It might have been pigs and corn, or perhaps you raised deep rothe and mushrooms in the Underdark."
+				]
+			}
+		}
+	],
+	"race": [
+		{
+			"name": "Jolly Clown",
+			"source": "Bence Homebrew",
+			"ability": [
+				{
+					"cha": 2,
+					"con": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"name": "Ability Score Increase",
+					"type": "entries",
+					"entries": [
+						"Your Charisma score increases by 2, and your Constitution score increases by 1."
+					]
+				},
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Clowns live roughly as long as humans. You reach adulthood at 19, and live to be 90."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Culturally, clowns strongly tend towards chaotic alignments. Not all Jolly clowns are good, and not all Murderous clowns are evil; its simply their culture."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Clowns are roughly the same size as humans, but with a bit more variance. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blessing of Whimsy",
+					"entries": [
+						"When you roll a 1 on a d20, you may choose to gain an inspiration token, but your GM imposes a minor and thematically appropriate consequence on you for this roll's failure. Once you use this ability, you cannot use it again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Compressible Form",
+					"entries": [
+						"You can squeeze into places too tight for other creatures of your size with ease. You can move through a space as narrow as two foot wide without squeezing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slapstick Comedy",
+					"entries": [
+						"You can use your reaction to automatically negate all damage from falling. You may perform this trait an amount of times equal to your Dexterity mod (min 1), regaining its use when you take a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Jolly Pathomancy",
+					"entries": [
+						"You can cast hideous laughter as a 1st-level spell once with this trait, or twice once you reach level 5. You regain all uses of this trait when you take a long rest."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"Gifted with the ability to talk shit even after death, you can speak, read, and write Common."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Physical Description",
+							"entries": [
+								"Clowns appear similar to humans, but with pale white skin and colorful markings on their face, as well as (contrary to popular belief) their body. They also have sharp teeth, vibrantly colored hair, and somewhat exaggerated facial features. Like tigers, no two clowns have the same markings."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "History",
+							"entries": [
+								"Clowns were created by a god known as Sylagar. Originally, Sylagar was a pair of twin deities. While they had some things in common, in other respects they were complete opposites. In spite of their contrasting natures, they did love each other as brothers do. During the Dawn War, both were fatally wounded by Primordials, their own godly essences both so damaged that their death would be final and permanent. To save themselves, they both fused into the one god Sylagar. Even with their now conjoined form and identity, each of the two twins' personality shines through, alternating between night and day. Sylagar is always considered the god of duality, mischief, and whimsy... during the day he is also a god of joy and hope, but during the night he trades those latter two domains for fear and carnage.",
+								"Sylagar created the race of clowns in his image. At first they were a single culture that worshipped Sylagar as a whole, but there came a religious schism leading to two separate cultures; one worshipping the Sylagar of the day, and one worshipping the Sylagar of the night."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Society",
+							"entries": [
+								"There was originally a single clown society however after a religious schism their society split in twain.",
+								"The Jolly Clown's society primarily reveres the day side of the god Sylagar. This led to their society's whimsical mischief to be focused on bringing joy to the world and easing people's pain and suffering.",
+								"The Murderous Clown's society however primarily reveres the night side of the god Sylagar. This led to their society's whimsical mischief to be more focused on bringing pain and suffering to the world and terrorizing those around them.",
+								"Both societies agree however that it is best for their japes to start small and gradually ramp up in both scale and intensity. Because of their duality and tendency to start slowly most races are wary of clowns of all types as it is difficult to tell the two types apart at first."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Clown Names",
+							"entries": [
+								{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male",
+										"entries": [
+											"Bobo, Flopsy, Gamzee"
+										]
+									}
+								]
+								},
+								{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female",
+										"entries": [
+											"La La, Flower, Bippy"
+										]
+									}
+								]
+								}
+							]
+						}
+						]
+				},
+		"languageProficiencies": [
+			{
+				"common": true,
+				"any": true
+			}
+		],
+		"heightAndWeight": {
+		"baseHeight": 51,
+		"heightMod": "3d8",
+		"baseWeight": 90,
+		"weightMod": "1d6"
+		}
+	}
+	]
+}

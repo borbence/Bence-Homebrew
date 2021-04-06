@@ -1,0 +1,297 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Bence Homebrew",
+				"abbreviation": "BNC",
+				"full": "Bence Homebrew",
+				"url": "https://github.com/borbence/Bence-Homebrew.git",
+				"authors": ["B. Bence"]
+			}
+		],
+		"dateAdded": 1610960451,
+		"dateLastModified": 1610960451
+	},
+    "background": [
+        {
+			"name": "Cook",
+			"source": "Bence Homebrew",
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"persuasion": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"artisan's tools": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One food-related {@filter artisan’s tools|items|source=null|type=artisan’s tools}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Deception}, {@skill Persuasion}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A set of {@item common clothes|phb}, a set of {@filter artisan’s tools|items|source=null|type=artisan’s tools} related to your craft, an iron pot, a book of recipes you’ve gathered over the years, and a belt pouch with 10 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Through Their Stomachs",
+					"type": "entries",
+					"entries": [
+						"You are able to earn a comfortable living during your downtime by working as a cook. At the same time you are able to feed your adventuring companions modest meals each day for free. You are also able to use your talents to arrange meetings with anyone interested in a free meal. By offering to a cook a free meal for someone who would appreciate it (at the DM's discretion), you are able to get a meeting with him or her over that meal."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"d10",
+						"Cook Job"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Tavern cook"
+						],
+						[
+							"2",
+							"Restaurant chef"
+						],
+						[
+							"3",
+							"Baker"
+						],
+						[
+							"4",
+							"Street vendor"
+						],
+						[
+							"5",
+							"Personal chef"
+						],
+						[
+							"6",
+							"Candy maker"
+						],
+						[
+							"7",
+							"Military cook"
+						],
+						[
+							"8",
+							"Caterer"
+						],
+						[
+							"9",
+							"Cheesemaker"
+						],
+						[
+							"10",
+							"Brewmaster or vintner"
+						]
+					]
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Just like a sculptor understands clay, you understand ingredients. You might be a bit of a snob when it comes to what you eat, or any dish, even that which others find vile, may fascinate you. Years of selling your edible creations made you a salesperson able to please any tough customer.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"When I eat anything I critique the dish aloud."
+								],
+								[
+									"2",
+									"I multitask very well."
+								],
+								[
+									"3",
+									"I make non-verbal noises that indicate my mood while I eat."
+								],
+								[
+									"4",
+									"If insulted I hurl even greater insults back."
+								],
+								[
+									"5",
+									"I like to take my time and savor each bite when I eat."
+								],
+								[
+									"6",
+									"I try to keep things as clean as possible."
+								],
+								[
+									"7",
+									"I am constantly on the lookout for new and exotic ingredients."
+								],
+								[
+									"8",
+									"I let others know I expect others to work as hard as I do."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Creativity.} I don't follow a recipe, I improv with what I have on hand. (Chaotic)"
+								],
+								[
+									"2",
+									"{@b Knowledge.} I want to learn everything I can about the food of other cultures. (Neutral)"
+								],
+								[
+									"3",
+									"{@b Hierarchy.} I listen to those above me and expect those below me to take orders. (Lawful)"
+								],
+								[
+									"4",
+									"{@b Generosity.} Everything I cook is for others to enjoy. (Good)"
+								],
+								[
+									"5",
+									"{@b Community.} I feed the people who feed me. (Neutral)"
+								],
+								[
+									"6",
+									"{@b Fame.} I will be known across these lands at all costs. (Evil)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My grandmother had a secret recipe I'm trying to duplicate."
+								],
+								[
+									"2",
+									"There is a world famous chef I respect above all others."
+								],
+								[
+									"3",
+									"I'm putting all the recipes I've gathered into a book."
+								],
+								[
+									"4",
+									"There is no food like my place of birth’s signature dish."
+								],
+								[
+									"5",
+									"I still use the complex techniques my mentor taught me when preparing even the simplest dish."
+								],
+								[
+									"6",
+									"I always have some of my favorite herbs and spices on hand."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I'd rather eat nothing than something bland."
+								],
+								[
+									"2",
+									"I am easily pulled into competition with others."
+								],
+								[
+									"3",
+									"I try to take charge in situations when someone else is the clear leader."
+								],
+								[
+									"4",
+									"When I am physically uncomfortable, I complain quite a bit."
+								],
+								[
+									"5",
+									"Frivolity is a waste of time. I do not like unnecessary fun."
+								],
+								[
+									"6",
+									"I have a hard time trusting others with tasks."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"To you food is more than just sustenance and pleasure. A great meal is art that brings people together. You might have worked in a tavern, a bakery, as a personal chef to a noble family, or within a military unit as they marched to war. Decide what kind of cook job you had or roll on the table.",
+					"Something called you away from full-time cooking to the world of adventuring, but you still take pleasure in the craft. Still preparing and cooking food is a big part of who you are how you communicate with others."
+				]
+			}
+		}
+    ]
+}
