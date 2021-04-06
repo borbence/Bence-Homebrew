@@ -1,0 +1,147 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Bence Homebrew",
+				"abbreviation": "BNC",
+				"full": "Bence Homebrew",
+				"url": "https://github.com/borbence/Bence-Homebrew.git",
+				"authors": ["B. Bence"]
+			}
+		],
+		"dateAdded": 1610960451,
+		"dateLastModified": 1610960451
+	},
+    "race": [
+		{
+			"name": "",
+			"source": "Bence Homebrew",
+			"ability": [
+				{
+					"cha": 0,
+					"con": 0
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"name": "Ability Score Increase",
+					"type": "entries",
+					"entries": [
+						""
+					]
+				},
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						""
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						""
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						""
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						""
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+					"entries": [
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"name": " Names",
+							"entries": [
+								{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Male",
+										"entries": [
+											""
+										]
+									}
+								]
+								},
+								{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Female",
+										"entries": [
+											""
+										]
+									}
+								]
+								}
+							]
+						}
+						]
+				},
+		"languageProficiencies": [
+			{
+				"common": true,
+				"any": true
+			}
+		],
+		"heightAndWeight": {
+		"baseHeight": ,
+		"heightMod": "",
+		"baseWeight": ,
+		"weightMod": ""
+		}
+	}
+	]
+}
