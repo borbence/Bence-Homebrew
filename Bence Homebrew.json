@@ -10,7 +10,8 @@
 			}
 		],
 		"optionalFeatureTypes": {
-			"GD": "Gifts of Damnation"
+			"GD": "Gifts of Damnation",
+			"TP": "Totem Power"
 		},
 		"dateAdded": 1610960451,
 		"dateLastModified": 1610960451
@@ -2813,7 +2814,7 @@
 				"You gain proficiency in the {@skill Athletics} skill. You also gain a climbing speed of 30 feet while you aren't wearing heavy armor."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -2833,7 +2834,7 @@
 				"While you are in your animal form, you have advantage on Charisma ({@skill Deception}) checks made to disguise yourself as a normal version of that creature."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -2854,7 +2855,7 @@
 				"The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -2877,7 +2878,7 @@
 				"When you successfully hit a creature with your tusks on your turn you may use your bonus action to attempt to push the creature back. The creature must succeed on a Strength saving throw with a DC equal to 8 + your proficiency + your Strength modifier or be pushed 10 feet away from you."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -2900,7 +2901,7 @@
 				"Whilst in your hybrid or animal form you can exhale a blast of freezing wind in a 15 foot cone as an action. Each creature in that area must make a Dexterity saving throw with a DC equal to 8 + your proficiency + your Constitution modifier, taking {@damage 4d8} Cold Damage on a failed save or half as much on a successful one. At 14th level the fire damage increases to {@damage 5d8}, and it increases to {@damage 6d8} at 18th level. You must finish a long rest before you can use this feature again."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -2918,7 +2919,7 @@
 				"Additionally you can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -2946,7 +2947,7 @@
 				"The summoned creatures are friendly to you and your allies. Roll initiative for the summoned creatures as a group. The summoned creatures share a place in initiative and take their turn at the same time. They obey any verbal command given to them by you that isn't outright suicidal. Giving verbal commands to the summoned creatures is a free action. If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. You must finish a long rest before you can use this feature again."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -2969,7 +2970,7 @@
 				"While you are in your hybrid or animal form and an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -2980,7 +2981,7 @@
 				"After doing so your turn ends. At the start of your next turn, you must make a DC 10 Wisdom saving throw or move directly towards the nearest creature to you and use the Attack action against that creature. You must finish a short or long rest before you can use this feature again."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3003,7 +3004,7 @@
 				"When you successfully hit a creature with your bite attack, it must succeed on a Constitution saving throw with a DC of 8 + your proficiency bonus + your Constitution modifier or become poisoned. The creature is poisoned until they are cured of this condition. Each minute, the creature must repeat the saving throw, reducing its hit point maximum by {@dice 1d10} on a failure. This reduction lasts until the poisoned condition is cured. The creature dies if this feature reduces its hit point maximum to zero."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3023,7 +3024,7 @@
 				"The lycanthropic curse in your blood makes you immune to all diseases, poison damage, and the {@condition poisoned} condition."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3040,7 +3041,7 @@
 				"You've become adept at using your wings to maneuver through the air at blinding speeds. When you move using your flying speed on your turn, you can double your flying speed until the end of your turn. Once you use this feature, you can't use it again until you move 0 feet on one of your turns."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3060,7 +3061,7 @@
 				"You are immune to the {@condition frightened} condition and any effect that would cause you to flee from a creature."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3077,7 +3078,7 @@
 				"You can use your reaction when you fall to reduce any falling damage you take by an amount equal to your Dexterity score."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3097,7 +3098,7 @@
 				"While you are in your hybrid or animal form and you aren't holding anything in your hands your base walking speed increases by 10 feet."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3117,7 +3118,7 @@
 				"As a bonus action choose one creature you can see. For the next hour you have advantage on Wisdom ({@skill Perception}) and Wisdom ({@skill Survival}) checks to find it. You need to finish a short or long rest before you can use this feature again."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3134,7 +3135,7 @@
 				"You cannot be knocked {@condition prone} by non-magical means. You also have advantage on saving throws against spells or other effects that would force you to move."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3157,7 +3158,7 @@
 				"Your feathers become razor sharp, able to cut like daggers. While in your hybrid form you can use a bonus action to throw your feathers at a creature. Choose a creature within 30 feet of you and make a ranged attack roll. You add your proficiency bonus to this ranged attack roll. On a hit, you deal {@damage 2d4} + your Dexterity modifier magical piercing damage to the creature. You can use this feature a number of times equal to your Constitution modifier (min. 1). You regain expended uses of this feature when you finish a short or long rest."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3167,7 +3168,7 @@
 				"You gain proficiency in Animal Handling skill. If you are already proficient in this skill, you may double your proficiency bonus on Animal Handling skill checks you make."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3185,7 +3186,7 @@
 				"Additionally you may move through the space of a hostile creature if it is at least one size larger than you, and moving through another creature's space no longer counts as difficult terrain."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3195,7 +3196,7 @@
 				"You are able to use the light of the full moon to transform but the beast within threatens to break loose. During a full moon you may use your hybrid or animal form feature without expending a use, however if you do then whenever you make a Wisdom saving throw due to bloodlust, you do so with disadvantage."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3205,7 +3206,7 @@
 				"You gain darkvision. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3228,7 +3229,7 @@
 				"You gain a second use of your Lucky Rabbit's Foot feature. You regain all expended uses when you finish a short or long rest."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3251,7 +3252,7 @@
 				"While in your hybrid or animal form, allied creatures have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you and you aren't incapacitated."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3268,7 +3269,7 @@
 				"When you successfully hit a creature with your bite attack you deal an additional {@damage 2d4} poison damage to the target."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3285,7 +3286,7 @@
 				"While in your hybrid or animal form, if you do not move on your turn you can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3305,7 +3306,7 @@
 				"Your movement is unaffected by difficult terrain, and you have advantage on saving throws against spells and magical effects that reduce your speed or cause you to be restrained."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3315,7 +3316,7 @@
 				"When you are in your hybrid or animal form and reduce a creature to 0 hit points with a melee attack on your turn, you can use your bonus action to move up to half your speed and make a natural weapon attack or unarmed strike against another creature."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3335,7 +3336,7 @@
 				"Your hybrid and animal form's claws elongate to terrifying length. Your predatory strikes die increases to {@damage 1d12}. However, you cannot hold any items in your hands while in your hybrid or animal form."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3345,7 +3346,7 @@
 				"Even in your humanoid form your curse changes your body. Your teeth and nails elongate and sharpen. You gain the benefit of your Predatory Strikes feature when not in your hybrid or animal form."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3365,7 +3366,7 @@
 				"You can cast the {@spell commune with nature|PHB} spell, but only as a ritual. When you do so, a spiritual version of the animal you chose for your Lycanthrope Origin appears to you to convey the information you seek."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3375,7 +3376,7 @@
 				"While in your hybrid or animal form you gain advantage on Charisma ({@skill Intimidation}) checks against humanoid creatures."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3398,7 +3399,7 @@
 				"While you are in your hybrid or animal form and you have a free hand you can use an action to make a melee attack with your tusks against any number of creatures within 5 feet of you, making a separate attack roll for each target. You must finish a short or long rest before you can use this feature again."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3408,7 +3409,7 @@
 				"After using your hybrid or animal form features you can gain a number of temporary Hit Points equal to your level. You must finish a short or long rest before you can use this feature again."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		},
 		{
@@ -3418,7 +3419,7 @@
 				"When you roll a 1 or 2 on a damage die for an attack you make with a natural weapon or an unarmed strike, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. You must have less than half your Hit Points left in order to receive this benefit."
 			],
 			"featureType": [
-				"Totem Power"
+				"TP"
 			]
 		}
 	],
@@ -4899,7 +4900,7 @@
 				{
 					"colLabels": [
 						"Predatory Strikes",
-						"{@filter Totem Powers|optionalfeatures|Feature Type=Totem Power}"
+						"{@filter Totem Powers|optionalfeatures|Feature Type=TP}"
 					],
 					"rows": [
 						[
@@ -5452,7 +5453,7 @@
 			"classSource": "Bence Homebrew",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you gain a totem power of your choice. A list of the available options can be found on the {@filter Optional Features|optionalfeatures|Feature Type=Totem Power} page. When you gain certain lycanthrope levels, you gain additional powers of your choice, as shown in the Totem Powers column of the Lycanthrope Table.",
+				"At 2nd level, you gain a totem power of your choice. A list of the available options can be found on the {@filter Optional Features|optionalfeatures|Feature Type=TP} page. When you gain certain lycanthrope levels, you gain additional powers of your choice, as shown in the Totem Powers column of the Lycanthrope Table.",
 				"Additionally, when you gain a level in this class, you can choose one of the powers you know and replace it with another power that you could learn at that level.",
 				"A level prerequisite in a totem power refers to your lycanthrope level, not character level."
 			]
