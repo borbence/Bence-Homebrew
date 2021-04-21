@@ -422,6 +422,35 @@
 							},
 							{
 								"type": "entries",
+								"name": "Transformation Boon: Unearthly Senses",
+								"entries": [
+									"Starting at 2nd level, you may use a bonus action to enhance your body’s sensory organs, or grow entirely new ones. While this effect is active, you may choose one of the following Adaptations:",
+									{
+										"type": "entries",
+										"name": "Keen Senses",
+										"entries": [
+											"Your eyes bulge, your skin tingles, and your nostrils flare. You gain advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Darkvision",
+										"entries": [
+											"Your eyes take on the appearance of a cat’s, growing to fill the upper half of your face. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray. If you already possess darkvision from another source, the distance extends to 120 feet instead."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Third Eye",
+										"entries": [
+											"Another eye emerges from your forehead, granting you the ability to see invisible creatures and objects as if they were visible."
+										]
+									},
+									"These Adaptations last until you become unconscious, use a different one of these Adaptations, or use a bonus action on your turn to end the Adaptation. Once you reach Transformation Level 4, you may choose two of the listed Adaptations instead of one."
+								]
+							},
+							{
+								"type": "entries",
 								"name": "Transformation Flaw: Hideous Appearance",
 								"entries": [
 									"Your appearance has grotesquely transformed. You may be a hulking mass of flesh, adorned with countless eyes, or a bone-and-tusk-covered natural weapon. Regardless of your true form, you’re horrific to behold. You can suspend this form and manifest the appearance of the humanoid you once were, but this is taxing and requires concentration. This form is not permanent, and moments of stress are likely to reveal your true nature. Your true form is revealed in the following situations:",
@@ -474,6 +503,13 @@
 								"name": "Transformation Boon: Enhanced Hypertrophy",
 								"entries": [
 									"You may roll a d8 in place of normal damage for unarmed strikes. The base damage dice for your adaptations, like Efficient Killer and Otherworldly Tendrils becomes one base die higher. For example, an adaptation that deals 2d6 damage would become 2d8 damage instead."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Shifting Form",
+								"entries": [
+									"Your body has begun to lose its cohesion, softening and shifting like thick jelly. You take no extra damage from critical hits due to the shuffling of your internal organs. Whenever you make a melee or ranged attack using your Eldritch Limbs, you deal an additional 1d6 acid damage. You gain resistance to acid damage."
 								]
 							},
 							{
@@ -535,6 +571,17 @@
 										]
 									},
 									"This adaptation lasts until you use this Adaptation again."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: AmorphoUs Flesh",
+								"entries": [
+									"{@italic Prerequisite: Shifting Form}",
+									"Your body has continued to dissolve into a corrosive slur- ry of flesh and bone similar to an ooze. You are able to move through gaps as narrow as 1 inch wide, and you are immune to the grappled, prone, and restrained conditions.",
+									"In addition, whenever you take 10 or more points of bludgeoning, piercing, or slashing damage, you may choose to continue splitting along the wound, separating into two distinct parts that reform into versions of yourself that are one size smaller than the original, each with one half of your current hit points. If you have an odd number of hit points, you choose which segment gets the additional 1 hp. As you split you may choose how your armor and other equipment is split between the two.",
+									"On your turn you may move with each form and you may also take one action with each form. You may only take one bonus action and one reaction per turn, although you may choose which segment you want to act when you do so.",
+									"You may reform into a single body as an action, which may be taken by either segment when they are both within 5 feet of one another. If you do so, you regain hit points equal to the number of hit points your other form has, and you become your normal size. Your second body lasts for one hour before dissolving into nothingness."
 								]
 							},
 							{
@@ -681,6 +728,16 @@
 							},
 							{
 								"type": "entries",
+								"name": "Transformation Boon: Brand of the Slaver’s Leash",
+								"entries": [
+									"As an action, a flaming whip appears in your hand and lashes out at a creature you can see within 10 feet of you. That creature must make a Dexterity saving throw against your Transformation Save DC. On a failed save, the creature takes 2d4 fire damage and is inflicted with a searing brand.",
+									"While branded in this way, the creature is tied to you with a wreathing leash of flame and cannot use its movement to move more than 10 feet away from you. On your turn, you may use a bonus action to drag the creature up to 10 feet in any direction. You may also use your reaction to prevent any event that would take the creature out of range. For example, if the branded creature uses the misty step spell to move out of the 10 feet radius, or an ally of the target attempting to physically drag their ally out of the leash’s range, the attempt fails.",
+									"Spells that have the ability to teleport multiple people, like dimension door, work as intended for all involved except for the branded creature.",
+									"A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, is targeted by the remove curse spell, or if the creature is more than 10 feet away from you at the end of any turn."
+								]
+							},
+							{
+								"type": "entries",
 								"name": "Transformation Flaw: Hideous Appearance",
 								"entries": [
 									"Your appearance has grotesquely transformed. Your skin becomes red and leathery, and vicious horns, teeth and nails erupt through the surface of your skin. You can suppress this form and present the appearance of the humanoid you once were, but this is taxing and requires concentration. Moments of stress are likely to reveal your true nature. In the following situations your true form is revealed:",
@@ -734,6 +791,13 @@
 										]
 									},
 									"You can unsummon the blade at any time by using an action. If you unwield the blade, it immediately unsummons."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Infernal Sub-ContraCtor",
+								"entries": [
+									"Your mastery of the infernal laws allows you to utilize the benefits of two Gifts of Damnation simultaneously. In addition, you may change gifts on a short rest instead of a long rest."
 								]
 							},
 							{
@@ -795,6 +859,13 @@
 									"On your turn as an action, you can tear open a portal to the Netherworld and summon up to 4 Imps. These Imps are each summoned into their own unoccupied space within 30 feet of you.",
 									"The summoned Imps are friendly to you and your companions. They all act directly after you in the initiative order. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. The Imps disappear in a shower of ash and embers after 1 hour, or if they are reduced to 0 hit points. The GM has the Imps’ statistics.",
 									"Once you use this ability, you cannot use it again until you complete a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Loophole",
+								"entries": [
+									"As an expert in the magic of binding and the formation of magical contracts, you gain insight into the workings of summoning spells and how to interfere with them. Whenever you encounter a summoned creature, you are immediately aware it was summoned. As an action, you may wrest control of a summoning spell away from the caster. The spellcaster must make a Wisdom saving throw against your Transformation Save DC. On a failure, you gain control over the spell and any remain- ing creatures as if you had cast the spell, including concentration for any remaining duration. You may use this ability a number of times equal to your Charisma modifier (minimum 1), and you regain all uses of this ability when you finish a long rest."
 								]
 							},
 							{
@@ -982,6 +1053,14 @@
 							},
 							{
 								"type": "entries",
+								"name": "Transformation Boon: Phylactery Bond",
+								"entries": [
+									"You share an especially strong bond with your phylac- tery and gain benefits from keeping it on your per- son. You may choose to craft your phylactery into an amulet, a ring, a brooch, or some other form of jewelry. When you finish a short or long rest and you are wear- ing your phylactery, you may choose a damage type other than radiant damage. As long as you wear your phylactery, you have immunity to that damage type. In addition, your phylactery is more resilient than normal. Your phylactery’s AC becomes 20 and its hit points increase to 120.",
+									"Your phylactery’s nature is hidden from casual observation, and an observer must make an Intelligence (Arcana) check against your Transformation Save DC in order to identify your phylactery."
+								]
+							},
+							{
+								"type": "entries",
 								"name": "Transformation Flaw: Hideous Appearance",
 								"entries": [
 									"Your appearance has grotesquely transformed. Your skin has become rotten and pale, while your figure has become gaunt and hunched, radiating a ghastly aura. You can suppress this form and present the appearance of the humanoid you once were, however this is taxing and requires concentration. Moments of stress are likely to reveal your true nature. In the following situations your true form is revealed:",
@@ -1037,6 +1116,22 @@
 							},
 							{
 								"type": "entries",
+								"name": "Transformation Boon: Enhanced Phylactery",
+								"entries": [
+									"{@italic Prerequisite: Phylactery Bond}",
+									"Your bond with your phylactery strengthens, granting additional benefits:",
+									{
+										"type": "list",
+										"items": [
+											"If you aren’t wearing armor, your base Armor Class is 15 + your Dexterity modifier. Your phylactery’s AC is increased by 2.",
+											"Your spell save DC and spell attack bonus each increase by 2.",
+											"You and your phylactery have advantage on saving throws against spells and other magical effects."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
 								"name": "Transformation Flaw: Necromantic Dystrophy",
 								"entries": [
 									"Your body has become dependent on consuming souls, otherwise it becomes withered and frail. If you go more than 24 hours without converting 4 CR worth of souls from your Phylactery into spell slots you gain the following effects:",
@@ -1077,6 +1172,14 @@
 								"name": "Transformation Boon: Deathly Being",
 								"entries": [
 									"You become immune to poison damage, as well as bludgeoning, piercing, and slashing damage from non-magical attacks. In addition, you cannot become charmed, poisoned, paralysed, or frightened."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Soul Reflection",
+								"entries": [
+									"{@italic Prerequisite: Enhanced Phylactery}",
+									"You have learned to utilize your bond with your phylactery to its greatest effect. While wearing your phylactery, whenever you are targeted by a spell, if you are the only target, you can use your reaction and spend charges from your phylactery equal to the spell’s level. If you do so, the spell reflects and instead targets an appropriate target of your choice within range of the spell as if you cast it. For the purpose of using this feature, cantrips are considered 1st-level spells."
 								]
 							},
 							{
@@ -1300,6 +1403,13 @@
 							},
 							{
 								"type": "entries",
+								"name": "Transformation Boon: Heart of the Wild",
+								"entries": [
+									"The spirits of nature speak to you through your bestial side, offering you guidance and knowledge. You may now cast and concentrate on spells in hybrid form. Additionally, you can speak, read, and write Sylvan, and you have advantage on Wisdom and Charisma checks to interact with fey and beasts."
+								]
+							},
+							{
+								"type": "entries",
 								"name": "Transformation Flaw: Silver Sensitivity",
 								"entries": [
 									"You have developed a debilitating sensitivity to silver. While in your Hybrid or Kindred form, you have vulnerability to silvered weapons. In addition, you cannot have resistance to attacks made with a silvered weapon."
@@ -1346,6 +1456,15 @@
 							},
 							{
 								"type": "entries",
+								"name": "Transformation Boon: Call the Pack",
+								"entries": [
+									"{@italic Prerequisite: Hunter’s Howl.}",
+									"When you use your Hunter’s Howl ability, up to three allies you designate within 60 feet of the target also gain the benefits. Your Hunter’s Howl also grants those allies advantage on attack rolls against the target if another affected ally is within 5 feet of the creature and not incapacitated.",
+									"Additionally, when a hostile creature afflicted by your Hunter's Howl dies, you regain hit points equal to twice your Strength modifier."
+								]
+							},
+							{
+								"type": "entries",
 								"name": "Transformation Flaw: Fraying Memories",
 								"entries": [
 									"You have begun to suffer the effects of sharing a mind with two personalities. Memories of less practical significance have been lost to new ones of midnight hunts. You have disadvantage on Intelligence ability and skill checks recalling information or knowledge."
@@ -1386,6 +1505,14 @@
 								"name": "Transformation Boon: Unstoppable Rage",
 								"entries": [
 									"You have become a visage of unkillable carnage and slaughter even other Lycanthropes fear. When you are reduced to 0 hit points and you are not killed outright, you are not knocked unconscious. You can take your future turns as though you were not at 0 hit points and are affected by all spells, abilities and features as normal. While you have 0 hit points, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Blood Frenzy",
+								"entries": [
+									"{@italic Prerequisite: Bestial Savagery}",
+									"Your bite attack damage increases to 2d8. If you hit a creature with a bite attack, you can force the creature to make a Strength saving throw against your Transformation Save DC or be grappled. While the target is grappled in this way, you have advantage on attack rolls against them and deal additional damage with your natural weapons equal to your Strength modifier."
 								]
 							},
 							{
@@ -1532,6 +1659,13 @@
 							},
 							{
 								"type": "entries",
+								"name": "Transformation Boon: Divine Protection",
+								"entries": [
+									"When you or an allied creature you can see within 30 feet is targeted by an attack, you can use your reaction to shield them with holy light. The target gains a +4 bonus to AC against the attack. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
 								"name": "Transformation Flaw: Divine Appearance",
 								"entries": [
 									"Your appearance has radically transformed. Your body radiates a divine glow, while your wings are prominent and powerful appendages. You can contain this form and present the appearance of the humanoid you once were, but this is taxing and requires concentration. Moments of stress are likely to reveal your true nature. In the following situations, your true form is revealed:",
@@ -1588,6 +1722,35 @@
 							},
 							{
 								"type": "entries",
+								"name": "Transformation Boon: Holy Bulwark",
+								"entries": [
+									"You may use your action to steel yourself against the tactics of your most hated adversaries, gaining one of the following benefits:",
+									{
+										"type": "entries",
+										"name": "Stand Against the Infernal",
+										"entries": [
+											"You gain resistance to fire damage."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Cleanse the Undead",
+										"entries": [
+											"You gain resistance to necrotic damage."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Ignore Fey Trickery",
+										"entries": [
+											"You are immune to the charmed and frightened conditions."
+										]
+									},
+									"This effect lasts until you use this feature again."
+								]
+							},
+							{
+								"type": "entries",
 								"name": "Transformation Flaw: Beacon to Darkness",
 								"entries": [
 									"You have become a Seraph of noted virtue and divinity. This has made you a target for all that is dark in the world. Whenever you or an ally within 30 feet commits an act of greater evil, such as murdering a helpless innocent, a small amount of darkness attaches itself to you, and you gain 1 corruption point (to a maximum of 5). Whether the act constitutes greater evil is determined by the GM. Whenever you make an attack roll against an evil creature, or make a saving throw against a spell or ability from an evil creature, subtract the number of corruption points you have from the roll. Whenever you complete a short or long rest, and have prayed for at least 1 hour, you can reduce the number of corruption points you have by 1."
@@ -1619,6 +1782,13 @@
 								"name": "Transformation Boon: Aura of Empyreal Valor",
 								"entries": [
 									"You emit an aura of swiftness and bravery. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura makes a Dexterity ability check to determine initiative, they can add +5 to the result. In addition, on that creature’s turn they gain advantage on attack rolls against any creature that hasn’t taken a turn in the combat yet. Once a creature has benefited from this feature, they cannot benefit again until they have completed a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Aura of Celestial Resilience",
+								"entries": [
+									"You emit an aura of stalwart conviction. This aura radiates up to 20 feet from you while you are conscious. When you or an ally within range of your aura fails a saving throw, they can choose to succeed it instead. Once a creature has benefited from this feature, they cannot benefit from it again until they have completed a long rest."
 								]
 							},
 							{
@@ -1875,6 +2045,15 @@
 							},
 							{
 								"type": "entries",
+								"name": "Transformation Boon: Night Stalker",
+								"entries": [
+									"You gain proficiency in Stealth. If you already have proficiency in Stealth, then your proficiency bonus is doubled when making Stealth ability checks.",
+									"Additionally, you can attempt to hide even when you are only lightly obscured, including dim light.",
+									"You also gain a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+								]
+							},
+							{
+								"type": "entries",
 								"name": "Transformation Flaw: Hideous Appearance",
 								"entries": [
 									"Your appearance has greatly altered from its original features. The first signs were the fangs that started to protrude from your upper row of teeth. You have no reflection in mirrors or other reflective surfaces. With dry, pale skin and occasional burns from the sun, you can hide your true appearance by concentrating on your pre- vampirism appearance. However, the following situations can reveal your true appearance:",
@@ -1918,6 +2097,19 @@
 								"entries": [
 									"You gain proficiency in Deception and Persuasion. If you are already proficient in one of these skills, then your proficiency bonus is doubled for ability checks using that skill. If you have or ever gain double proficiency in one or both of these skills, you gain +2 for that skill instead.",
 									"Additionally, your thoughts cannot be read by any means."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Improved Shapechanger",
+								"entries": [
+									"{@italic Prerequisite: Shapechanger}",
+									"When you use your Shapechanger ability, you may also take on the form of a dire wolf. While in dire wolf form you gain the following features:",
+									"Your movement speed changes to 50 feet. If you have sunlight hypersensitivity, it is reduced to sunlight sensitivity: while in sunlight, you have disadvantage on attack rolls and ability checks, but take no damage from direct contact with sunlight.",
+									"While in dire wolf form, you can’t speak. Any object you are holding or armor you are wearing merges into your wolf form or immediately drops to the ground. The GM may decide if they feel the object cannot merge.",
+									"If you become unconscious in dire wolf form, you revert back to your vampiric form.",
+									"Additionally, you gain the ability to use Fanged Bite while in animal form. The piercing damage for your Fanged Bite changes based on your form. While in bat form you deal 1 piercing damage, and while in dire wolf form you deal 2d6 piercing damage.",
+									"While in mist form you may cast the spell fog cloud once without expending a spell slot and without using verbal, somatic, or material components. You regain the ability to cast this spell when you finish a long rest."
 								]
 							},
 							{
@@ -1967,6 +2159,42 @@
 								"entries": [
 									"You regain 10 hit points at the start of your turn if you have at least 1 hit point remaining, and are not in sunlight or over running water.",
 									"If you take radiant damage or damage from holy water, this ability does not function at the start of your next turn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Transformation Boon: Innate Sangromancy",
+								"entries": [
+									"{@italic Prerequisite: Sanguine Magic}",
+									"You know all Sangromancy Spells. When casting a spell using Sangromancy, you may use FP instead of spending hit dice. Treat these FP as 1d12 hit dice. When you cast a spell in this way you do not generate FP from Sanguine Magic and you may choose a single effect to apply to the spell by spending additional FP:",
+									{
+										"type": "entries",
+										"name": "Beguiling Spell (2 FP)",
+										"entries": [
+											"When a creature fails their saving throw against this spell, they are also charmed by you until the end of your next turn."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadow Spell (2 FP)",
+										"entries": [
+											"When a creature fails their saving throw against this spell, they are unable to perceive you until the end of your next turn, except by magical means."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Withering Spell (3 FP)",
+										"entries": [
+											"When you cast a spell that deals necrotic damage, it deals an additional 1d8 necrotic damage per spell level. A creature damaged by this spell cannot take reactions until the end of your next turn."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Vampiric Spell (3 FP)",
+										"entries": [
+											"When you cast a spell that deals necrotic damage, you heal for up to half the amount of damage dealt."
+										]
+									}
 								]
 							},
 							{
