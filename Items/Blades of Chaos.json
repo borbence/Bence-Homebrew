@@ -46,7 +46,18 @@
         "entries": [
             "For the purpose of attunement, the two swords count as one item",
             "Chains connected to the hilt of the swords wrap around your forearms, preventing them to be removed from your hands against your will."
-        ]
+        ],
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.ytimg.com/vi/Jzwod1WRFNw/maxresdefault.jpg"
+					}
+				}
+			]
+		}
     }
 ]
 }
