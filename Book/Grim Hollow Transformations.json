@@ -731,7 +731,7 @@
 								"type": "entries",
 								"name": "Transformation Boon: Brand of the Chainer’s Gaze",
 								"entries": [
-									"As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that diminishes their resolve. The target must make a Wisdom saving throw, and on a failed save they are branded. Whenever a creature branded in this way makes a saving throw, they must roll 1d6 and subtract the result from their saving throw. A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the {spell remove curse} spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+									"As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that diminishes their resolve. The target must make a Wisdom saving throw, and on a failed save they are branded. Whenever a creature branded in this way makes a saving throw, they must roll 1d6 and subtract the result from their saving throw. A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the {@spell remove curse} spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
 								]
 							},
 							{
@@ -739,7 +739,7 @@
 								"name": "Transformation Boon: Brand of the Tyrant’s Hellfire",
 								"entries": [
 									"As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that exudes hellfire. The target must make a Charisma saving throw, and on a failed save they are branded. Whenever you hit a creature branded in this way with an attack, you deal an additional 1d6 fire damage.",
-									"A creature remains branded for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the {spell remove curse} spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+									"A creature remains branded for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the {@spell remove curse} spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
 								]
 							},
 							{
@@ -747,7 +747,7 @@
 								"name": "Transformation Boon: Brand of the Deceiver’s Guile",
 								"entries": [
 									"As a bonus action on your turn, you can brand a creature within 60 feet of you with a fiery mark that twists their senses and perspective. The target must make an Intelligence saving throw, and on a failed save they are branded. Whenever a creature branded in this way attempts to attack you, they must roll 1d6 and subtract the result from their attack roll.",
-									"A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the {spell remove curse} spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
+									"A creature remains branded this way for 1 minute. The brand disappears if the creature is knocked unconscious, enters hallowed ground, or is targeted by the {@spell remove curse} spell. You may use this feature a number of times equal to your Charisma modifier (minimum of 1). You regain all uses of this feature when you finish a long rest."
 								]
 							},
 							{
@@ -2713,7 +2713,7 @@
 								"type": "entries",
 								"name": "Transformation Boon: Ethereal Phasing",
 								"entries": [
-									"You can cast the {spell blink} spell without expending a spell slot. Once you cast the spell using this boon a number of times equal to your Transformation level, you can’t do so again until you finish a long rest."
+									"You can cast the {@spell blink} spell without expending a spell slot. Once you cast the spell using this boon a number of times equal to your Transformation level, you can’t do so again until you finish a long rest."
 								]
 							},
 							{
@@ -2823,15 +2823,15 @@
 								"type": "entries",
 								"name": "Transformation Boon: Ethereal Denizen",
 								"entries": [
-									"You can sense invisible creatures and objects, and those in the nearby Ethereal Plane, as if you are always under the effect of the {spell see invisibility} spell.",
-									"Additionally, you can use an action to cast the {spell etherealness} spell without expending a spell slot. Once you cast the spell using this boon, you can’t do so again until you finish a short or long rest."
+									"You can sense invisible creatures and objects, and those in the nearby Ethereal Plane, as if you are always under the effect of the {@spell see invisibility} spell.",
+									"Additionally, you can use an action to cast the {@spell etherealness} spell without expending a spell slot. Once you cast the spell using this boon, you can’t do so again until you finish a short or long rest."
 								]
 							},
 							{
 								"type": "entries",
 								"name": "Transformation Flaw: Pull of Oblivion",
 								"entries": [
-									"Dissolution pulls on your body and soul. Whenever you roll a natural 1 on a saving throw against an effect that deals you damage, you lose 1d6 hit points per two levels you have as the afterlife or your lack of reality pulls you toward nothingness. If you die, your body disappears, and you can be raised from the dead only with a {spell wish} spell or {spell true resurrection} spell. If you and the GM agree, you might instead become an NPC monster under the GM’s control, such as a wraith or a bizarre space-time aberration."
+									"Dissolution pulls on your body and soul. Whenever you roll a natural 1 on a saving throw against an effect that deals you damage, you lose 1d6 hit points per two levels you have as the afterlife or your lack of reality pulls you toward nothingness. If you die, your body disappears, and you can be raised from the dead only with a {@spell wish} spell or {@spell true resurrection} spell. If you and the GM agree, you might instead become an NPC monster under the GM’s control, such as a wraith or a bizarre space-time aberration."
 								]
 							}
 						]
