@@ -41,6 +41,13 @@
                     "entries": [
                         {
                             "type": "entries",
+                            "name": "Új homebrew hozzáadása",
+                            "entries": [
+                                "Kattints a betölteni kívánt homebrew-kra {@book A Linkek fejezetben|BH|1}, majd frissíts {@underline minden} 5etools lapot!"
+                            ]
+                        },
+                        {
+                            "type": "entries",
                             "name": "Meglévő homebrew frissítése",
                             "entries": [
                                 "Először le kell törölnöd a már meglévő változatott.",
@@ -50,9 +57,8 @@
                                         "type": "external",
                                         "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial/Tutorial%201.png"
                                     },
-                                    "title": "Menjél a \"Homebrew Manager\" oldalra"
+                                    "title": "Menjél a {@5etools \"Homebrew Manager\"|managebrew.html} oldalra"
                                 },
-                                "",
                                 {
                                     "type": "image",
                                     "href": {
@@ -61,17 +67,25 @@
                                     },
                                     "title": "Kattints a \"kuka\" szimbólumra, majd az \"OK\"-ra a felugró ablakon"
                                 },
-                                "Ez után kattints a frissíteni kívánt homebrew-ra {@book A Linkek fejezetben|BH|1}, majd frissíts {@underline minden} 5etools oldalt!"
+                                "Ez után kattints a frissíteni kívánt homebrew-ra {@book A Linkek fejezetben|BH|1}, majd frissíts {@underline minden} 5etools lapot!"
                             ]
                         },
                         {
-                            "type": "image",
-                            "href": {
-                                "type": "external",
-                                "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial%201.png"
-                            }
-                        },
-                        "Kattints a betölteni kívánt linkekre, majd frissíts minden 5etools oldalt!"
+                            "type": "entries",
+                            "name": "Ez a könyv frissítése",
+                            "entries": [
+                                "A {@5etools \"Homebrew Manager\"|managebrew.html} oldalon belül kattints a \"Bence Homebrew Source\" sorában lévő {@link \"View Source\"|https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Bence%20Homebrew%20Source.json} linkre, majd másold be az oldal url-jét.",
+                                {
+                                    "type": "image",
+                                    "href": {
+                                        "type": "external",
+                                        "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial/Tutorial%203.png"
+                                    }
+                                },
+                                "Ezután {@book Meglévő homebrew frissítése fejezet|BH|0|Meglévő homebrew frissítése} alapján töröld a \"Bence Homebrew Source\"-t.",
+                                "Végül kattints a \"Load from URL\"-re és illeszd be az előbb másolt {@link linket|https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Bence%20Homebrew%20Source.json}, majd frissíts {@underline minden} 5etools lapot!"
+                            ]
+                        }
                     ]
                 },
                 {
