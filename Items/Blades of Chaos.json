@@ -2,20 +2,18 @@
     "_meta": {
 		"sources": [
 			{
-				"json": "Bence Homebrew",
-				"abbreviation": "BNC",
-				"full": "Bence Homebrew",
-				"url": "https://github.com/borbence/Bence-Homebrew.git",
+				"json": "Bence Homebrew: Item",
+				"abbreviation": "BNC:I",
+				"full": "Bence Homebrew: Item",
+				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Items/_All.json",
 				"authors": ["B. Bence"]
 			}
-		],
-		"dateAdded": 1610960451,
-		"dateLastModified": 1610960451
+		]
 	},
     "itemProperty": [
 		{
 			"abbreviation": "AN",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Item",
 			"entries": [
 				{
 					"type": "entries",
@@ -30,7 +28,7 @@
     "item": [
     {
         "name": "Blades of Chaos",
-        "source": "Bence Homebrew",
+        "source": "Bence Homebrew: Item",
         "type": "M",
         "weaponCategory": "martial",
         "rarity": "uncommon",
@@ -53,7 +51,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://i.ytimg.com/vi/Jzwod1WRFNw/maxresdefault.jpg"
+						"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Items/Blades%20of%20Chaos.jpeg"
 					}
 				}
 			]
