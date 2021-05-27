@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Bence Homebrew",
-				"abbreviation": "BNC",
-				"full": "Bence Homebrew",
+				"json": "Bence Homebrew: Grim Hollow Transformations",
+				"abbreviation": "BNCGHT",
+				"full": "Bence Homebrew: Grim Hollow Transformations",
 				"url": "https://github.com/borbence/Bence-Homebrew.git",
 				"authors": ["B. Bence"]
 			}
@@ -18,8 +18,9 @@
     "book": [
         {
             "name": "Grim Hollow Transformations",
-            "id": "BNC",
-            "source": "Bence Homebrew",
+            "id": "GHT",
+            "source": "Bence Homebrew: Grim Hollow Transformations",
+			"coverUrl": "https://github.com/borbence/Bence-Homebrew/blob/main/Pictures/Covers/GH%20-%20Trans.png?raw=true",
             "contents": [
                 
                 {
@@ -126,8 +127,8 @@
     ],
     "bookData": [
         {
-        "id": "BNC",
-        "source": "Bence Homebrew",
+        "id": "GHT",
+        "source": "Bence Homebrew: Grim Hollow Transformations",
         "data": [
             {
                 "type": "section",
@@ -348,7 +349,7 @@
 								"type": "entries",
 								"name": "Transformation Flaw: Unstable Mutations",
 								"entries": [
-									"Your body becomes malleable and struggles to maintain any one physical shape. Upon completing a long rest, you must roll 1d100 on the {@table Unstable Mutation|Bence Homebrew} table and apply the effects of the result, determined by your transformation level. These effects last until you complete another long rest. If you roll the same result on the table more than once in a row, roll again until a new result is rolled."
+									"Your body becomes malleable and struggles to maintain any one physical shape. Upon completing a long rest, you must roll 1d100 on the {@table Unstable Mutation|Bence Homebrew: Grim Hollow Transformations} table and apply the effects of the result, determined by your transformation level. These effects last until you complete another long rest. If you roll the same result on the table more than once in a row, roll again until a new result is rolled."
 								]
 							}
 						]
@@ -381,7 +382,7 @@
 										"type": "entries",
 										"name": "Slashing",
 										"entries": [
-											"Your arm forms a row of viciously hooked claws and talons. Your unarmed attack deals an additional 1d6 slashing damage, and the target must succeed at a Constitution saving throw. Upon a failed save, the target gains the {@condition bleeding|Bence Homebrew} condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself upon a success."
+											"Your arm forms a row of viciously hooked claws and talons. Your unarmed attack deals an additional 1d6 slashing damage, and the target must succeed at a Constitution saving throw. Upon a failed save, the target gains the {@condition bleeding|Bence Homebrew: Grim Hollow Transformations} condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself upon a success."
 										]
 									}
 								]
@@ -613,7 +614,7 @@
 								"name": "Transformation Flaw: Entropic Abomination",
 								"entries": [
 									"The very essence of magic aggravates the unstable nature of your aberrant body.",
-									"Whenever you fail a saving throw to a spell or magical ability, roll on the {@table Level 4|Bence Homebrew|Unstable Mutation} table. If the result is less than your current unstable mutation effect, then replace it with the new result."
+									"Whenever you fail a saving throw to a spell or magical ability, roll on the {@table Level 4|Bence Homebrew: Grim Hollow Transformations|Unstable Mutation} table. If the result is less than your current unstable mutation effect, then replace it with the new result."
 								]
 							}
 						]
@@ -2844,7 +2845,7 @@
 	"table": [
 		{
 			"name": "Level 1",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"colLabels": [
 				"d100",
 				"Effect"
@@ -2902,7 +2903,7 @@
 		},
 		{
 			"name": "Level 2",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"colLabels": [
 				"d100",
 				"Effect"
@@ -2960,7 +2961,7 @@
 		},
 		{
 			"name": "Level 3",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"colLabels": [
 				"d100",
 				"Effect"
@@ -3018,7 +3019,7 @@
 		},
 		{
 			"name": "Level 4",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"colLabels": [
 				"d100",
 				"Effect"
@@ -3076,22 +3077,22 @@
 		},
 		{
 			"name": "Unstable Mutation",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"colLabels": [
 				"Transformation level"
 			],
 			"rows": [
 				[
-					"{@table Level 1|Bence Homebrew}"
+					"{@table Level 1|Bence Homebrew: Grim Hollow Transformations}"
 				],
 				[
-					"{@table Level 2|Bence Homebrew}"
+					"{@table Level 2|Bence Homebrew: Grim Hollow Transformations}"
 				],
 				[
-					"{@table Level 3|Bence Homebrew}"
+					"{@table Level 3|Bence Homebrew: Grim Hollow Transformations}"
 				],
 				[
-					"{@table Level 4|Bence Homebrew}"
+					"{@table Level 4|Bence Homebrew: Grim Hollow Transformations}"
 				]
 			]
 		}
@@ -3099,7 +3100,7 @@
     "optionalfeature": [
 		{
 			"name": "Gift of unbridled Power",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"featureType": "GD",
 			"prerequisite": [
 				{
@@ -3112,7 +3113,7 @@
 		},
 		{
 			"name": "Gift of Unfettered Glory",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"featureType": "GD",
 			"entries": [
 				"When you hit a creature with a melee attack or melee spell attack, you can add your Charisma modifier to the damage dealt."
@@ -3120,7 +3121,7 @@
 		},
 		{
 			"name": "Gift of Joyous Youth",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"featureType": "GD",
 			"entries": [
 				"At the beginning of your turn, if you have no remaining Hit Dice, you can choose to make a DC 10 Charisma saving throw. On a success, you regain 1 spent Hit Die. If you fail, you suffer 1d6 psychic damage."
@@ -3128,7 +3129,7 @@
 		},
 		{
 			"name": "Gift of Liberating Freedom",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"featureType": "GD",
 			"prerequisite": [
 				{
@@ -3141,7 +3142,7 @@
 		},
 		{
 			"name": "Gift of Unsurpassed Fortune",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"featureType": "GD",
 			"entries": [
 				"Whenever a creature makes an attack roll, skill check, or saving throw within 20 feet, after the GM has rolled but before they have determined the result, you can use your reaction to roll a d20. If you roll a 10 or higher, the attack roll, saving throw, or skill check immediately fails. You cannot do this again until you complete a long rest."
@@ -3149,7 +3150,7 @@
 		},
 		{
 			"name": "Gift of Unconditional Love",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"featureType": "GD",
 			"prerequisite": [
 				{
@@ -3162,7 +3163,7 @@
 		},
 		{
 			"name": "Gift of Expansive Knowledge",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"featureType": "GD",
 			"prerequisite": [
 				{
@@ -3175,7 +3176,7 @@
 		},
 		{
 			"name": "Gift of Prodigious Talent",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"featureType": "GD",
 			"prerequisite": [
 				{
@@ -3188,7 +3189,7 @@
 		},
 		{
 			"name": "Gift of Second Chances",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"featureType": "GD",
 			"prerequisite": [
 				{
@@ -3203,7 +3204,7 @@
     "condition": [
 		{
 			"name": "Bleeding",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Grim Hollow Transformations",
 			"entries": [
 				"Bleeding creatures cannot regain hit points from spells or abilities. A bleeding creature can only regain hit points by consuming hit dice or completing a long rest."
 			]
