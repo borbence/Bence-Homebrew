@@ -1,0 +1,33 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Bence Homebrew: Feat",
+                "abbreviation": "BNC:F",
+                "full": "Bence Homebrew: Feat",
+                "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Feat/_All.json",
+                "authors": ["B. Bence"]
+            }
+        ]
+    },
+    "feat": [
+		{
+			"name": "Lightning Caster",
+			"source": "Bence Homebrew: Feat",
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				"Your rapid-fire style of casting cantrips allows you to weave magic with uncanny speed, granting you the following benefit:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever you cast a cantrip that can only target a single enemy, you can use your bonus action to target two enemies within 5 feet of one another instead."
+					]
+				}
+			]
+		}
+	]
+}
