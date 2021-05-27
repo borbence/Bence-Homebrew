@@ -2,20 +2,18 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Bence Homebrew",
-				"abbreviation": "BNC",
-				"full": "Bence Homebrew",
-				"url": "https://github.com/borbence/Bence-Homebrew.git",
+				"json": "Bence Homebrew: Race",
+				"abbreviation": "BNC:R",
+				"full": "Bence Homebrew: Race",
+				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Race/Jolly%20Clown.json",
 				"authors": ["B. Bence"]
 			}
-		],
-		"dateAdded": 1610960451,
-		"dateLastModified": 1610960451
+		]
 	},
     "race": [
 		{
 			"name": "Jolly Clown",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Race",
 			"ability": [
 				{
 					"cha": 2,
