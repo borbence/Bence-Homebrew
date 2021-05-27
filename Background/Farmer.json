@@ -2,20 +2,18 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Bence Homebrew",
-				"abbreviation": "BNC",
-				"full": "Bence Homebrew",
-				"url": "https://github.com/borbence/Bence-Homebrew.git",
+				"json": "Bence Homebrew: Backgrounds",
+				"abbreviation": "BNC:B",
+				"full": "Bence Homebrew: Backgrounds",
+				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Background/_All.json",
 				"authors": ["B. Bence"]
 			}
-		],
-		"dateAdded": 1610960451,
-		"dateLastModified": 1610960451
+		]
 	},
     "background": [
         {
 			"name": "Farmer",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Backgrounds",
 			"skillProficiencies": [
 				{
 					"animal handling": true,
