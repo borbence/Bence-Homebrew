@@ -1,0 +1,81 @@
+{
+    "_meta": {
+		"sources": [
+			{
+				"json": "Bence Homebrew: Item",
+				"abbreviation": "BNC:I",
+				"full": "Bence Homebrew: Item",
+				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Items/_All.json",
+				"authors": ["B. Bence"]
+			}
+		]
+	},
+    "itemProperty": [
+		{
+			"abbreviation": "AN",
+			"source": "Bence Homebrew: Item",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ancestral Weapon",
+					"entries": [
+						"As you become more powerful and achieve great feats, this weapon can unlock new abilities."
+					]
+				}
+			]
+		}
+	],
+    "item": [
+    {
+        "name": "Blades of Chaos",
+        "source": "Bence Homebrew: Item",
+        "type": "M",
+        "weaponCategory": "martial",
+        "rarity": "uncommon",
+        "dmg1": "1d6",
+        "dmgType": "P",
+        "reqAttune": true,
+        "property": [
+            "AN",
+            "F",
+            "L",
+            "R"
+        ],
+        "entries": [
+            "For the purpose of attunement, the two swords count as one item",
+            "Chains connected to the hilt of the swords wrap around your forearms, preventing them to be removed from your hands against your will."
+        ],
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Items/Blades%20of%20Chaos.jpeg"
+					}
+				}
+			]
+		}
+    },
+	{
+        "name": "Horn of Many Sounds",
+        "source": "Bence Homebrew: Item",
+        "type": "INS",
+        "rarity": "common",
+        "entries": [
+            "A clown horn, that can produce the sound of any instrument that the user is familiar with."
+        ],
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Items/Horn%20of%20Many%20Sounds.jpg"
+					}
+				}
+			]
+		}
+    }
+]
+}

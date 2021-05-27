@@ -2,20 +2,18 @@
     "_meta": {
 		"sources": [
 			{
-				"json": "Bence Homebrew",
-				"abbreviation": "BNC",
-				"full": "Bence Homebrew",
-				"url": "https://github.com/borbence/Bence-Homebrew.git",
+				"json": "Bence Homebrew: Item",
+				"abbreviation": "BNC:I",
+				"full": "Bence Homebrew: Item",
+				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Items/_All.json",
 				"authors": ["B. Bence"]
 			}
-		],
-		"dateAdded": 1610960451,
-		"dateLastModified": 1610960451
+		]
 	},
     "item": [
     {
         "name": "Horn of Many Sounds",
-        "source": "Bence Homebrew",
+        "source": "Bence Homebrew: Item",
         "type": "INS",
         "rarity": "common",
         "entries": [
@@ -27,7 +25,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://images-na.ssl-images-amazon.com/images/I/61CwwjmXXML._AC_UX679_.jpg"
+						"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Items/Horn%20of%20Many%20Sounds.jpg"
 					}
 				}
 			]
