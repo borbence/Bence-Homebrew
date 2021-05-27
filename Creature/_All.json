@@ -2,10 +2,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Bence Homebrew:Creature - DM",
-				"abbreviation": "BNC:CDM",
-				"full": "Bence Homebrew:Creature - DM",
-				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Creature/Corkie.json",
+				"json": "Bence Homebrew:Creature",
+				"abbreviation": "BNC:C",
+				"full": "Bence Homebrew:Creature",
+				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Creature/_All.json",
 				"authors": ["B. Bence"]
 			}
 		]
@@ -13,7 +13,7 @@
     "monster": [
 		{
 			"name": "Corkie",
-			"source": "Bence Homebrew:Creature - DM",
+			"source": "Bence Homebrew:Creature",
 			"level": 3,
 			"size": "S",
 			"type": {
