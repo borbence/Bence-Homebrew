@@ -2,23 +2,21 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Bence Homebrew",
-				"abbreviation": "BNC",
-				"full": "Bence Homebrew",
-				"url": "https://github.com/borbence/Bence-Homebrew.git",
+				"json": "Bence Homebrew: Lycanthrope",
+				"abbreviation": "BNC:L",
+				"full": "Bence Homebrew: Lycanthrope",
+				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Class/Lycanthrope.json",
 				"authors": ["B. Bence"]
 			}
 		],
 		"optionalFeatureTypes": {
 			"TP": "Totem Power"
-		},
-		"dateAdded": 1610960451,
-		"dateLastModified": 1610960451
+		}
 	},
 	"class": [
 		{
 			"name": "Lycanthrope",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"hd": {
 				"number": 1,
 				"faces": 10
@@ -335,127 +333,127 @@
 			},
 			"classFeatures": [
 				{
-					"classFeature": "Lycanthrope Origin|Lycanthrope|Bence Homebrew|1",
+					"classFeature": "Lycanthrope Origin|Lycanthrope|Bence Homebrew: Lycanthrope|1",
 					"gainSubclassFeature": true
 				},
-				"Hybrid Form|Lycanthrope|Bence Homebrew|1",
-				"Natural Armour|Lycanthrope|Bence Homebrew|2",
-				"Totem Powers|Lycanthrope|Bence Homebrew|2",
-				"Heightened Senses|Lycanthrope|Bence Homebrew|3",
-				"Ability Score Improvement|Lycanthrope|Bence Homebrew|4",
-				"Extra Attack|Lycanthrope|Bence Homebrew|5",
+				"Hybrid Form|Lycanthrope|Bence Homebrew: Lycanthrope|1",
+				"Natural Armour|Lycanthrope|Bence Homebrew: Lycanthrope|2",
+				"Totem Powers|Lycanthrope|Bence Homebrew: Lycanthrope|2",
+				"Heightened Senses|Lycanthrope|Bence Homebrew: Lycanthrope|3",
+				"Ability Score Improvement|Lycanthrope|Bence Homebrew: Lycanthrope|4",
+				"Extra Attack|Lycanthrope|Bence Homebrew: Lycanthrope|5",
 				{
-					"classFeature": "Origin Feature|Lycanthrope|Bence Homebrew|6",
+					"classFeature": "Origin Feature|Lycanthrope|Bence Homebrew: Lycanthrope|6",
 					"gainSubclassFeature": true
 				},
-				"Stalker's Prowess|Lycanthrope|Bence Homebrew|7",
-				"Ability Score Improvement|Lycanthrope|Bence Homebrew|8",
-				"Bleeding Slash|Lycanthrope|Bence Homebrew|9",
+				"Stalker's Prowess|Lycanthrope|Bence Homebrew: Lycanthrope|7",
+				"Ability Score Improvement|Lycanthrope|Bence Homebrew: Lycanthrope|8",
+				"Bleeding Slash|Lycanthrope|Bence Homebrew: Lycanthrope|9",
 				{
-					"classFeature": "Origin Feature|Lycanthrope|Bence Homebrew|10",
+					"classFeature": "Origin Feature|Lycanthrope|Bence Homebrew: Lycanthrope|10",
 					"gainSubclassFeature": true
 				},
-				"Advanced Hybrid Form|Lycanthrope|Bence Homebrew|11",
-				"Ability Score Improvement|Lycanthrope|Bence Homebrew|12",
-				"Bleeding Slash (2d10)|Lycanthrope|Bence Homebrew|13",
+				"Advanced Hybrid Form|Lycanthrope|Bence Homebrew: Lycanthrope|11",
+				"Ability Score Improvement|Lycanthrope|Bence Homebrew: Lycanthrope|12",
+				"Bleeding Slash (2d10)|Lycanthrope|Bence Homebrew: Lycanthrope|13",
 				{
-					"classFeature": "Origin Feature|Lycanthrope|Bence Homebrew|14",
+					"classFeature": "Origin Feature|Lycanthrope|Bence Homebrew: Lycanthrope|14",
 					"gainSubclassFeature": true
 				},
-				"Iron Volition|Lycanthrope|Bence Homebrew|15",
-				"Ability Score Improvement|Lycanthrope|Bence Homebrew|16",
-				"Bleeding Slash (3d10)|Lycanthrope|Bence Homebrew|17",
+				"Iron Volition|Lycanthrope|Bence Homebrew: Lycanthrope|15",
+				"Ability Score Improvement|Lycanthrope|Bence Homebrew: Lycanthrope|16",
+				"Bleeding Slash (3d10)|Lycanthrope|Bence Homebrew: Lycanthrope|17",
 				{
-					"classFeature": "Origin Feature|Lycanthrope|Bence Homebrew|18",
+					"classFeature": "Origin Feature|Lycanthrope|Bence Homebrew: Lycanthrope|18",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Lycanthrope|Bence Homebrew|19",
-				"Hybrid Form Mastery|Lycanthrope|Bence Homebrew|20"
+				"Ability Score Improvement|Lycanthrope|Bence Homebrew: Lycanthrope|19",
+				"Hybrid Form Mastery|Lycanthrope|Bence Homebrew: Lycanthrope|20"
 			],
 			"subclassTitle": "Lycanthrope Origins",
 			"subclasses": [
 				{
 					"name": "Werebear",
 					"subclassFeatures": [
-						"Werebear|Lycanthrope|Bence Homebrew|Werebear|Bence Homebrew|1",
-						"Formidable Strength|Lycanthrope|Bence Homebrew|Werebear|Bence Homebrew|6",
-						"Bear Form|Lycanthrope|Bence Homebrew|Werebear|Bence Homebrew|10",
-						"Ursine Toughness|Lycanthrope|Bence Homebrew|Werebear|Bence Homebrew|14",
-						"Terrifying Roar|Lycanthrope|Bence Homebrew|Werebear|Bence Homebrew|18"
+						"Werebear|Lycanthrope|Bence Homebrew: Lycanthrope|Werebear|Bence Homebrew: Lycanthrope|1",
+						"Formidable Strength|Lycanthrope|Bence Homebrew: Lycanthrope|Werebear|Bence Homebrew: Lycanthrope|6",
+						"Bear Form|Lycanthrope|Bence Homebrew: Lycanthrope|Werebear|Bence Homebrew: Lycanthrope|10",
+						"Ursine Toughness|Lycanthrope|Bence Homebrew: Lycanthrope|Werebear|Bence Homebrew: Lycanthrope|14",
+						"Terrifying Roar|Lycanthrope|Bence Homebrew: Lycanthrope|Werebear|Bence Homebrew: Lycanthrope|18"
 					],
-					"source": "Bence Homebrew",
+					"source": "Bence Homebrew: Lycanthrope",
 					"shortName": "Werebear"
 				},
 				{
 					"name": "Wereboar",
 					"subclassFeatures": [
-						"Wereboar|Lycanthrope|Bence Homebrew|Wereboar|Bence Homebrew|1",
-						"Brutish Swine|Lycanthrope|Bence Homebrew|Wereboar|Bence Homebrew|6",
-						"Boar Form|Lycanthrope|Bence Homebrew|Wereboar|Bence Homebrew|10",
-						"Charge|Lycanthrope|Bence Homebrew|Wereboar|Bence Homebrew|14",
-						"Relentless|Lycanthrope|Bence Homebrew|Wereboar|Bence Homebrew|18"
+						"Wereboar|Lycanthrope|Bence Homebrew: Lycanthrope|Wereboar|Bence Homebrew: Lycanthrope|1",
+						"Brutish Swine|Lycanthrope|Bence Homebrew: Lycanthrope|Wereboar|Bence Homebrew: Lycanthrope|6",
+						"Boar Form|Lycanthrope|Bence Homebrew: Lycanthrope|Wereboar|Bence Homebrew: Lycanthrope|10",
+						"Charge|Lycanthrope|Bence Homebrew: Lycanthrope|Wereboar|Bence Homebrew: Lycanthrope|14",
+						"Relentless|Lycanthrope|Bence Homebrew: Lycanthrope|Wereboar|Bence Homebrew: Lycanthrope|18"
 					],
-					"source": "Bence Homebrew",
+					"source": "Bence Homebrew: Lycanthrope",
 					"shortName": "Wereboar"
 				},
 				{
 					"name": "Wererat",
 					"subclassFeatures": [
-						"Wererat|Lycanthrope|Bence Homebrew|Wererat|Bence Homebrew|1",
-						"Scurry|Lycanthrope|Bence Homebrew|Wererat|Bence Homebrew|6",
-						"Rat Form|Lycanthrope|Bence Homebrew|Wererat|Bence Homebrew|10",
-						"Skulk|Lycanthrope|Bence Homebrew|Wererat|Bence Homebrew|14",
-						"Surprise|Lycanthrope|Bence Homebrew|Wererat|Bence Homebrew|18"
+						"Wererat|Lycanthrope|Bence Homebrew: Lycanthrope|Wererat|Bence Homebrew: Lycanthrope|1",
+						"Scurry|Lycanthrope|Bence Homebrew: Lycanthrope|Wererat|Bence Homebrew: Lycanthrope|6",
+						"Rat Form|Lycanthrope|Bence Homebrew: Lycanthrope|Wererat|Bence Homebrew: Lycanthrope|10",
+						"Skulk|Lycanthrope|Bence Homebrew: Lycanthrope|Wererat|Bence Homebrew: Lycanthrope|14",
+						"Surprise|Lycanthrope|Bence Homebrew: Lycanthrope|Wererat|Bence Homebrew: Lycanthrope|18"
 					],
-					"source": "Bence Homebrew",
+					"source": "Bence Homebrew: Lycanthrope",
 					"shortName": "Wererat"
 				},
 				{
 					"name": "Wereraven",
 					"subclassFeatures": [
-						"Wereraven|Lycanthrope|Bence Homebrew|Wereraven|Bence Homebrew|1",
-						"Mimicry|Lycanthrope|Bence Homebrew|Wereraven|Bence Homebrew|6",
-						"Raven Form|Lycanthrope|Bence Homebrew|Wereraven|Bence Homebrew|10",
-						"Swooping Blow|Lycanthrope|Bence Homebrew|Wereraven|Bence Homebrew|14",
-						"Keen Sight|Lycanthrope|Bence Homebrew|Wereraven|Bence Homebrew|18"
+						"Wereraven|Lycanthrope|Bence Homebrew: Lycanthrope|Wereraven|Bence Homebrew: Lycanthrope|1",
+						"Mimicry|Lycanthrope|Bence Homebrew: Lycanthrope|Wereraven|Bence Homebrew: Lycanthrope|6",
+						"Raven Form|Lycanthrope|Bence Homebrew: Lycanthrope|Wereraven|Bence Homebrew: Lycanthrope|10",
+						"Swooping Blow|Lycanthrope|Bence Homebrew: Lycanthrope|Wereraven|Bence Homebrew: Lycanthrope|14",
+						"Keen Sight|Lycanthrope|Bence Homebrew: Lycanthrope|Wereraven|Bence Homebrew: Lycanthrope|18"
 					],
-					"source": "Bence Homebrew",
+					"source": "Bence Homebrew: Lycanthrope",
 					"shortName": "Wereraven"
 				},
 				{
 					"name": "Weretiger",
 					"subclassFeatures": [
-						"Weretiger|Lycanthrope|Bence Homebrew|Weretiger|Bence Homebrew|1",
-						"Feline Agility|Lycanthrope|Bence Homebrew|Weretiger|Bence Homebrew|6",
-						"Tiger Form|Lycanthrope|Bence Homebrew|Weretiger|Bence Homebrew|10",
-						"Eye of the Tiger|Lycanthrope|Bence Homebrew|Weretiger|Bence Homebrew|14",
-						"Pounce|Lycanthrope|Bence Homebrew|Weretiger|Bence Homebrew|18"
+						"Weretiger|Lycanthrope|Bence Homebrew: Lycanthrope|Weretiger|Bence Homebrew: Lycanthrope|1",
+						"Feline Agility|Lycanthrope|Bence Homebrew: Lycanthrope|Weretiger|Bence Homebrew: Lycanthrope|6",
+						"Tiger Form|Lycanthrope|Bence Homebrew: Lycanthrope|Weretiger|Bence Homebrew: Lycanthrope|10",
+						"Eye of the Tiger|Lycanthrope|Bence Homebrew: Lycanthrope|Weretiger|Bence Homebrew: Lycanthrope|14",
+						"Pounce|Lycanthrope|Bence Homebrew: Lycanthrope|Weretiger|Bence Homebrew: Lycanthrope|18"
 					],
-					"source": "Bence Homebrew",
+					"source": "Bence Homebrew: Lycanthrope",
 					"shortName": "Weretiger"
 				},
 				{
 					"name": "Werewolf",
 					"subclassFeatures": [
-						"Werewolf|Lycanthrope|Bence Homebrew|Werewolf|Bence Homebrew|1",
-						"Silent Tracker|Lycanthrope|Bence Homebrew|Werewolf|Bence Homebrew|6",
-						"Wolf Form|Lycanthrope|Bence Homebrew|Werewolf|Bence Homebrew|10",
-						"Pack Hunter|Lycanthrope|Bence Homebrew|Werewolf|Bence Homebrew|14",
-						"Inspiring Howl|Lycanthrope|Bence Homebrew|Werewolf|Bence Homebrew|18"
+						"Werewolf|Lycanthrope|Bence Homebrew: Lycanthrope|Werewolf|Bence Homebrew: Lycanthrope|1",
+						"Silent Tracker|Lycanthrope|Bence Homebrew: Lycanthrope|Werewolf|Bence Homebrew: Lycanthrope|6",
+						"Wolf Form|Lycanthrope|Bence Homebrew: Lycanthrope|Werewolf|Bence Homebrew: Lycanthrope|10",
+						"Pack Hunter|Lycanthrope|Bence Homebrew: Lycanthrope|Werewolf|Bence Homebrew: Lycanthrope|14",
+						"Inspiring Howl|Lycanthrope|Bence Homebrew: Lycanthrope|Werewolf|Bence Homebrew: Lycanthrope|18"
 					],
-					"source": "Bence Homebrew",
+					"source": "Bence Homebrew: Lycanthrope",
 					"shortName": "Werewolf"
 				},
 				{
 					"name": "Wererabbit",
 					"subclassFeatures": [
-						"Wererabbit|Lycanthrope|Bence Homebrew|Wererabbit|Bence Homebrew|1",
-						"Powerful Kick|Lycanthrope|Bence Homebrew|Wererabbit|Bence Homebrew|6",
-						"Rabbit Form|Lycanthrope|Bence Homebrew|Wererabbit|Bence Homebrew|10",
-						"El-ahrairah's Blessing|Lycanthrope|Bence Homebrew|Wererabbit|Bence Homebrew|14",
-						"Lucky Rabbit's Foot|Lycanthrope|Bence Homebrew|Wererabbit|Bence Homebrew|18"
+						"Wererabbit|Lycanthrope|Bence Homebrew: Lycanthrope|Wererabbit|Bence Homebrew: Lycanthrope|1",
+						"Powerful Kick|Lycanthrope|Bence Homebrew: Lycanthrope|Wererabbit|Bence Homebrew: Lycanthrope|6",
+						"Rabbit Form|Lycanthrope|Bence Homebrew: Lycanthrope|Wererabbit|Bence Homebrew: Lycanthrope|10",
+						"El-ahrairah's Blessing|Lycanthrope|Bence Homebrew: Lycanthrope|Wererabbit|Bence Homebrew: Lycanthrope|14",
+						"Lucky Rabbit's Foot|Lycanthrope|Bence Homebrew: Lycanthrope|Wererabbit|Bence Homebrew: Lycanthrope|18"
 					],
-					"source": "Bence Homebrew",
+					"source": "Bence Homebrew: Lycanthrope",
 					"shortName": "Wererabbit"
 				}
 			],
@@ -515,7 +513,7 @@
 	"optionalfeature": [
 		{
 			"name": "Adept Climber",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -538,7 +536,7 @@
 		},
 		{
 			"name": "Bestial Mask",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -558,7 +556,7 @@
 		},
 		{
 			"name": "Bestial Speech",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -579,7 +577,7 @@
 		},
 		{
 			"name": "Boar Rush",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -602,7 +600,7 @@
 		},
 		{
 			"name": "Breath of the Winter Wolf",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -625,7 +623,7 @@
 		},
 		{
 			"name": "Bruin Grip",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"feature": [
@@ -643,7 +641,7 @@
 		},
 		{
 			"name": "Call Animal Allies",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -658,7 +656,7 @@
 				"As a bonus action you can attempt to call animal allies to your side provided you are in the correct environment. At the DM's discretion and depending on your Lycanthrope origin the following animals appear to aid you for up to 1 hour:",
 				"Werebear: two {@creature black bear|MM|black bears}",
 				"Wereboar: four {@creature boar|MM|boars}",
-				"Wererabbit: sixteen {@creature rabbit|Bence Homebrew|rabbits}",
+				"Wererabbit: sixteen {@creature rabbit|Bence Homebrew: Lycanthrope|rabbits}",
 				"Wererat: eight {@creature giant rat|MM|giant rats}",
 				"Wereraven: four {@creature swarm of ravens|MM|swarms of ravens}",
 				"Weretiger: one {@creature tiger|MM}",
@@ -671,7 +669,7 @@
 		},
 		{
 			"name": "Cat-Like Reflexes",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -694,7 +692,7 @@
 		},
 		{
 			"name": "Cannibalistic Regeneration",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"entries": [
 				"While you are in your hybrid or animal form you can use your action to consume the flesh and blood of a dead organic creature within 5 feet of you, gaining hit points equal to 1d10 + your Lycanthrope level.",
 				"After doing so your turn ends. At the start of your next turn, you must make a DC 10 Wisdom saving throw or move directly towards the nearest creature to you and use the Attack action against that creature. You must finish a short or long rest before you can use this feature again."
@@ -705,7 +703,7 @@
 		},
 		{
 			"name": "Disease Carrier",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -728,7 +726,7 @@
 		},
 		{
 			"name": "Disease Immunity",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -748,7 +746,7 @@
 		},
 		{
 			"name": "Fast-Flyer",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"feature": [
@@ -765,7 +763,7 @@
 		},
 		{
 			"name": "Fearless",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -785,7 +783,7 @@
 		},
 		{
 			"name": "Feline Balance",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"feature": [
@@ -802,7 +800,7 @@
 		},
 		{
 			"name": "Feral Lope",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -822,7 +820,7 @@
 		},
 		{
 			"name": "Hunt the Prey",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -842,7 +840,7 @@
 		},
 		{
 			"name": "Immovable Beast",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"feature": [
@@ -859,7 +857,7 @@
 		},
 		{
 			"name": "Keen-Feathered",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -882,7 +880,7 @@
 		},
 		{
 			"name": "Kin to Beasts",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"entries": [
 				"You gain proficiency in Animal Handling skill. If you are already proficient in this skill, you may double your proficiency bonus on Animal Handling skill checks you make."
 			],
@@ -892,7 +890,7 @@
 		},
 		{
 			"name": "Leporine Escape",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"feature": [
@@ -910,7 +908,7 @@
 		},
 		{
 			"name": "Lunar Transformation",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"entries": [
 				"You are able to use the light of the full moon to transform but the beast within threatens to break loose. During a full moon you may use your hybrid or animal form feature without expending a use, however if you do then whenever you make a Wisdom saving throw due to bloodlust, you do so with disadvantage."
 			],
@@ -920,7 +918,7 @@
 		},
 		{
 			"name": "Night Vision",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"entries": [
 				"You gain darkvision. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 			],
@@ -930,7 +928,7 @@
 		},
 		{
 			"name": "Other Foot's Lucky Too",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -953,7 +951,7 @@
 		},
 		{
 			"name": "Pack Master",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -976,7 +974,7 @@
 		},
 		{
 			"name": "Plague Rat",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"feature": [
@@ -993,7 +991,7 @@
 		},
 		{
 			"name": "Predator's Patience",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"feature": [
@@ -1010,7 +1008,7 @@
 		},
 		{
 			"name": "Quickrunner",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -1030,7 +1028,7 @@
 		},
 		{
 			"name": "Rampager",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"entries": [
 				"When you are in your hybrid or animal form and reduce a creature to 0 hit points with a melee attack on your turn, you can use your bonus action to move up to half your speed and make a natural weapon attack or unarmed strike against another creature."
 			],
@@ -1040,7 +1038,7 @@
 		},
 		{
 			"name": "Rending Claws",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -1060,7 +1058,7 @@
 		},
 		{
 			"name": "Signs of the Curse",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"entries": [
 				"Even in your humanoid form your curse changes your body. Your teeth and nails elongate and sharpen. You gain the benefit of your Predatory Strikes feature when not in your hybrid or animal form."
 			],
@@ -1070,7 +1068,7 @@
 		},
 		{
 			"name": "Spirit of the Beast",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -1090,7 +1088,7 @@
 		},
 		{
 			"name": "Terror of the Night",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"entries": [
 				"While in your hybrid or animal form you gain advantage on Charisma ({@skill Intimidation}) checks against humanoid creatures."
 			],
@@ -1100,7 +1098,7 @@
 		},
 		{
 			"name": "Thrash",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"prerequisite": [
 				{
 					"level": {
@@ -1123,7 +1121,7 @@
 		},
 		{
 			"name": "Vigorous Shifting",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"entries": [
 				"After using your hybrid or animal form features you can gain a number of temporary Hit Points equal to your level. You must finish a short or long rest before you can use this feature again."
 			],
@@ -1133,7 +1131,7 @@
 		},
 		{
 			"name": "Wounded Fury",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"entries": [
 				"When you roll a 1 or 2 on a damage die for an attack you make with a natural weapon or an unarmed strike, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. You must have less than half your Hit Points left in order to receive this benefit."
 			],
@@ -1145,7 +1143,7 @@
 	"monster": [
 		{
 			"name": "Rabbit",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"size": "T",
 			"type": "beast",
 			"alignment": [
@@ -1205,9 +1203,9 @@
 	"classFeature": [
 		{
 			"name": "Lycanthrope Origin",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"entries": [
 				"At 1st level, you choose a origin from the list of those available that describes where your lycanthropic curse came from. The origin you choose grants you features at 1st level and again at 6th, 10th, 14th, and 18th levels."
@@ -1215,9 +1213,9 @@
 		},
 		{
 			"name": "Hybrid Form",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"entries": [
 				"At 1st level, you begin to control the lycanthropic curse that now flows through your blood. As an action, you can transform into your Hybrid form as determined by your Lycanthrope Origin feature. This form lasts for 10 minutes. You can speak, use equipment, and wear armor in this form. You can revert to your normal form earlier by using an action on your turn. You automatically revert to your normal form if you fall unconscious, drop to 0 Hit Points, or die. You can use this feature twice. You regain expended uses when you finish a short or long rest.",
@@ -1259,9 +1257,9 @@
 		},
 		{
 			"name": "Natural Armour",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 2,
 			"entries": [
 				"Starting at the 2nd Level, while you are not wearing any armor nor wielding a shield, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier."
@@ -1269,9 +1267,9 @@
 		},
 		{
 			"name": "Totem Powers",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 2,
 			"entries": [
 				"At 2nd level, you gain a totem power of your choice. A list of the available options can be found on the {@filter Optional Features|optionalfeatures|Feature Type=TP} page. When you gain certain lycanthrope levels, you gain additional powers of your choice, as shown in the Totem Powers column of the Lycanthrope Table.",
@@ -1281,9 +1279,9 @@
 		},
 		{
 			"name": "Heightened Senses",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you begin to adopt the improved senses of a natural predator. You gain advantage on any Wisdom ({@skill Perception}) checks that rely on hearing or smell."
@@ -1291,9 +1289,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1302,9 +1300,9 @@
 		},
 		{
 			"name": "Extra Attack",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 5,
 			"entries": [
 				"Beginning at 5th level you can attack twice, instead of once, whenever you take the Attack action on your turn."
@@ -1312,9 +1310,9 @@
 		},
 		{
 			"name": "Origin Feature",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 6,
 			"entries": [
 				"At 6th level, you gain a feature granted by your Lycanthrope Origin."
@@ -1322,9 +1320,9 @@
 		},
 		{
 			"name": "Stalker's Prowess",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 7,
 			"entries": [
 				"At 7th level, your speed increases by 10 feet. You also can add 10 feet to your long jump distance and 3 feet to your high jump distance. In addition, whilst in your hybrid or animal form your unarmed strikes and natural weapons are considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
@@ -1332,9 +1330,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1343,9 +1341,9 @@
 		},
 		{
 			"name": "Bleeding Slash",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 9,
 			"entries": [
 				"Beginning at 9th level, you can tear deep into your enemies' flesh, leaving gaping wounds. When you make an unarmed strike in your hybrid form you can attempt a bleeding slash.",
@@ -1355,9 +1353,9 @@
 		},
 		{
 			"name": "Origin Feature",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain a feature granted by your Lycanthrope Origin."
@@ -1365,9 +1363,9 @@
 		},
 		{
 			"name": "Advanced Hybrid Form",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 11,
 			"entries": [
 				"Starting at 11th level, you learn to unleash and control more of the beast within you. You can now transform into your hybrid form as a bonus action, and your hybrid form now lasts for up to 30 minutes.",
@@ -1376,9 +1374,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1387,9 +1385,9 @@
 		},
 		{
 			"name": "Bleeding Slash (2d10)",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 13,
 			"entries": [
 				"At 13th level, the damage dealt by your Bleeding Slash increases from 1d10 to 2d10.",
@@ -1398,9 +1396,9 @@
 		},
 		{
 			"name": "Origin Feature",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain a feature granted by your Lycanthrope Origin."
@@ -1408,9 +1406,9 @@
 		},
 		{
 			"name": "Iron Volition",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 15,
 			"entries": [
 				"Beginning at 15th level, you've honed your willpower to better resist the violent urges of your lycanthropic curse. Whenever you make a Wisdom saving throw to maintain control of your hybrid form, you do so with advantage."
@@ -1418,9 +1416,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1429,9 +1427,9 @@
 		},
 		{
 			"name": "Bleeding Slash (3d10)",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 17,
 			"entries": [
 				"At 17th level, the damage dealt by your Bleeding Slash increases from 2d10 to 3d10."
@@ -1439,9 +1437,9 @@
 		},
 		{
 			"name": "Origin Feature",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain a feature granted by your Lycanthrope Origin."
@@ -1449,9 +1447,9 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -1460,9 +1458,9 @@
 		},
 		{
 			"name": "Hybrid Form Mastery",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"level": 20,
 			"entries": [
 				"At 20th level, you have wrestled with your inner predator and mastered it. You can now use your hybrid form feature three times instead of two, and your hybrid form now lasts for up to an hour.",
@@ -1473,17 +1471,17 @@
 	"subclassFeature": [
 		{
 			"name": "Werebear",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werebear",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"entries": [
 				"Werebears are powerful lycanthropes with the ability to temper their monstrous natures and reject their violent impulses. In humanoid form, they are large, muscular, and covered in hair matching the color of their ursine form's fur provided they can grow hair. When a werebear transforms, it grows to enormous size, lashing out with weapons or claws and fighting with the ferocity of a bear.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bear-Hybrid Form|Lycanthrope|Bence Homebrew|Werebear|Bence Homebrew|1"
+					"subclassFeature": "Bear-Hybrid Form|Lycanthrope|Bence Homebrew: Lycanthrope|Werebear|Bence Homebrew: Lycanthrope|1"
 				}
 			]
 		},
@@ -1494,21 +1492,21 @@
 				"When making a melee attack with your bite, you have a reach of 5 feet and deal {@dice 3d4} piercing damage on a hit. You add your Strength modifier to the attack and damage rolls.",
 				"A creature hit by your bite must succeed on a Constitution saving throw with a DC of 8 + your proficiency bonus + your Constitution modifier or be cursed with werebear lycanthropy."
 			],
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werebear",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"header": 1
 		},
 		{
 			"name": "Formidable Strength",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werebear",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1517,11 +1515,11 @@
 		},
 		{
 			"name": "Bear Form",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werebear",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1532,11 +1530,11 @@
 		},
 		{
 			"name": "Ursine Toughness",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werebear",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1545,11 +1543,11 @@
 		},
 		{
 			"name": "Terrifying Roar",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werebear",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1559,17 +1557,17 @@
 		},
 		{
 			"name": "Wereboar",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereboar",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"entries": [
 				"Wereboars are ill-tempered and vulgar brutes. As humanoids, they are stocky and muscular, with short, stiff hair. In their humanoid and hybrid forms, they use heavy weapons, while in hybrid or animal form, they gain a devastating goring attack through which their curse is spread.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Boar-Hybrid Form|Lycanthrope|Bence Homebrew|Wereboar|Bence Homebrew|1"
+					"subclassFeature": "Boar-Hybrid Form|Lycanthrope|Bence Homebrew: Lycanthrope|Wereboar|Bence Homebrew: Lycanthrope|1"
 				}
 			]
 		},
@@ -1580,21 +1578,21 @@
 				"When making a melee attack with your tusks, you have a reach of 5 feet and deal {@dice 2d6} slashing damage on a hit. You add your Strength modifier to the attack and damage rolls.",
 				"A creature hit by your tusks must succeed on a Constitution saving throw with a DC of 8 + your proficiency bonus + your Constitution modifier or be cursed with wereboar lycanthropy."
 			],
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereboar",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"header": 1
 		},
 		{
 			"name": "Brutish Swine",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereboar",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1603,11 +1601,11 @@
 		},
 		{
 			"name": "Boar Form",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereboar",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1618,11 +1616,11 @@
 		},
 		{
 			"name": "Charge",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereboar",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1631,11 +1629,11 @@
 		},
 		{
 			"name": "Relentless",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereboar",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1644,17 +1642,17 @@
 		},
 		{
 			"name": "Wererat",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererat",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"entries": [
 				"Wererats are cunning lycanthropes with sly, avaricious personalities. They are wiry and twitchy in humanoid form, with thin hair and darting eyes. In their humanoid and hybrid forms, wererats prefer light weapons and use ambush tactics rather than fighting as a pack. Although a wererat can deliver a nasty bite in its rat form, it favors that form for stealthy infiltration and escape rather than combat.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rat-Hybrid Form|Lycanthrope|Bence Homebrew|Wererat|Bence Homebrew|1"
+					"subclassFeature": "Rat-Hybrid Form|Lycanthrope|Bence Homebrew: Lycanthrope|Wererat|Bence Homebrew: Lycanthrope|1"
 				}
 			]
 		},
@@ -1665,21 +1663,21 @@
 				"When making a melee attack with your bite, you have a reach of 5 feet and deal {@dice 1d4} piercing damage on a hit. You may add your Strength or Dexterity modifier to the attack and damage rolls.",
 				"A creature hit by your bite must succeed on a Constitution saving throw with a DC of 8 + your proficiency bonus + your Constitution modifier or be cursed with wererat lycanthropy."
 			],
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererat",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"header": 1
 		},
 		{
 			"name": "Scurry",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererat",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1688,11 +1686,11 @@
 		},
 		{
 			"name": "Rat Form",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererat",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1703,11 +1701,11 @@
 		},
 		{
 			"name": "Skulk",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererat",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1716,11 +1714,11 @@
 		},
 		{
 			"name": "Surprise",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererat",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1729,17 +1727,17 @@
 		},
 		{
 			"name": "Wereraven",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereraven",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"entries": [
 				"Wereravens are secretive and extraordinarily cautious lycanthropes that trust one another but are wary of just about everyone else. Although skilled at blending into society they keep mostly to themselves, respect local laws, and strive to do good whenever possible. In their human and hybrid forms, wereravens tend to favour light weapons.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Raven-Hybrid Form|Lycanthrope|Bence Homebrew|Wereraven|Bence Homebrew|1"
+					"subclassFeature": "Raven-Hybrid Form|Lycanthrope|Bence Homebrew: Lycanthrope|Wereraven|Bence Homebrew: Lycanthrope|1"
 				}
 			]
 		},
@@ -1751,21 +1749,21 @@
 				"A creature hit by your beak must succeed on a Constitution saving throw with a DC of 8 + your proficiency bonus + your Constitution modifier or be cursed with wereraven lycanthropy.",
 				"Additionally, while in your hybrid form you gain a flying speed equal to your base movement speed. To use this speed, you can't be wearing medium or heavy armor."
 			],
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereraven",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"header": 1
 		},
 		{
 			"name": "Mimicry",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereraven",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1774,11 +1772,11 @@
 		},
 		{
 			"name": "Raven Form",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereraven",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1789,11 +1787,11 @@
 		},
 		{
 			"name": "Swooping Blow",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereraven",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1802,11 +1800,11 @@
 		},
 		{
 			"name": "Keen Sight",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wereraven",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1816,17 +1814,17 @@
 		},
 		{
 			"name": "Weretiger",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Weretiger",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"entries": [
 				"Weretigers are ferocious hunters and warriors with a haughty and fastidious nature. Lithe and sleekly muscular in humanoid form, they are taller than average and meticulously groomed. Weretigers grow to enormous size in animal and hybrid form, but they fight in their more refined humanoid form when they can.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tiger-Hybrid Form|Lycanthrope|Bence Homebrew|Weretiger|Bence Homebrew|1"
+					"subclassFeature": "Tiger-Hybrid Form|Lycanthrope|Bence Homebrew: Lycanthrope|Weretiger|Bence Homebrew: Lycanthrope|1"
 				}
 			]
 		},
@@ -1837,21 +1835,21 @@
 				"When making a melee attack with your bite, you have a reach of 5 feet and deal {@dice 1d10} piercing damage on a hit. You add your Strength modifier to the attack and damage rolls.",
 				"A creature hit by your bite must succeed on a Constitution saving throw with a DC of 8 + your proficiency bonus + your Constitution modifier or be cursed with weretiger lycanthropy."
 			],
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Weretiger",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"header": 1
 		},
 		{
 			"name": "Feline Agility",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Weretiger",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1860,11 +1858,11 @@
 		},
 		{
 			"name": "Tiger Form",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Weretiger",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1875,11 +1873,11 @@
 		},
 		{
 			"name": "Eye of the Tiger",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Weretiger",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1888,11 +1886,11 @@
 		},
 		{
 			"name": "Pounce",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Weretiger",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1901,17 +1899,17 @@
 		},
 		{
 			"name": "Werewolf",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werewolf",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"entries": [
 				"A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tenqency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far - a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wolf-Hybrid Form|Lycanthrope|Bence Homebrew|Werewolf|Bence Homebrew|1"
+					"subclassFeature": "Wolf-Hybrid Form|Lycanthrope|Bence Homebrew: Lycanthrope|Werewolf|Bence Homebrew: Lycanthrope|1"
 				}
 			]
 		},
@@ -1922,21 +1920,21 @@
 				"When making a melee attack with your bite, you have a reach of 5 feet and deal {@dice 1d8} piercing damage on a hit. You add your Strength modifier to the attack and damage rolls.",
 				"A creature hit by your bite must succeed on a Constitution saving throw with a DC of 8 + your proficiency bonus + your Constitution modifier or be cursed with werewolf lycanthropy."
 			],
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werewolf",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"header": 1
 		},
 		{
 			"name": "Silent Tracker",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werewolf",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -1945,11 +1943,11 @@
 		},
 		{
 			"name": "Wolf Form",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werewolf",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1960,11 +1958,11 @@
 		},
 		{
 			"name": "Pack Hunter",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werewolf",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -1973,11 +1971,11 @@
 		},
 		{
 			"name": "Inspiring Howl",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Werewolf",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1986,17 +1984,17 @@
 		},
 		{
 			"name": "Wererabbit",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererabbit",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"entries": [
 				"Wererabbits, occasionally called werehares, are a rare breed of lycanthropes and somewhat of an anomaly amongst their brethren. Whereas other lycanthropes are born of more predatory species, wererabbits evoke a lot of traits typically found in prey animals; however this only disguises their deadly potential. Extremely agile, wererabbits can move with blinding speed and deliver kicks that can snap bones like twigs.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rabbit-Hybrid Form|Lycanthrope|Bence Homebrew|Wererabbit|Bence Homebrew|1"
+					"subclassFeature": "Rabbit-Hybrid Form|Lycanthrope|Bence Homebrew: Lycanthrope|Wererabbit|Bence Homebrew: Lycanthrope|1"
 				}
 			]
 		},
@@ -2007,21 +2005,21 @@
 				"When making a melee attack with your bite, you have a reach of 5 feet and deal {@dice 1d4} piercing damage on a hit. You may add your Strength or Dexterity modifier to the attack and damage rolls.",
 				"A creature hit by your bite must succeed on a Constitution saving throw with a DC of 8 + your proficiency bonus + your Constitution modifier or be cursed with wererabbit lycanthropy."
 			],
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererabbit",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 1,
 			"header": 1
 		},
 		{
 			"name": "Powerful Kick",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererabbit",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -2032,11 +2030,11 @@
 		},
 		{
 			"name": "Rabbit Form",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererabbit",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2047,11 +2045,11 @@
 		},
 		{
 			"name": "El-ahrairah's Blessing",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererabbit",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -2062,11 +2060,11 @@
 		},
 		{
 			"name": "Lucky Rabbit's Foot",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Lycanthrope",
 			"className": "Lycanthrope",
-			"classSource": "Bence Homebrew",
+			"classSource": "Bence Homebrew: Lycanthrope",
 			"subclassShortName": "Wererabbit",
-			"subclassSource": "Bence Homebrew",
+			"subclassSource": "Bence Homebrew: Lycanthrope",
 			"level": 18,
 			"header": 2,
 			"entries": [
