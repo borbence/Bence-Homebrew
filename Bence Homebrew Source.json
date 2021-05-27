@@ -32,65 +32,71 @@
     ],
     "bookData": [
         {
-        "type": "section",
-          "name": "Teendők",
-          "entries": [
-            {
-                  "type": "inset",
-                  "name": "Fontos!",
-                  "entries": [
-                "",		
-                      "A Homebrew-kat a 5etools a böngésző sütijeiben tárolja.",
-                      "Ha azokat kitörlöd (pl. böngészési előzmények törlése alatt), minden betöltött Homebrew elveszik.",
-                      "(Ezt a könyvet is beleértve!)"
-                  ]
-              },
-            {
-              "type": "entries",
-              "name": "Új homebrew hozzáadása",
-              "entries": [
-                "Kattints a betölteni kívánt homebrew-kra {@book A Linkek fejezetben|BH|1}, majd frissíts {@underline minden} 5etools lapot!"
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Meglévő homebrew frissítése",
-              "entries": [
-                "A {@5etools \"Homebrew Manager\"|managebrew.html} oldalon belül kattints a frissíteni kívánt Homebrew sorában lévő \"View Source\" linkre, majd másold be az oldal url-jét.",
+            "id": "BH",
+            "source": "Bence Homebrew Source",
+            "data": [
                 {
-                  "type": "image",
-                  "href": {
-                    "type": "external",
-                    "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial/Tutorial%203.png"
-                  }
+                    "type": "section",
+                    "name": "Teendők",
+                    "entries": [
+                        {
+                            "type": "inset",
+                            "name": "Fontos!",
+                            "entries": [
+                                "",
+                                "A Homebrew-kat a 5etools a böngésző sütijeiben tárolja.",
+                                "Ha azokat kitörlöd (pl. böngészési előzmények törlése alatt), minden betöltött Homebrew elveszik.",
+                                "(Ezt a könyvet is beleértve!)"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Új homebrew hozzáadása",
+                            "entries": [
+                                "Kattints a betölteni kívánt homebrew-kra {@book A Linkek fejezetben|BH|1}, majd frissíts {@underline minden} 5etools lapot!"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Meglévő homebrew frissítése",
+                            "entries": [
+                                "A {@5etools \"Homebrew Manager\"|managebrew.html} oldalon belül kattints a frissíteni kívánt Homebrew sorában lévő \"View Source\" linkre, majd másold be az oldal url-jét.",
+                                {
+                                    "type": "image",
+                                    "href": {
+                                        "type": "external",
+                                        "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial/Tutorial%203.png"
+                                    }
+                                },
+                                "Ezután kattints a \"kuka\" szimbólumra, majd az \"OK\"-ra a felugró ablakon",
+                                {
+                                    "type": "image",
+                                    "href": {
+                                        "type": "external",
+                                        "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial/Tutorial%202.png"
+                                    }
+                                },
+                                "Végül kattints a \"Load from URL\"-re és illeszd be az előbb másolt linket, majd frissíts {@underline minden} 5etools lapot!"
+                            ]
+                        }
+                    ]
                 },
-                "Ezután kattints a \"kuka\" szimbólumra, majd az \"OK\"-ra a felugró ablakon",
                 {
-                  "type": "image",
-                  "href": {
-                    "type": "external",
-                    "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial/Tutorial%202.png"
-                  }
-                },
-                "Végül kattints a \"Load from URL\"-re és illeszd be az előbb másolt linket, majd frissíts {@underline minden} 5etools lapot!"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "section",
-          "name": "Linkek",
-          "entries": [
-            {
-                  "type": "inset",
-                  "name": "Fontos!",
-                  "entries": [
-                    "",
-                "Ha egy link nem jelenik itt meg, próbáld {@book frissíteni|BH|0|Meglévő homebrew frissítése} ezt a Homebrew-t: \"Bence Homebrew Source\""
-                  ]
-              },
-            "{@loader Minden|https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Bence%20Homebrew.json} (Ha ezt betöltöd, más linkre nem kell kattintanod!)"
-          ]
+                    "type": "section",
+                    "name": "Linkek",
+                    "entries": [
+                        {
+                            "type": "inset",
+                            "name": "Fontos!",
+                            "entries": [
+                                "",
+                                "Ha egy link nem jelenik itt meg, próbáld {@book frissíteni|BH|0|Meglévő homebrew frissítése} ezt a Homebrew-t: \"Bence Homebrew Source\""
+                            ]
+                        },
+                        "{@loader Minden|https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Bence%20Homebrew.json} (Ha ezt betöltöd, más linkre nem kell kattintanod!)"
+                    ]
+                }
+            ]
         }
-      ]
+    ]
 }
