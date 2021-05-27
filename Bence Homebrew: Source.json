@@ -45,9 +45,8 @@
                             "name": "Fontos!",
                             "entries": [
                                 "",
-                                "A Homebrew-kat a 5etools a böngésző sütijeiben tárolja.",
-                                "Ha azokat kitörlöd (pl. böngészési előzmények törlése alatt), minden betöltött Homebrew elveszik.",
-                                "(Ezt a könyvet is beleértve!)"
+                                "A 5etoolst a Homebrew-ka a böngésző sütijeiben tárolja.",
+                                "Ha azokat kitörlöd (pl. böngészési előzmények törlése alatt), minden betöltött Homebrew elveszik. (Ezt a könyvet is beleértve!)"
                             ]
                         },
                         {
@@ -61,7 +60,15 @@
                             "type": "entries",
                             "name": "Meglévő homebrew frissítése",
                             "entries": [
-                                "A {@5etools \"Homebrew Manager\"|managebrew.html} oldalon belül kattints a frissíteni kívánt Homebrew sorában lévő \"View Source\" linkre, majd másold be az oldal url-jét.",
+                                {
+                                    "type": "inset",
+                                    "name": "Fontos!",
+                                    "entries": [
+                                        "",
+                                        "A Homebrew-k nem frissülnek automatikusan, úgyhogy, időnként nem árt frissíteni azokat, hogy a legújabb verziót láthasd."
+                                    ]
+                                },
+                                "A {@5etools \"Homebrew Manager\"|managebrew.html} oldalon belül kattints a frissíteni kívánt Homebrew sorában lévő \"View Source\" linkre, majd másold be az oldal URL címét.",
                                 {
                                     "type": "image",
                                     "href": {
@@ -77,7 +84,14 @@
                                         "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial/Tutorial%202.png"
                                     }
                                 },
-                                "Végül kattints a \"Load from URL\"-re és illeszd be az előbb másolt linket, majd frissíts {@underline minden} 5etools lapot!"
+                                "Végül kattints a \"Load from URL\"-re és illeszd be az előbb másolt címet, majd frissíts {@underline minden} 5etools lapot!",
+                                {
+                                    "type": "entries",
+                                    "name": "Összes homebrew frissítése",
+                                    "entries": [
+                                        "Ha mindegyik Homebrew-mat frissíteni akarod, akkor töröld le mindet, majd kattints ide: {@loader https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Bence%20Homebrew.json}"
+                                    ]
+                                }
                             ]
                         }
                     ]
@@ -91,7 +105,7 @@
                             "name": "Fontos!",
                             "entries": [
                                 "",
-                                "Ha egy link nem jelenik itt meg, próbáld {@book frissíteni|BH:S|0|Meglévő homebrew frissítése} ezt a Homebrew-t: \"Bence Homebrew: Source\"",
+                                "Ha egy link nem jelenik itt meg, próbáld meg {@book frissíteni|BH:S|0|Meglévő homebrew frissítése} ezt a Homebrew-t: \"Bence Homebrew: Source\"",
                                 "Ha így se jó, akkor írjál nekem!"
                             ]
                         },
