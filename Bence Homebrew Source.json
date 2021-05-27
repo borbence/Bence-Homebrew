@@ -1,0 +1,87 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Bence Homebrew Source",
+                "abbreviation": "BNCS",
+                "full": "Bence Homebrew Source",
+                "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Bence%20Homebrew%20Source.json",
+                "authors": [
+                    "B. Bence"
+                ]
+            }
+        ]
+    },
+    "book": [
+        {
+            "name": "Homebrew",
+            "id": "BH",
+            "source": "Bence Homebrew Source",
+            "contents": [
+                {
+                    "name": "Teendők",
+                    "headers": [
+                        "Meglévő homebrew frissítése"
+                    ]
+                },
+                {
+                    "name": "Linkek"
+                }
+            ]
+        }
+    ],
+    "bookData": [
+        {
+            "id": "BH",
+            "source": "Bence Homebrew Source",
+            "data": [
+                {
+                    "type": "section",
+                    "name": "Teendők",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Meglévő homebrew frissítése",
+                            "entries": [
+                                "Először le kell törölnöd a már meglévő változatott.",
+                                {
+                                    "type": "image",
+                                    "href": {
+                                        "type": "external",
+                                        "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial/Tutorial%201.png"
+                                    },
+                                    "title": "Menjél a \"Homebrew Manager\" oldalra"
+                                },
+                                "",
+                                {
+                                    "type": "image",
+                                    "href": {
+                                        "type": "external",
+                                        "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial/Tutorial%202.png"
+                                    },
+                                    "title": "Kattints a \"kuka\" szimbólumra, majd az \"OK\"-ra a felugró ablakon"
+                                },
+                                "Ez után kattints a frissíteni kívánt homebrew-ra {@book A Linkek fejezetben|BH|1}, majd frissíts {@underline minden} 5etools oldalt!"
+                            ]
+                        },
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Pictures/Tutorial%201.png"
+                            }
+                        },
+                        "Kattints a betölteni kívánt linkekre, majd frissíts minden 5etools oldalt!"
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "Linkek",
+                    "entries": [
+                        "{@loader Minden|https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Bence%20Homebrew.json}"
+                    ]
+                }
+            ]
+        }
+    ]
+}
