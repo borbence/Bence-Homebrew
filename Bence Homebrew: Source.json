@@ -2,9 +2,9 @@
     "_meta": {
         "sources": [
             {
-                "json": "Bence Homebrew Source",
-                "abbreviation": "BNCS",
-                "full": "Bence Homebrew Source",
+                "json": "Bence Homebrew: Source",
+                "abbreviation": "BNC:S",
+                "full": "Bence Homebrew: Source",
                 "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Bence%20Homebrew%20Source.json",
                 "authors": [
                     "B. Bence"
@@ -15,12 +15,13 @@
     "book": [
         {
             "name": "Homebrew",
-            "id": "BH",
-            "source": "Bence Homebrew Source",
+            "id": "BH:S",
+            "source": "Bence Homebrew: Source",
             "contents": [
                 {
                     "name": "Teendők",
                     "headers": [
+                        "Új homebrew hozzáadása",
                         "Meglévő homebrew frissítése"
                     ]
                 },
@@ -32,8 +33,8 @@
     ],
     "bookData": [
         {
-            "id": "BH",
-            "source": "Bence Homebrew Source",
+            "id": "BH:S",
+            "source": "Bence Homebrew: Source",
             "data": [
                 {
                     "type": "section",
@@ -53,7 +54,7 @@
                             "type": "entries",
                             "name": "Új homebrew hozzáadása",
                             "entries": [
-                                "Kattints a betölteni kívánt homebrew-kra {@book A Linkek fejezetben|BH|1}, majd frissíts {@underline minden} 5etools lapot!"
+                                "Kattints a betölteni kívánt homebrew-kra {@book A Linkek fejezetben|BH:S|1}, majd frissíts {@underline minden} 5etools lapot!"
                             ]
                         },
                         {
@@ -90,7 +91,8 @@
                             "name": "Fontos!",
                             "entries": [
                                 "",
-                                "Ha egy link nem jelenik itt meg, próbáld {@book frissíteni|BH|0|Meglévő homebrew frissítése} ezt a Homebrew-t: \"Bence Homebrew Source\""
+                                "Ha egy link nem jelenik itt meg, próbáld {@book frissíteni|BH:S|0|Meglévő homebrew frissítése} ezt a Homebrew-t: \"Bence Homebrew: Source\"",
+                                "Ha így se jó, akkor írjál nekem!"
                             ]
                         },
                         "{@loader Minden|https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Bence%20Homebrew.json} (Ha ezt betöltöd, más linkre nem kell kattintanod!)"
