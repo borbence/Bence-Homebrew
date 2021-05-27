@@ -2,20 +2,491 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Bence Homebrew",
-				"abbreviation": "BNC",
-				"full": "Bence Homebrew",
-				"url": "https://github.com/borbence/Bence-Homebrew.git",
+				"json": "Bence Homebrew: Backgrounds",
+				"abbreviation": "BNC:B",
+				"full": "Bence Homebrew: Backgrounds",
+				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Background/_All.json",
 				"authors": ["B. Bence"]
 			}
-		],
-		"dateAdded": 1610960451,
-		"dateLastModified": 1610960451
+		]
 	},
     "background": [
 		{
+			"name": "Doctor",
+			"source": "Bence Homebrew: Backgrounds",
+			"skillProficiencies": [
+				{
+					"investigation": true,
+					"medicine": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true,
+					"poisoner's kit": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item herbalism kit|phb}, {@item poisoner's kit|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Investigation}, {@skill Medicine}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A preserved medical anomaly (such as a deformed skull or appendix), an {@item herbalism kit|phb}, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: The Doctor Is In",
+					"type": "entries",
+					"entries": [
+						"If you work as a healer during your downtime from adventuring you are able to afford a comfortable lifestyle for yourself. In addition, whenever you and your allies are in a civilized settlement, you are able to provide them with free medical care and hospital beds, provided they are sick or injured. This is provided as a professional courtesy from your former colleagues in the field of medicine."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Variant Doctor: Veterinarian",
+					"type": "entries",
+					"entries": [
+						"If you want to play a doctor who treats animals instead of people, you gain proficiency in the Animal Handling skill instead of the Investigation skill. In addition give yourself the Sure Thing, Doc background feature in place of The Doctor Is In feature."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Variant Feature: Sure Thing, Doc",
+					"type": "entries",
+					"entries": [
+						"If you work as a vet during your adventuring downtime, you are able to afford a comfortable lifestyle for yourself. In addition when you require an animal (such as horses for mounts or bloodhounds for tracking) you are able to borrow them from a client, provided you return the animals in good health. The actual terms of the agreement with the client are between the DM and you."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I talk about bodily fluids and other subjects most find gross, but I do not."
+								],
+								[
+									"2",
+									"I constantly give out unsolicited medical advice."
+								],
+								[
+									"3",
+									"When there is a problem I cannot solve or diagnose, I talk it through until I figure it out."
+								],
+								[
+									"4",
+									"I can never give an answer with 100 percent certainty because nothing is certain... I think."
+								],
+								[
+									"5",
+									"When I give instructions I just tell people what to do, never why."
+								],
+								[
+									"6",
+									"I stare openly at people who have medical ailments."
+								],
+								[
+									"7",
+									"When I see a problem that needs solving I become obsessed with finding the answer."
+								],
+								[
+									"8",
+									"I speak up whenever I see a person doing anything I don't like."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Reason.} There are no coincidences because everything can be explained with logic. (Lawful)"
+								],
+								[
+									"2",
+									"{@b Charity.} All creatures have a right to proper medical care. (Good)"
+								],
+								[
+									"3",
+									"{@b People.} Governments do not have the best interests of their people at heart. (Chaotic)"
+								],
+								[
+									"4",
+									"{@b Knowledge.} True power over the anatomy can fix any problem. (Neutral)"
+								],
+								[
+									"5",
+									"{@b Mercy.} To take the life of any creature without first exhausting all other options is unthinkable. (Good)"
+								],
+								[
+									"6",
+									"{@b Independence.} I only provide help to those who ask. (Neutral)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I own a scalpel that has been in my family for generations."
+								],
+								[
+									"2",
+									"I'm determined to find a cure to a disease that took my lover."
+								],
+								[
+									"3",
+									"I am devoted to the school where I learned my trade and hope to return as a professor someday."
+								],
+								[
+									"4",
+									"I feel drawn to other medical professionals and seek out their company."
+								],
+								[
+									"5",
+									"I have a fascination with a particularly specialized field of medicine, such as leeching or amputation."
+								],
+								[
+									"6",
+									"I have a precious research diary that contains all my medical observations and thoughts."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My opinion is always factually correct."
+								],
+								[
+									"2",
+									"If you ask me a question and I don't know the answer, I lie."
+								],
+								[
+									"3",
+									"When someone does something even a little foolish, I can't help but berate them."
+								],
+								[
+									"4",
+									"I do not have a sense of humor, especially when it comes to jokes at my expense."
+								],
+								[
+									"5",
+									"I am very worried about the long-term effects of magical healing, but I will rely on it in a pinch."
+								],
+								[
+									"6",
+									"In cases of extreme suffering I will take the life of patients even when it is against their wishes."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You were a surgeon, barber, country doctor, field medic, nurse, or other medical professional. Healing wounds, treating diseases, and creating medicines for others in need was how you spent your days. While illness and injury make many uncomfortable, they are areas in which you thrive. When others panic, you're working on a cure or stopping the bleeding."
+				]
+			}
+		},
+		{
+			"name": "Farmer",
+			"source": "Bence Homebrew: Backgrounds",
+			"skillProficiencies": [
+				{
+					"animal handling": true,
+					"nature": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (land)": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@filter Vehicles (Land)|items|source=null|type=vehicle (land)}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Animal Handling}, {@skill Nature}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A relative's recipe for homemade stew, an {@item common iron pot|phb}, {@item hempen Rope (50 feet)|phb}, 2 gp worth of trade goods (your choice), a set of {@item common clothes|phb}, and a belt {@item common pouch|phb} with 5 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Farmhand",
+					"type": "entries",
+					"entries": [
+						"When you are not adventuring you are able to provide a modest lifestyle for yourself by working on another's farm. You might sleep in the hayloft or in a spare room. By working this way, you also ingratiate yourself to the farm owner, who gives you free food for your adventures. Before leaving on an adventure you are given enough food for you and your party to eat for a week while traveling and adventuring."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Farmers are defined by the simple life - you haven't had as much excitement in your life as others. Before your adventuring career began, you may have never left your village or town. A farmer could be eager, scared, or naive on adventures, but all are defined by their strong connection to the farm where they were raised.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I really enjoy talking about and spending time with domesticated animals."
+								],
+								[
+									"2",
+									"I have a catch phrase I use whenever I am surprised."
+								],
+								[
+									"3",
+									"I often lose the point of the story I am telling."
+								],
+								[
+									"4",
+									"I have a tick I can't control when I am scared or excited."
+								],
+								[
+									"5",
+									"I often sing the songs of my homeland without provocation."
+								],
+								[
+									"6",
+									"I look forward to eating and enjoy every bite of every meal."
+								],
+								[
+									"7",
+									"I stare openly at that which I have never seen before."
+								],
+								[
+									"8",
+									"I laugh very loud and clap my hands when I am amused."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Manners.} I conduct myself in public with the utmost respect for all people around me. (Lawful)"
+								],
+								[
+									"2",
+									"{@b Generosity.} I am happy to share whatever I have with those less fortunate. (Good)"
+								],
+								[
+									"3",
+									"{@b Destiny.} I was meant for more than the simple life. (Neutral)"
+								],
+								[
+									"4",
+									"{@b Faith.} I have left the farm to bring my religion to others. (Any)"
+								],
+								[
+									"5",
+									"{@b Freedom.} I want to experience everything I can. (Chaotic)"
+								],
+								[
+									"6",
+									"{@b Knowledge.} I learn everything I can about the world. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My dog ran away when I was irresponsible with its care."
+								],
+								[
+									"2",
+									"My parents have fallen on hard times and I have vowed to help them repair the farm."
+								],
+								[
+									"3",
+									"My best friend is betrothed to the woman I secretly love."
+								],
+								[
+									"4",
+									"I will get vengeance on the monsters that destroyed my village."
+								],
+								[
+									"5",
+									"I can only get my favorite food in the town of my birth."
+								],
+								[
+									"6",
+									"I have a prize farm animal I love to show off to others."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I sometimes wander off without telling anyone."
+								],
+								[
+									"2",
+									"I am easily fooled and believe whatever I am told."
+								],
+								[
+									"3",
+									"I lie to others to appear more experienced than I am."
+								],
+								[
+									"4",
+									"I ask rude, abrasive questions to strangers."
+								],
+								[
+									"5",
+									"I spend coin too quickly."
+								],
+								[
+									"6",
+									"I do not open my mind to the ethics and morals of others."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You have worked the land and hand-raised livestock from birth to feed the mouths of many. As a farmer, you woke up before the sun and came in from working the fields after it set. You have left behind a mundane life to seek adventure for thrill or fame or fortune. Work with your DM to determine the types of livestock and crops you had on your farm. It might have been pigs and corn, or perhaps you raised deep rothe and mushrooms in the Underdark."
+				]
+			}
+		},
+		{
 			"name": "Cook",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Backgrounds",
 			"skillProficiencies": [
 				{
 					"deception": true,
@@ -295,7 +766,7 @@
 		},
 		{
 			"name": "Cursed",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Backgrounds",
 			"skillProficiencies": [
 				{
 					"intimidation": true
@@ -623,7 +1094,7 @@
 		},
 		{
 			"name": "Dead",
-			"source": "Bence Homebrew",
+			"source": "Bence Homebrew: Backgrounds",
 			"skillProficiencies": [
 				{
 					"history": true,
@@ -839,479 +1310,6 @@
 					"What was your period of death like? Did you spend time in the glory of eternal battle is Ysgard? Were you enjoying the paradise of Elysium? Were you being tortured in the Nine Hells or Abyss? Do you remember nothing from that time?",
 					"Maybe you didn't completely pass on, but lived life as an undead, wayward soul such as a ghost or vampire. Why did you become such a being? What acts did you commit that you now regret? Who still thinks of you as a monster?",
 					"Finally someone brought you back. Who was it? Why? Maybe it was to face an old enemy. Maybe it was a loved one who searched for a long time and spent all their resources to bring you back. Maybe you were brought back for a secret only you knew. How did this person bring you back? Was it straight forward magic? What about a spell like reincarnate, which could bring your spirit back in the body of a different humanoid race? Or maybe it was some other magic that has a more sinister secret."
-				]
-			}
-		},
-		{
-			"name": "Doctor",
-			"source": "Bence Homebrew",
-			"skillProficiencies": [
-				{
-					"investigation": true,
-					"medicine": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"herbalism kit": true,
-					"poisoner's kit": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"any": 2
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Tool Proficiencies",
-							"entry": "{@item herbalism kit|phb}, {@item poisoner's kit|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies",
-							"entry": "{@skill Investigation}, {@skill Medicine}"
-						},
-						{
-							"type": "item",
-							"name": "Languages",
-							"entry": "Two of your choice"
-						},
-						{
-							"type": "item",
-							"name": "Equipment",
-							"entry": "A preserved medical anomaly (such as a deformed skull or appendix), an {@item herbalism kit|phb}, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp"
-						}
-					]
-				},
-				{
-					"name": "Feature: The Doctor Is In",
-					"type": "entries",
-					"entries": [
-						"If you work as a healer during your downtime from adventuring you are able to afford a comfortable lifestyle for yourself. In addition, whenever you and your allies are in a civilized settlement, you are able to provide them with free medical care and hospital beds, provided they are sick or injured. This is provided as a professional courtesy from your former colleagues in the field of medicine."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "Variant Doctor: Veterinarian",
-					"type": "entries",
-					"entries": [
-						"If you want to play a doctor who treats animals instead of people, you gain proficiency in the Animal Handling skill instead of the Investigation skill. In addition give yourself the Sure Thing, Doc background feature in place of The Doctor Is In feature."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "Variant Feature: Sure Thing, Doc",
-					"type": "entries",
-					"entries": [
-						"If you work as a vet during your adventuring downtime, you are able to afford a comfortable lifestyle for yourself. In addition when you require an animal (such as horses for mounts or bloodhounds for tracking) you are able to borrow them from a client, provided you return the animals in good health. The actual terms of the agreement with the client are between the DM and you."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "Suggested Characteristics",
-					"type": "entries",
-					"entries": [
-						"",
-						{
-							"type": "table",
-							"colLabels": [
-								"d8",
-								"Personality Trait"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I talk about bodily fluids and other subjects most find gross, but I do not."
-								],
-								[
-									"2",
-									"I constantly give out unsolicited medical advice."
-								],
-								[
-									"3",
-									"When there is a problem I cannot solve or diagnose, I talk it through until I figure it out."
-								],
-								[
-									"4",
-									"I can never give an answer with 100 percent certainty because nothing is certain... I think."
-								],
-								[
-									"5",
-									"When I give instructions I just tell people what to do, never why."
-								],
-								[
-									"6",
-									"I stare openly at people who have medical ailments."
-								],
-								[
-									"7",
-									"When I see a problem that needs solving I become obsessed with finding the answer."
-								],
-								[
-									"8",
-									"I speak up whenever I see a person doing anything I don't like."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Ideal"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"{@b Reason.} There are no coincidences because everything can be explained with logic. (Lawful)"
-								],
-								[
-									"2",
-									"{@b Charity.} All creatures have a right to proper medical care. (Good)"
-								],
-								[
-									"3",
-									"{@b People.} Governments do not have the best interests of their people at heart. (Chaotic)"
-								],
-								[
-									"4",
-									"{@b Knowledge.} True power over the anatomy can fix any problem. (Neutral)"
-								],
-								[
-									"5",
-									"{@b Mercy.} To take the life of any creature without first exhausting all other options is unthinkable. (Good)"
-								],
-								[
-									"6",
-									"{@b Independence.} I only provide help to those who ask. (Neutral)"
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Bond"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I own a scalpel that has been in my family for generations."
-								],
-								[
-									"2",
-									"I'm determined to find a cure to a disease that took my lover."
-								],
-								[
-									"3",
-									"I am devoted to the school where I learned my trade and hope to return as a professor someday."
-								],
-								[
-									"4",
-									"I feel drawn to other medical professionals and seek out their company."
-								],
-								[
-									"5",
-									"I have a fascination with a particularly specialized field of medicine, such as leeching or amputation."
-								],
-								[
-									"6",
-									"I have a precious research diary that contains all my medical observations and thoughts."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Flaw"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"My opinion is always factually correct."
-								],
-								[
-									"2",
-									"If you ask me a question and I don't know the answer, I lie."
-								],
-								[
-									"3",
-									"When someone does something even a little foolish, I can't help but berate them."
-								],
-								[
-									"4",
-									"I do not have a sense of humor, especially when it comes to jokes at my expense."
-								],
-								[
-									"5",
-									"I am very worried about the long-term effects of magical healing, but I will rely on it in a pinch."
-								],
-								[
-									"6",
-									"In cases of extreme suffering I will take the life of patients even when it is against their wishes."
-								]
-							]
-						}
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"You were a surgeon, barber, country doctor, field medic, nurse, or other medical professional. Healing wounds, treating diseases, and creating medicines for others in need was how you spent your days. While illness and injury make many uncomfortable, they are areas in which you thrive. When others panic, you're working on a cure or stopping the bleeding."
-				]
-			}
-		},
-		{
-			"name": "Farmer",
-			"source": "Bence Homebrew",
-			"skillProficiencies": [
-				{
-					"animal handling": true,
-					"nature": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"vehicles (land)": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"any": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Tool Proficiencies",
-							"entry": "{@filter Vehicles (Land)|items|source=null|type=vehicle (land)}"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies",
-							"entry": "{@skill Animal Handling}, {@skill Nature}"
-						},
-						{
-							"type": "item",
-							"name": "Languages",
-							"entry": "Two of your choice"
-						},
-						{
-							"type": "item",
-							"name": "Equipment",
-							"entry": "A relative's recipe for homemade stew, an {@item common iron pot|phb}, {@item hempen Rope (50 feet)|phb}, 2 gp worth of trade goods (your choice), a set of {@item common clothes|phb}, and a belt {@item common pouch|phb} with 5 gp"
-						}
-					]
-				},
-				{
-					"name": "Feature: Farmhand",
-					"type": "entries",
-					"entries": [
-						"When you are not adventuring you are able to provide a modest lifestyle for yourself by working on another's farm. You might sleep in the hayloft or in a spare room. By working this way, you also ingratiate yourself to the farm owner, who gives you free food for your adventures. Before leaving on an adventure you are given enough food for you and your party to eat for a week while traveling and adventuring."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "Suggested Characteristics",
-					"type": "entries",
-					"entries": [
-						"Farmers are defined by the simple life - you haven't had as much excitement in your life as others. Before your adventuring career began, you may have never left your village or town. A farmer could be eager, scared, or naive on adventures, but all are defined by their strong connection to the farm where they were raised.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d8",
-								"Personality Trait"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I really enjoy talking about and spending time with domesticated animals."
-								],
-								[
-									"2",
-									"I have a catch phrase I use whenever I am surprised."
-								],
-								[
-									"3",
-									"I often lose the point of the story I am telling."
-								],
-								[
-									"4",
-									"I have a tick I can't control when I am scared or excited."
-								],
-								[
-									"5",
-									"I often sing the songs of my homeland without provocation."
-								],
-								[
-									"6",
-									"I look forward to eating and enjoy every bite of every meal."
-								],
-								[
-									"7",
-									"I stare openly at that which I have never seen before."
-								],
-								[
-									"8",
-									"I laugh very loud and clap my hands when I am amused."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Ideal"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"{@b Manners.} I conduct myself in public with the utmost respect for all people around me. (Lawful)"
-								],
-								[
-									"2",
-									"{@b Generosity.} I am happy to share whatever I have with those less fortunate. (Good)"
-								],
-								[
-									"3",
-									"{@b Destiny.} I was meant for more than the simple life. (Neutral)"
-								],
-								[
-									"4",
-									"{@b Faith.} I have left the farm to bring my religion to others. (Any)"
-								],
-								[
-									"5",
-									"{@b Freedom.} I want to experience everything I can. (Chaotic)"
-								],
-								[
-									"6",
-									"{@b Knowledge.} I learn everything I can about the world. (Any)"
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Bond"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"My dog ran away when I was irresponsible with its care."
-								],
-								[
-									"2",
-									"My parents have fallen on hard times and I have vowed to help them repair the farm."
-								],
-								[
-									"3",
-									"My best friend is betrothed to the woman I secretly love."
-								],
-								[
-									"4",
-									"I will get vengeance on the monsters that destroyed my village."
-								],
-								[
-									"5",
-									"I can only get my favorite food in the town of my birth."
-								],
-								[
-									"6",
-									"I have a prize farm animal I love to show off to others."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Flaw"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I sometimes wander off without telling anyone."
-								],
-								[
-									"2",
-									"I am easily fooled and believe whatever I am told."
-								],
-								[
-									"3",
-									"I lie to others to appear more experienced than I am."
-								],
-								[
-									"4",
-									"I ask rude, abrasive questions to strangers."
-								],
-								[
-									"5",
-									"I spend coin too quickly."
-								],
-								[
-									"6",
-									"I do not open my mind to the ethics and morals of others."
-								]
-							]
-						}
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"You have worked the land and hand-raised livestock from birth to feed the mouths of many. As a farmer, you woke up before the sun and came in from working the fields after it set. You have left behind a mundane life to seek adventure for thrill or fame or fortune. Work with your DM to determine the types of livestock and crops you had on your farm. It might have been pigs and corn, or perhaps you raised deep rothe and mushrooms in the Underdark."
 				]
 			}
 		}
