@@ -1,0 +1,150 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Bence Homebrew:Creature - DM",
+				"abbreviation": "BNC:CDM",
+				"full": "Bence Homebrew:Creature - DM",
+				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Creature/Corkie.json",
+				"authors": ["B. Bence"]
+			}
+		]
+	},
+    "monster": [
+		{
+			"name": "Corkie",
+			"source": "Bence Homebrew:Creature - DM",
+			"level": 3,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "Forest",
+						"prefix": "Gnome,"
+					}
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 13,
+			"int": 18,
+			"wis": 17,
+			"cha": 13,
+			"save": {
+				"int": "+6",
+				"wis": "+5"
+			},
+			"skill": {
+				"insight": "+5",
+				"persuasion": "+3",
+				"nature": "+6",
+				"medicine": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Gnomish",
+				"Sylvan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"(Druid, Wis)"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell primal savagery|XGE}",
+								"{@spell shillelagh}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell cure wounds}",
+								"{@spell detect poison and disease}",
+								"{@spell purify food and drink}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell healing spirit|XGE}",
+								"{@spell lesser restoration}"
+							],
+							"slots": 2
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Gnome Cunning",
+					"entries": [
+						"Corkie has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+					]
+				},
+				{
+					"name": "Speak with Small Beasts",
+					"entries": [
+						"Through sounds and gestures, Corkie can communicate simple ideas with Small or smaller beasts."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Walking stick (Club)",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit ({@hit 3} with shillelagh), reach 5 ft., one target. {@h}4  ({@damage 1d4 + 1}) bludgeoning damage, or 6 ({@damage 1d8 + 3}) bludgeoning damage if used with shillelagh."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Balm of the Summer Court",
+					"entries": [
+						"As a bonus action, Corkie can choose one creature you can see within 120 feet of her and spend up to 3 {@dice d6}s. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die spent."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"G",
+				"S"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CD"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
