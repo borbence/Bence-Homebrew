@@ -1,20 +1,21 @@
-
 {
     "_meta": {
         "sources": [
             {
-                "json": "Bence Homebrew: Subclass",
+                "json": "BNC:SC",
                 "abbreviation": "BNC:SC",
                 "full": "Bence Homebrew: Subclass",
                 "url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Subclass/Circle%20of%20the%20Treesinger.json",
-                "authors": ["B. Bence"]
+                "authors": [
+                    "B. Bence"
+                ]
             }
         ]
     },
     "subclass": [
         {
             "name": "Circle of the Treesinger",
-            "source": "Bence Homebrew: Subclass",
+            "source": "BNC:SC",
             "className": "Druid",
             "classSource": "PHB",
             "shortName": "Treesinger",
@@ -51,22 +52,21 @@
                 "The druidic tradition runs deep in elven blood; it may be the first druids were elves living in the Feywild. Although elven druids are mastered every circle, they hold the ancient way of treesinging close to their heart. These druids tend to the green growing things of their communities above all else, from new sprouts in the fertile spring soil to towering redwoods and ancient, magical trees as old as the land itself. These druids travel between elven communities—most often farflung wood and wild elf settlements—helping their people live in harmony with the trees that shield them. Many hold Rillifane Rallathil sacred and even proclaim to hear the Many-Branched god in the rustling of leaves.",
                 "Druids in the Circle of the Treesinger are able to awaken a small tree to travel with them as an ally. While other druids focus on taking the form of great beasts, treesingers have mastered plant forms. These druids can enhance their allies, while commanding a stout presence during battle.",
                 {
-					"type": "refSubclassFeature",
-					"subclassFeature": "Sacred Tree|Druid||Treesinger|BNC:SC|2"
-				},
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Sacred Tree|Druid||Treesinger|BNC:SC|2"
+                },
                 {
-					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Treesinger|BNC:SC|2"
-				},
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Circle Spells|Druid||Treesinger|BNC:SC|2"
+                },
                 {
-					"type": "refSubclassFeature",
-					"subclassFeature": "Treesinger’s Ally|Druid||Treesinger|BNC:SC|2"
-				},
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Treesinger’s Ally|Druid||Treesinger|BNC:SC|2"
+                },
                 {
-					"type": "refSubclassFeature",
-					"subclassFeature": "Heartwood Infusion|Druid||Treesinger|BNC:SC|2"
-				}
-                
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Heartwood Infusion|Druid||Treesinger|BNC:SC|2"
+                }
             ]
         },
         {
@@ -164,39 +164,39 @@
                 "Your mystical connection to trees infuses you with the ability to cast certain spells. At 2nd, 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to trees and other plants.",
                 "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
                 {
-					"type": "table",
-					"caption": "Circle of the Treesinger Spells",
-					"colLabels": [
-						"Druid Level",
-						"Circle Spells"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"2nd",
-							"{@spell ensnaring strike}, {@spell entangle}"
-						],
+                    "type": "table",
+                    "caption": "Circle of the Treesinger Spells",
+                    "colLabels": [
+                        "Druid Level",
+                        "Circle Spells"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
                         [
-							"3rd",
-							"{@spell barkskin}, {@spell earthbind|XGE}"
-						],
-						[
-							"5th",
-							"{@spell plant growth}, {@spell speak with plants}"
-						],
-						[
-							"7th",
-							"{@spell grasping vine}, {@spell guardian of nature|XGE}"
-						],
-						[
-							"9th",
-							"{@spell commune with nature}, {@spell tree stride}"
-						]
-					]
-				}
+                            "2nd",
+                            "{@spell ensnaring strike}, {@spell entangle}"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell barkskin}, {@spell earthbind|XGE}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell plant growth}, {@spell speak with plants}"
+                        ],
+                        [
+                            "7th",
+                            "{@spell grasping vine}, {@spell guardian of nature|XGE}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell commune with nature}, {@spell tree stride}"
+                        ]
+                    ]
+                }
             ]
         },
         {
@@ -209,7 +209,7 @@
             "level": 2,
             "header": 1,
             "entries": [
-                "At 2nd level, you can spend 4 hours singing to a young tree to awaken it {@creature Treesinger's Ally|Bence Homebrew: Subclass|(see sidebar for the companion’s statistics)}. It accompanies you on your adventures and fights alongside you. Add your proficiency bonus to the companion’s attack rolls and damage rolls. Its hit point maximum equals the hit point number in its stat block or four times your druid level, whichever is higher. Like any creature, it can spend Hit Dice during a short rest to regain hit points.",
+                "At 2nd level, you can spend 4 hours singing to a young tree to awaken it {@creature Treesinger's Ally|BNC:SC|(see sidebar for the companion’s statistics)}. It accompanies you on your adventures and fights alongside you. Add your proficiency bonus to the companion’s attack rolls and damage rolls. Its hit point maximum equals the hit point number in its stat block or four times your druid level, whichever is higher. Like any creature, it can spend Hit Dice during a short rest to regain hit points.",
                 "The companion obeys your commands as best as it can. It takes its turn on your initiative. On your turn, you can verbally command the companion where to move (no action required by you). You can use your action to verbally command it to take the {@action Attack}, {@action Dash}, {@action Disengage}, or {@action Help} action. If you don't issue a command, the companion takes the {@action Dodge} action. Once you reach 6th level in this class, you can use a bonus action to command the companion to take the {@action Attack} action.",
                 "If you are {@condition incapacitated} or absent, the companion acts on its own, focusing on protecting you and itself. The companion never requires your command to use its reaction, such as when making an opportunity attack",
                 "If your companion dies, you can obtain a new one by spending 4 hours singing to a young tree to awaken it."
@@ -227,35 +227,35 @@
             "entries": [
                 "Also at 2nd level, when you awaken and bind to a companion using your Treesinger’s Ally feature, choose one of the following features to add to your companion.",
                 {
-					"type": "entries",
-					"name": "Heart of Ash",
-					"entries": [
+                    "type": "entries",
+                    "name": "Heart of Ash",
+                    "entries": [
                         "You can use your action to command your companion to touch a creature and restore {@dice 2d8} hit points. Constructs and undead are not affected by this feature",
                         "The companion can use this feature a number of times equal to your Wisdom modifier (minimum of once). The companion regains all uses of this feature when they finish a long rest.",
                         "Once you reach 10th level in this class, the healing increases to {@dice 3d8}."
-					]
-				},
+                    ]
+                },
                 {
-					"type": "entries",
-					"name": "Heart of Elder",
-					"entries": [
+                    "type": "entries",
+                    "name": "Heart of Elder",
+                    "entries": [
                         "You can use your action to command your companion to curse a creature within 30 feet of it. The target must make a Wisdom saving throw (DC equals your druid spell save DC) or have disadvantage on the next saving throw it makes before the end of your next turn. The companion must finish a short or long rest before using this feature again."
-					]
-				},
+                    ]
+                },
                 {
-					"type": "entries",
-					"name": "Heart of Oak",
-					"entries": [
+                    "type": "entries",
+                    "name": "Heart of Oak",
+                    "entries": [
                         "The companion gains a +3 bonus to its AC. Once you reach 6th level in this class, it gains proficiency in Strength and Constitution saving throws. At 10th level in this class, the AC bonus increases to +4 and the companions Hit Die increase to d10s."
-					]
-				},
+                    ]
+                },
                 {
-					"type": "entries",
-					"name": "Heart of Yew",
-					"entries": [
+                    "type": "entries",
+                    "name": "Heart of Yew",
+                    "entries": [
                         "When the companion hits a target with their slam attack, the target must make a Constitution saving throw (DC equals your druid spell save DC) or become {@condition poisoned} until the end of their next turn"
-					]
-				}
+                    ]
+                }
             ]
         },
         {
@@ -300,63 +300,63 @@
         }
     ],
     "monster": [
-		{
-			"name": "Treesinger's Ally",
-			"size": "M",
-			"type": "plant",
-			"source": "Bence Homebrew: Subclass",
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 19,
-				"formula": "3d8 + 6"
-			},
-			"speed": {
-				"walk": 25
-			},
-			"str": 13,
-			"dex": 10,
-			"con": 15,
-			"int": 10,
-			"wis": 10,
-			"cha": 7,
-			"skill": {
-				"perception": "+2",
-				"survival": "+2"
-			},
-			"vulnerable": [
-				"fire"
-			],
-			"resist": [
-				"bludgeoning",
-				"piercing"
-			],
-			"passive": 13,
-			"languages": [
-				"One language that you know (typically Druidic or Elvish)"
-			],
-			"trait": [
-				{
-					"name": "False Appearance",
-					"entries": [
-						"While the companion remains motionless, it is indistinguishable from a normal tree."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Slam",
-					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. Hit: 11 ({@damage 1d6 + 1}) bludgeoning damage."
-					]
-				}
-			]
-		}
-	]
+        {
+            "name": "Treesinger's Ally",
+            "size": "M",
+            "type": "plant",
+            "source": "BNC:SC",
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 19,
+                "formula": "3d8 + 6"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 13,
+            "dex": 10,
+            "con": 15,
+            "int": 10,
+            "wis": 10,
+            "cha": 7,
+            "skill": {
+                "perception": "+2",
+                "survival": "+2"
+            },
+            "vulnerable": [
+                "fire"
+            ],
+            "resist": [
+                "bludgeoning",
+                "piercing"
+            ],
+            "passive": 13,
+            "languages": [
+                "One language that you know (typically Druidic or Elvish)"
+            ],
+            "trait": [
+                {
+                    "name": "False Appearance",
+                    "entries": [
+                        "While the companion remains motionless, it is indistinguishable from a normal tree."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. Hit: 11 ({@damage 1d6 + 1}) bludgeoning damage."
+                    ]
+                }
+            ]
+        }
+    ]
 }
