@@ -56,7 +56,7 @@
 				]
 			},
 			{
-				"json": "Bence Homebrew: Subclass",
+				"json": "BNC:SC",
 				"abbreviation": "BNC:SC",
 				"full": "Bence Homebrew: Subclass",
 				"url": "https://raw.githubusercontent.com/borbence/Bence-Homebrew/main/Subclass/Circle%20of%20the%20Treesinger.json",
@@ -5755,7 +5755,7 @@
 			"name": "Treesinger's Ally",
 			"size": "M",
 			"type": "plant",
-			"source": "Bence Homebrew: Subclass",
+			"source": "BNC:SC",
 			"ac": [
 				{
 					"ac": 13,
@@ -7189,7 +7189,7 @@
 	"subclass": [
 		{
 			"name": "Circle of the Treesinger",
-			"source": "Bence Homebrew: Subclass",
+			"source": "BNC:SC",
 			"className": "Druid",
 			"classSource": "PHB",
 			"shortName": "Treesinger",
